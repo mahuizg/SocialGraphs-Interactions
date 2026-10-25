@@ -8,3 +8,8 @@ layout: default
 <nav class="post-foot" aria-label="Posts">
   <a href="{{ '/posts/' | relative_url }}">← All posts</a>
 </nav>
+
+{% comment %} Optional per-post scripts: set `plotly: true` and/or `scripts: [...]` in the front matter. {% endcomment %}
+{% if page.plotly %}<script src="https://cdn.plot.ly/plotly-4.1.1.min.js" charset="utf-8" defer></script>{% endif %}
+{% for s in page.scripts %}<script src="{{ s | relative_url }}" defer></script>
+{% endfor %}

@@ -318,3 +318,212 @@ code {
 @media (prefers-reduced-motion: reduce) {
   .card__link { transition: none; }
 }
+
+/* =====================================================================
+   Interactive story components (used by posts that load their own JS)
+   ===================================================================== */
+
+/* ---------- Hook ---------- */
+
+.hook { margin: 1.6rem 0 2rem; }
+.hook__quote {
+  margin: 0;
+  padding: 0.2rem 0 0.2rem 1.1rem;
+  border-left: 8px solid var(--ink);
+  font-size: clamp(1.25rem, 3.4vw, 1.55rem);
+  line-height: 1.45;
+  font-style: italic;
+}
+.hook__quote p { margin: 0; }
+.hook__cite { display: block; margin-top: 0.6rem; font-style: normal; font-size: 0.95rem; color: var(--ink-2); font-variant-caps: all-small-caps; letter-spacing: 0.05em; }
+.hook__punch { margin: 1.1rem 0 0; font-size: 1.15rem; }
+.hook__score { font-family: var(--display); font-weight: 700; font-size: 1.6em; color: var(--accent); line-height: 1; padding: 0 0.1em; }
+
+/* ---------- Stat cards ---------- */
+
+.post .stats {
+  list-style: none;
+  padding: 0;
+  width: min(var(--wide), calc(100vw - 2 * var(--gutter) - 4px));
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 1.8rem 0 2.4rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+.post .stats li { margin: 0; }
+.stat {
+  border: var(--panel-border) solid var(--ink);
+  box-shadow: 4px 4px 0 var(--ink);
+  background: var(--paper);
+  padding: 0.75rem 0.8rem 0.8rem;
+  height: 100%;
+}
+.stat__value {
+  display: block;
+  white-space: nowrap;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(1.7rem, 4.6vw, 2.3rem);
+  line-height: 1.05;
+  letter-spacing: 0.01em;
+}
+.stat__value small { font-size: 0.55em; font-weight: 500; color: var(--ink-2); }
+.stat__label { display: block; margin-top: 0.35rem; font-size: 0.88rem; line-height: 1.35; color: var(--ink-2); }
+.stat--accent .stat__value { color: var(--accent); }
+
+/* ---------- Widget frame (comic panel with a narration box on top) ---------- */
+
+.widget figcaption {
+  border-top: 0;
+  border-bottom: var(--panel-border) solid var(--ink);
+}
+.widget .fig-num { font-family: var(--display); font-variant-caps: normal; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-right: 0.35rem; }
+.widget .try { display: block; margin-top: 0.15rem; font-variant-caps: normal; letter-spacing: 0; font-style: italic; font-size: 0.98rem; color: var(--ink-2); }
+.widget__stage { padding: 1rem 1.1rem 1.15rem; }
+.widget__fallback, .widget__error { margin: 0; color: var(--ink-2); font-style: italic; }
+.widget__fallback img { margin-top: 0.8rem; border: 1px solid var(--ink); }
+
+/* ---------- Buttons ---------- */
+
+.btn {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  box-shadow: 3px 3px 0 var(--ink);
+  padding: 0.5rem 0.95rem;
+  min-height: 44px;
+  cursor: pointer;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.btn:hover { background: var(--paper-2); }
+.btn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
+.btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.btn:disabled { cursor: default; }
+.btn--primary { background: var(--ink); color: var(--paper); }
+.btn--primary:hover { background: var(--ink-2); }
+.btn[hidden] { display: none; }
+.linkbtn { background: none; border: 0; padding: 0.2rem 0; color: var(--accent); font: inherit; font-size: 0.95rem; text-decoration: underline; text-underline-offset: 0.18em; cursor: pointer; }
+
+/* ---------- Figure 1: the game ---------- */
+
+.game__head { display: flex; flex-direction: column; gap: 0.15rem; margin-bottom: 0.8rem; }
+.game__count { font-family: var(--display); font-size: 0.85rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
+.game__link { font-family: var(--display); font-weight: 700; font-size: 1.35rem; text-transform: uppercase; line-height: 1.15; }
+.game__hint { font-size: 0.95rem; color: var(--ink-2); }
+.game__sentences { margin-bottom: 1rem; max-height: 26rem; overflow-y: auto; }
+.post .game__quote, .post .explorer__quote { margin: 0 0 0.7rem; font-size: 1.02rem; }
+.game__sentscore { font-style: normal; font-size: 0.85rem; color: var(--ink-2); margin-top: 0.2rem !important; font-variant-numeric: tabular-nums; }
+.game__quote mark { background: none; color: var(--accent); font-weight: 600; text-decoration: underline; text-decoration-thickness: 2px; }
+.game__guesses { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.6rem; margin-bottom: 1rem; }
+.btn--choice.is-answer { background: var(--ink); color: var(--paper); }
+.btn--choice.is-wrong { text-decoration: line-through; color: var(--ink-3); border-color: var(--ink-3); box-shadow: 3px 3px 0 var(--ink-3); }
+.game__reveal { border-top: 1px solid var(--ink); padding-top: 0.8rem; }
+.game__verdict { margin: 0 0 0.6rem; }
+.tag { font-family: var(--display); text-transform: uppercase; letter-spacing: 0.06em; border: 2px solid var(--ink); padding: 0 0.4rem; }
+.game__note { font-size: 0.92rem; color: var(--ink-2); margin: 0.4rem 0 0; }
+.game__foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.8rem; margin-top: 1rem; border-top: 1px solid var(--paper-2); padding-top: 0.8rem; }
+.game__score { margin: 0; font-size: 0.92rem; color: var(--ink-2); flex: 1 1 16rem; }
+
+.post table.instr { width: 100%; font-size: 0.95rem; border-top: 0; border-bottom: 0; margin: 0; }
+.post .instr th, .post .instr td { padding: 0.35rem 0.6rem 0.35rem 0; vertical-align: middle; white-space: normal; }
+.post .instr thead th { font-size: 0.95rem; }
+.post .instr tbody th { font-weight: 600; font-variant-caps: normal; letter-spacing: 0; font-size: 0.95rem; border-bottom: 1px solid var(--paper-2); }
+.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.instr__ok { font-weight: 700; }
+.instr__no { color: var(--accent); font-weight: 700; }
+.instr__na { color: var(--ink-3); }
+.meter { position: relative; display: inline-block; width: 6rem; height: 0.7rem; border: 1px solid var(--ink); vertical-align: middle; }
+.meter__mid { position: absolute; left: 50%; top: -3px; bottom: -3px; width: 1px; background: var(--ink); }
+.meter__fill { position: absolute; top: 0; bottom: 0; }
+.meter__fill--neg { background: var(--accent); }
+.meter__fill--pos, .meter__fill--zero { background: var(--ink-2); }
+
+/* ---------- Keys / legends ---------- */
+
+.keys { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; font-size: 0.88rem; color: var(--ink-2); }
+.key::before { content: ""; display: inline-block; width: 1.4rem; height: 0; border-top: 3px solid var(--ink); vertical-align: middle; margin-right: 0.35rem; }
+.key--neg::before { border-top-color: var(--accent); }
+.key--none::before { border-top: 2px dashed var(--ink-3); }
+.dot { display: inline-block; width: 0.65rem; height: 0.65rem; border-radius: 50%; background: var(--ink); flex: none; }
+.dot--neg { background: var(--accent); }
+.dot--none { background: none; border: 1.5px dashed var(--ink-3); }
+
+/* ---------- Figure 2: network explorer ---------- */
+
+.explorer__controls { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem 0.9rem; margin-bottom: 0.6rem; }
+.explorer__controls label { font-family: var(--display); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.9rem; }
+.explorer__controls select {
+  font: inherit; font-size: 1rem; color: var(--ink); background: var(--paper);
+  border: 2px solid var(--ink); padding: 0.4rem 0.5rem; min-height: 44px; max-width: 100%;
+}
+.explorer__info { font-size: 0.95rem; color: var(--ink-2); margin: 0 0 0.6rem; }
+.explorer__layout { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 1rem; align-items: start; }
+.explorer__svg svg { display: block; width: 100%; height: auto; }
+.explorer__svg .edge { cursor: pointer; outline: none; }
+.explorer__svg .edge__hit { fill: none; stroke: transparent; stroke-width: 14; }
+.explorer__svg .edge__line { fill: none; stroke-width: 1.6; opacity: 0.75; }
+.explorer__svg .edge:hover .edge__line, .explorer__svg .edge:focus .edge__line { stroke-width: 3; opacity: 1; }
+.explorer__svg .edge.is-selected .edge__line { stroke-width: 4; opacity: 1; }
+.explorer__label { font-family: var(--serif); font-size: 17px; fill: var(--ink-2); }
+.explorer__label.is-hidden { display: none; }
+.explorer__label.is-hover, .explorer__label.is-active { display: inline; fill: var(--ink); font-weight: 600; }
+.explorer__center { font-family: var(--display); font-weight: 700; font-size: 22px; text-transform: uppercase; fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 5px; }
+.explorer__detail { min-width: 0; border: 2px solid var(--ink); padding: 0.7rem 0.8rem; margin-bottom: 0.8rem; max-height: 22rem; overflow-y: auto; background: var(--paper); }
+.explorer__title { overflow-wrap: anywhere; font-family: var(--display); font-weight: 600; text-transform: uppercase; letter-spacing: 0.02em; margin: 0 0 0.3rem; line-height: 1.2; }
+.explorer__scores { font-size: 0.9rem; margin: 0 0 0.7rem; color: var(--ink-2); }
+.explorer__prompt { font-size: 0.95rem; color: var(--ink-2); font-style: italic; margin: 0; }
+.post .explorer__list { list-style: none; padding: 0; margin: 0; max-height: 14rem; overflow-y: auto; border-top: 1px solid var(--ink); }
+.post .explorer__list li { margin: 0; }
+.explorer__row {
+  display: flex; align-items: center; gap: 0.5rem; width: 100%; text-align: left;
+  background: none; border: 0; border-bottom: 1px solid var(--paper-2); color: var(--ink);
+  font: inherit; font-size: 0.9rem; padding: 0.4rem 0.2rem; min-height: 40px; cursor: pointer;
+}
+.explorer__row:hover { background: var(--paper-2); }
+.explorer__row.is-selected { background: var(--paper-2); font-weight: 600; }
+.explorer__rowname { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* ---------- Figure 3: animated null model ---------- */
+
+.nullsim__controls { display: flex; flex-wrap: wrap; align-items: center; gap: 0.7rem; margin-bottom: 0.7rem; }
+.nullsim__counter { font-size: 0.92rem; color: var(--ink-2); flex: 1 1 14rem; font-variant-numeric: tabular-nums; }
+.nullsim__chart svg { display: block; width: 100%; height: auto; }
+.nullsim__chart .axis { font-family: var(--serif); font-size: 13px; fill: var(--ink-2); }
+.nullsim__chart .axis--title { font-size: 13px; }
+.nullsim__note { font-family: var(--serif); font-size: 13px; fill: var(--ink-2); font-style: italic; }
+.nullsim__obslabel { font-family: var(--display); font-weight: 700; font-size: 17px; fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 4px; }
+.nullsim__obsstat { font-family: var(--serif); font-size: 14px; fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 4px; }
+
+/* ---------- Figure 4 ---------- */
+
+.disagree__plot { width: 100%; height: 480px; }
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 760px) {
+  .explorer__layout { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 600px) {
+  .post .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .game__guesses { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .widget__stage { padding: 0.8rem 0.75rem 0.9rem; }
+  .meter { width: 3.6rem; }
+  .post .instr td:last-child { font-size: 0.85rem; }
+  .disagree__plot { height: 430px; }
+  .nullsim__chart .axis, .nullsim__note { font-size: 18px; }
+  .nullsim__obslabel { font-size: 22px; }
+  .nullsim__obsstat { font-size: 18px; }
+  .explorer__label { font-size: 26px; }
+  .explorer__center { font-size: 30px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .btn { transition: none; }
+}
