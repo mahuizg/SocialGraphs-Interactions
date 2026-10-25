@@ -1,1 +1,1 @@
-# SocialGraphs-Interactions
+# Social Graphs & Interactions
