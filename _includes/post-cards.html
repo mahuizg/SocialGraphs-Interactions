@@ -1,0 +1,12 @@
+<ul class="cards">
+  {% for post in site.posts %}
+  <li class="card">
+    <a class="card__link" href="{{ post.url | relative_url }}">
+      <span class="card__week">{% if post.week %}Week {{ post.week }}{% else %}{{ post.date | date: "%-d %B %Y" }}{% endif %}</span>
+      <h3 class="card__title">{{ post.title }}</h3>
+      {% if post.summary %}<p class="card__summary">{{ post.summary }}</p>{% endif %}
+      <span class="card__more" aria-hidden="true">Read →</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,29 @@
+title: "Social Graphs & Interactions"
+description: "Group posts for 02805 Social Graphs and Interactions at DTU: one question per week about the Marvel network and its text."
+course: "02805 Social Graphs and Interactions · DTU"
+url: "https://mahuizg.github.io"
+baseurl: "/SocialGraphs-Interactions"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Every new file in _posts/ gets the post layout; everything else the default layout.
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .jekyll-cache

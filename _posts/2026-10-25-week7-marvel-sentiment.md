@@ -1,5 +1,8 @@
 ---
 title: "Allies, enemies and the sentence behind the link"
+week: 7
+summary: "Is the sentence behind a Marvel hyperlink positive or negative, and do negative links cross network communities?"
+permalink: /week7-marvel-sentiment.html
 ---
 
 # Allies, enemies and the sentence behind the link

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>{% if page.title and page.url != "/" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.summary | default: site.description | strip_html | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/ink.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <div class="masthead__inner">
+      <a class="masthead__title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="masthead__nav" aria-label="Main">
+        <a href="{{ '/' | relative_url }}"{% if page.url == "/" %} aria-current="page"{% endif %}>Home</a>
+        <a href="{{ '/posts/' | relative_url }}"{% if page.url == "/posts/" or page.layout == "post" %} aria-current="page"{% endif %}>Posts</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    {{ content }}
+  </main>
+
+  <footer class="colophon">
+    <p>{{ site.course }}</p>
+  </footer>
+
+  <script>
+    // Frame stand-alone images as comic panels; their alt text becomes the narration-box caption.
+    document.querySelectorAll(".post p > img:only-child").forEach(function (img) {
+      var p = img.parentElement;
+      if (p.textContent.trim() !== "") return;
+      var fig = document.createElement("figure");
+      fig.className = "panel";
+      var link = document.createElement("a");
+      link.href = img.currentSrc || img.src;
+      link.setAttribute("aria-label", "Open figure full size");
+      link.appendChild(img);
+      fig.appendChild(link);
+      if (img.alt) {
+        var cap = document.createElement("figcaption");
+        cap.textContent = img.alt;
+        fig.appendChild(cap);
+      }
+      p.replaceWith(fig);
+    });
+    // Embedded interactive figures get the same panel frame and a responsive height.
+    document.querySelectorAll(".post iframe").forEach(function (frame) {
+      var fig = document.createElement("figure");
+      fig.className = "panel panel--interactive";
+      frame.parentNode.insertBefore(fig, frame);
+      fig.appendChild(frame);
+    });
+  </script>
+</body>
+</html>

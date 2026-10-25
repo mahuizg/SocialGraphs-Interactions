@@ -1,0 +1,12 @@
+---
+title: Home
+---
+<section class="intro">
+  <h1 class="visually-hidden">{{ site.title }}</h1>
+  <p class="intro__lede intro__lede--home">{{ site.description }}</p>
+</section>
+
+<section aria-labelledby="latest">
+  <h2 id="latest" class="section-label">Posts</h2>
+  {% include post-cards.html %}
+</section>
