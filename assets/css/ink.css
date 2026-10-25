@@ -131,6 +131,13 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
   text-transform: uppercase;
   color: var(--ink-2);
 }
+.colophon p.colophon__authors {
+  margin-top: 0.35rem;
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  letter-spacing: normal;
+  text-transform: none;
+}
 
 /* ---------- Headings ---------- */
 
