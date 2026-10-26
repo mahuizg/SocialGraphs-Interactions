@@ -27,7 +27,7 @@
     var cs = getComputedStyle(document.documentElement);
     var v = function (n) { return cs.getPropertyValue(n).trim(); };
     return { ink: v("--ink"), ink2: v("--ink-2"), ink3: v("--ink-3"), accent: v("--accent"),
-             paper: v("--paper"), paper2: v("--paper-2") };
+             paper: v("--paper"), paper2: v("--paper-2"), pos: v("--pos") || v("--ink") };
   }
   var themeListeners = [];
   function onTheme(fn) { themeListeners.push(fn); }
@@ -279,7 +279,7 @@
 
       var current = null, selectedEdge = null, edgeEls = {}, rowEls = {};
 
-      function colorFor(e, T) { return e[2] === null ? T.ink3 : e[2] < 0 ? T.accent : T.ink; }
+      function colorFor(e, T) { return e[2] === null ? T.ink3 : e[2] < 0 ? T.accent : T.pos; }
 
       function draw(center) {
         current = center;
@@ -289,9 +289,9 @@
         edgeEls = {}; rowEls = {};
         var SW = 860, SH = 640, CX = SW / 2, CY = SH / 2, R = 240;
         var s = svg("svg", { viewBox: "0 0 " + SW + " " + SH, role: "img",
-          "aria-label": "Links of " + nodes[center][0] + "; red lines are negative links" });
+          "aria-label": "Links of " + nodes[center][0] + "; red lines are negative links, blue lines positive" });
         var defs = svg("defs");
-        [["neg", T.accent], ["pos", T.ink], ["none", T.ink3]].forEach(function (m) {
+        [["neg", T.accent], ["pos", T.pos], ["none", T.ink3]].forEach(function (m) {
           var mk = svg("marker", { id: "arrow-" + m[0], viewBox: "0 0 10 10", refX: "9", refY: "5",
             markerWidth: "6", markerHeight: "6", orient: "auto-start-reverse" });
           mk.appendChild(svg("path", { d: "M0,1 L10,5 L0,9 z", fill: m[1] }));
@@ -607,7 +607,7 @@
             marker: { size: 6, color: color, opacity: op } };
         };
         var data = [
-          tr(groups.same, "same sign", T.ink, 0.35),
+          tr(groups.same, "same sign", T.pos, 0.35),
           tr(groups.opp, "opposite signs", T.accent, 0.55),
           tr(groups.zero, "VADER exactly 0", T.ink3, 0.35)
         ];
