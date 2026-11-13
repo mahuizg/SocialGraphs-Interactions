@@ -28,3 +28,4 @@ exclude:
   - Gemfile.lock
   - vendor
   - .jekyll-cache
+  - project
