@@ -1,4 +1,2 @@
 .env
-data/raw/*
-!data/raw/wikitext/
 __pycache__/
