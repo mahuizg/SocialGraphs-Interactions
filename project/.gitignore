@@ -1,4 +1,4 @@
 .env
-data/raw/
-data/text/
+data/raw/*
+!data/raw/wikitext/
 __pycache__/

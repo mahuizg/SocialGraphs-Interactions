@@ -1,0 +1,9 @@
+Mohammed Yousuff Hussaini is an Indian born American applied mathematician. He is the Sir James Lighthill Professor of Mathematics and Computational Science & Engineering at the Florida State University, United States. Hussaini is also the holder of the TMC Eminent Scholar Chair in High Performance Computing at FSU. He is widely known for his research in scientific computation, particularly in the field of computational fluid dynamics (CFD) and Control and optimization. Hussaini co-authored the popular book Spectral Methods in Fluid Dynamics with Claudio Canuto, Alfio Quarteroni, and Thomas Zang. He is the editor-in-chief of the journal Theoretical and Computational Fluid Dynamics.
+
+Education and career
+Hussaini received his bachelor's and master's degrees in mathematics and physics from the University of Madras, India, and a Ph.D. from the University of California, Berkeley in 1970. Hussaini began his career at the NASA Langley Research Center where he was the Director of the Institute for Computer Applications in Science and Engineering (ICASE). In 1996, he joined Department of Mathematics, Florida State University (FSU) as a Professor of Mathematics. Currently, he is the holder of the TMC Eminent Scholar Chair in High Performance Computing at FSU.
+
+Honors and awards
+In 1997, Hussaini was nominated as Fellow of American Physical Society for his "scientific leadership and innovative and pioneering research in the theory and application of computational fluid dynamics, particularly spectral methods, to problems in transition, compressible turbulence, shock-turbulence interaction, and aeroacoustics."
+
+In 2008, Hussaini was elected as Fellow of American Society of Mechanical Engineers and Fellow of American Institute of Aeronautics and Astronautics, in recognition of "professional distinction and notable and valuable contributions made to the arts, sciences, and technology of aeronautics and astronautics".

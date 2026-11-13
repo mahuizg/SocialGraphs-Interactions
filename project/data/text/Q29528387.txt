@@ -1,0 +1,16 @@
+Kenju Otsuka (大塚建樹 Otsuka Kenju, born January 2, 1946) is a Japanese engineer and physicist concerned with lasers and quantum electronics.
+
+Personal life
+Kenju Otsuka was born on January 2, 1946, in Anto, old Manchuria of Japan, and raised in Shiogama-shi, Japan. He graduated from Tohoku Gakuin High School in Sendai in 1964. He is married (to wife Ruriko) and has two daughters, two grandsons and two granddaughters.
+
+Education
+B. S. degree in communication engineering from Tohoku University, Sendai, in 1968 and the Ph.D. in quantum electronics from Tohoku University by correspondence in 1976.
+
+Career
+He was employed as a researcher by Musashino Electrical Communication Laboratory, Nippon Telegraph and Telephone Cooperation (NTT, currently) in Musashino-shi, Tokyo in 1968 and finally managed computational physics with the Cray Supercomputer at Otsuka Research Group aiming for computer-aided design and analysis of novel materials and complex systems at NTT Basic Research Laboratories (http://www.brl.ntt.co.jp/e/). In NTT, he performed basic research on optical communications, solid-state lasers, gigabit optical pulse generations, nonlinear photonic devices, nonlinear dynamics and chaos in optics. He was appointed to Professor in Applied Physics of Tokai University, Hiratsuka, in 1994 and Department Chair of Human and Information Science of Tokai University in 2001. He evolved into a teaching and research carrier until the retirement in March 2011 with a research topic on laser-diode-pumped thin-slice as well as microchip solid-state lasers, nonlinear laser science and singular optics, pattern formations and nonlinear dynamics in optical complex systems, as well as self-mixing thin-slice solid-state laser metrology.
+
+Early in his career, he served Discussion Session chair for 20th Solvay Conference on Quantum Optics at Brussels in 1991, General co-chairs for Topical Meeting on Nonlinear Dynamics in Optical Systems at Alpbach, Austria, in 1992, Discussion Leader for Gordon Research Conference on Nonlinear Optics and Lasers at New Hampshire in 1993. He published numerous scientific articles and a Monograph: Nonlinear Dynamics in Optical Complex Systems (Kluwer Scientific Publishers, 1999; Springer, 2000).
+
+Otsuka's most notable contribution was in the area of stoichiometric solid-state lasers including the invention and laser physics of LiNdP4O12 (LNP) and related materials, laser-diode-pumped thin-slice as well as microchip solid-state lasers, nonlinear laser science, empirical studies of nonlinear dynamics in optical complex systems and self-mixing metrology with thin-slice solid-state lasers (namely, TS3Ls): Physics and applications of Nd Stoichiometric Lasers, the concept of Chaotic Itinerancy in universal complex systems and Self-Mixing TS3L Metrology with extreme optical sensitivity have been mostly cited in a variety of journals.
+
+He is a Fellow of the Optical Society of America, Life Fellow of the Institute of Electrical and Electronics Engineers (IEEE), Fellow of the Institute of Physics, Fellow of the American Physical Society. He is still active and pursuing his study in retirement focusing on the physics and applications of thin-slice solid-state lasers. (After ResearchGate)(https://www.researchgate.net/profile/Kenju_Otsuka)

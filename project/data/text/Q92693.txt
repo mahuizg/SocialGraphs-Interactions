@@ -1,0 +1,14 @@
+Richard E. Crandall (December 29, 1947 – December 20, 2012) was an American physicist and computer scientist who made contributions to computational number theory.
+
+Background
+Crandall was born in Ann Arbor, Michigan, and spent two years at Caltech before transferring to Reed College in Portland, Oregon, where he graduated in physics and wrote his undergraduate thesis on randomness. He earned his Ph.D. in theoretical physics from Massachusetts Institute of Technology.
+
+Career
+In 1978, he became a physics professor at Reed College, where he taught courses in experimental physics and computational physics for many years, ultimately becoming Vollum Professor of Science and director of the Center for Advanced Computation. He was also, at various times, Chief Scientist at NeXT, Inc., Chief Cryptographer and Distinguished Scientist at Apple, and head of Apple's Advanced Computation Group.
+
+He was a pioneer in experimental mathematics. He developed the irrational base discrete weighted transform, a method of finding very large primes. He wrote several books and many scholarly papers on scientific programming and computation.
+
+Crandall was awarded numerous patents for his work in the field of cryptography. He also wrote a poker program that could bluff. He owned and operated PSI Press, an online publishing company.
+
+Personal life
+Crandall was part Cherokee and proud of his Native heritage. He fronted a band called the Chameleons in 1981. He was working on an intellectual biography of Steve Jobs when he collapsed at his home in Portland, Oregon, from acute leukemia. He died 10 days later, on December 20, 2012, at the age of 64.

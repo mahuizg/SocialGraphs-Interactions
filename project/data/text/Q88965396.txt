@@ -1,0 +1,24 @@
+Robert Benny Gerber (born 1944) is an Israeli theoretical chemist, professor emeritus of chemistry at the Hebrew University of Jerusalem and Distinguished Professor Emeritus at the University of California, Irvine. He is known for developing the Vibrational Self-Consistent Field (VSCF) method, for predicting new noble gas compounds ahead of their experimental discovery, and for computationally determining mechanisms of chemical reactions in the atmosphere.
+
+ Early life, education and training 
+Gerber was born in the Turkmen region of the former USSR in July 1944, and emigrated with his parents to Israel after the Second World War. He received a BSc (with Excellence) from the Hebrew University of Jerusalem in 1965 and a DPhil from the University of Oxford in 1968, supervised by C.A. Coulson. He got a prize for his thesis research. He then spent a year as a Postdoctoral Research Associate of Martin Karplus at Harvard University.
+
+ Career 
+Gerber was a Senior Scientist at the Weizmann Institute of Science from 1969 to 1975, then joined the Hebrew University of Jerusalem as associate professor, becoming full Professor in 1980, and holding the Saerree K. and Louis P. Fiedler Chair in Chemistry from 1989 until his retirement in 2012. From 1990 he held a concurrent professorship at the University of California, Irvine, retiring in 2014 as Distinguished Professor Emeritus. From 2011 to 2015 he also held the position of Finland Distinguished Professor at the University of Helsinki.
+
+ Research 
+One of Gerber's principal contributions is the Vibrational Self-Consistent Field (VSCF) method, developed with Mark A. Ratner, for computing the vibrational spectra of large molecules beyond the harmonic approximation. The method was extensively applied by Gerber and coworkers and by other researchers to systems including biological molecules and clusters. The method is still in use.
+
+His group predicted new noble gas compounds including HXeCCH and HXeOXeH, before their experimental preparation in Finland and in Russia. Gerber collaborated with groundbreaking experiments of Markku Räsänen and his group; the discovery of a substantial class of organoxenon and organokrypton molecules significantly expanded noble-gas chemistry. A related prediction by Gerber and coworkers was of a stable crystal of octanitrogen (N8), a candidate for high-energy material.
+
+He also contributed to approximate quantum dynamics methods, including the Time-Dependent Self-Consistent Field (TDSCF) and Classical Separable Potentials (CSP) approaches.
+
+Gerber found the mechanisms of several chemical reactions in the atmosphere by computer simulations of the process at the molecular level. He collaborated on this with Barbara Finlayson-Pitts and her experimental group.
+
+ Awards and honors 
+ Max Planck Research Award (1991)
+ Foreign Member, Finnish Academy of Science and Letters (2007)
+ Fellow, Royal Society of Chemistry (FRSC) (2013)
+ International Honorary Member, American Academy of Arts and Sciences (2016)
+ Gold Medal, Israel Chemical Society (2020)
+ Finland Distinguished Professor (2011–2015)

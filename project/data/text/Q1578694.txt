@@ -1,0 +1,41 @@
+Hans Jack Berliner (January 27, 1929 – January 13, 2017) was an American chess player and computer scientist. He was the World Correspondence Chess Champion, from 1965–1968. He was a Grandmaster of Correspondence Chess. Berliner was a Professor of Computer Science at Carnegie Mellon University. He directed the construction of the chess computer HiTech, and was also a published chess writer.
+
+Early life
+Berliner was born in Berlin to a Jewish family. One of his classmates at school was future Estonian President Lennart Meri, whose father was serving as Estonia's ambassador to Germany.
+In 1937, Berliner's family moved to the United States to escape Nazi persecution, taking up residence in Washington, D.C. He learned chess at age 13, and "it quickly became his main preoccupation."
+
+Berliner is mentioned in "How I Started To Write", an essay by Carlos Fuentes, where he is described as "an extremely brilliant boy", with "a brilliant mathematical mind". "I shall always remember his face, dark and trembling, his aquiline nose and deep-set, bright eyes with their great sadness, the sensitivity of his hands..."
+
+Chess career
+In 1949, he became a master, won the District of Columbia Championship (the first of five wins of that tournament) and the Southern States Championship, and tied for second place with Larry Evans at the New York State Championship. He also won the 1953 New York State Championship (the first win by a non-New Yorker), the 1956 Eastern States Open directed by Norman Tweed Whitaker in Washington, D.C., ahead of William Lombardy, Nicolas Rossolimo, Bobby Fischer (at age 13) and Arthur Feuerstein, and the 1957 Champion of Champions tournament.
+
+Berliner played for his country's Olympiad team at Helsinki 1952, drawing his only game on the second reserve board. Berliner played four times in the US Chess Championship. In 1954 at New York, he scored 6½/13 to tie 8–9th places; Arthur Bisguier won. The last three times Berliner played in the U.S. Championship, Fischer won the tournament. In 1957–58 at New York, Berliner had his best result, 5th place with 7/13. In 1960–61 at New York, he scored 4½/11, tying for 8th–10th place. Finally in 1962–63 at New York, he scored 5/11 for a tied 7th–8th place.
+
+Correspondence chess
+Berliner is remembered most for his feats in correspondence play, in which games played by mail can take months or even years to complete. He won the 5th World Correspondence Chess Championship, beginning the final game on April 1, 1965, and finishing three years later. He won with the score of 14/16 (twelve wins, four draws), a margin of victory of three points, thrice that of any other winner in these championships.
+
+Berliner played the Two Knights Defense to defeat Yakov Estrin in that tournament. Berliner's opening novelty in that variation is still considered critical.
+
+As of March 31, 2005, Berliner still had by far the highest International Correspondence Chess Federation (ICCF) rating of any player in the United States, at 2726, 84 points above the second-highest rated player. Berliner's 2726 rating placed him third on the ICCF's world list, behind Joop van Oosterom (2777) and Ulf Andersson (2737).
+
+Computer chess research
+Berliner started a new career in 1969, enrolling in the doctoral program at Carnegie Mellon University to study computer science, under the supervision of Allen Newell. 
+
+While a graduate student, Berliner was the subject of a detailed study of chess perception and short-term-memory recall in experiments inspired by the earlier work of de Groot, and conducted by Chase and Simon. The analysis of Berliner (compared with a Class A player and a novice) formed a basis for their contribution to the theory of chunking in Psychology.
+
+Berliner's 1974 thesis was titled: "Chess as Problem Solving: The Development of a Tactics Analyzer". His subsequent research at Carnegie Mellon eventually led to the creation of HiTech. At first it performed well, but only until it ran into transitions, i.e., points in the game when the balance between the players changed. This led Berliner to conclude that HiTech was weak in board evaluation. He decided that to explore the problem, he should write an evaluation function for another game: backgammon. The result was BKG, written in the late 1970s on a DEC PDP-10. Early versions of BKG played badly even against poor players, but Berliner noticed that its critical mistakes were always at transitions. He applied principles of fuzzy logic to smooth out the transition between phases, and by July 1979, BKG 9.8 was strong enough to play against the ruling world champion Luigi Villa. It won the match 7–1, becoming the first computer program to defeat a world champion in any game. Berliner states that the victory was largely a matter of luck, as the computer received more favorable dice rolls.
+
+He also developed the B* search algorithm for game tree searching.
+
+HiTech was the first computer chess system to reach the 2400 (senior master) USCF rating level. It won the Pennsylvania State Chess Championship several times. Students who worked with Berliner on the project included Carl Ebeling and Murray Campbell.
+
+Berliner was elected a Founding Fellow of the Association for the Advancement of Artificial Intelligence in 1990.
+
+Writing and retirement
+Berliner retired from Carnegie Mellon in 1998.
+
+In 1998 he self-published a booklet, From the Deathbed of 4. Ng5 in the Two Knights Defense, analyzing the opening of his game with Estrin, as well as attempted improvements upon it by subsequent commentators.
+
+In 1999 he published a book explaining his opening repertoire, The System. He claimed that the move 1.d4 gives White a large, and possibly decisive, advantage.
+
+He died on January 13, 2017, in Riviera Beach, Florida, fourteen days away from his 88th birthday.

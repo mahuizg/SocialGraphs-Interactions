@@ -1,0 +1,13 @@
+Stephan Narison is a Malagasy theoretical high-energy physicist specialized in quantum chromodynamics (QCD), the gauge theory of strong interactions. He is the founder of the Series of International Conferences in Quantum Chromodynamics (QCD-Montpellier) and of the Series of International Conferences in High-Energy Physics (HEPMAD-Madagascar).
+
+He works on QCD spectral sum rules (QSSR) or SVZ sum rules which have been introduced by M.A. Shifman, A.I. Vainshtein and V.I. Zakahrov for studying the non-perturbative dynamics of hadrons.
+
+Scientific contributions
+Among his various publications (237 papers as of January 2014), 
+his most famous work is the first determination of the QCD coupling αs from hadronic heavy lepton τ-decays where the running of αs from the τ-mass until the Z-boson mass demonstrates its 1/log Q^2 behavior predicted by asymptotic freedom.
+
+He has contributed to the definition of the running and invariant quark masses in QCD and on the tests of the gluonium/glueball nature of the scalar meson σ/f0(500) using QSSR, ππ and γγ scatterings data. His important estimates of the light and heavy quark masses and leptonic heavy-light mesons decay constants are compiled in the Particle Data Group (PDG).
+
+He has also contributed to the QCD U(1) anomaly effect in the spin of the proton and on the parametrization of the non-calculated higher order terms of the perturbative series in terms of the square of the tachyonic gluon mass not included in the standard Wilson Operator Product Expansion (OPE).
+
+He has contributed to the estimation of the hadronic contribution to the muon anomalous magnetic moment aμ=(gμ-2)/2.

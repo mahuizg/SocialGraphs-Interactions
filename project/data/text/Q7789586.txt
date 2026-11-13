@@ -1,0 +1,18 @@
+Thomas Fink (born 1972) is an Anglo-American physicist, author and entrepreneur. He has published papers in statistical physics and its applications, written two books and designed an iPhone app. He set up the London Institute for Mathematical Sciences and is a manager of research at the French National Centre for Scientific Research (French: Centre national de la recherche scientifique).
+
+Education and positions
+Fink did his BS at Caltech, where he won the annual Fisher Prize for top physicist and Green prize for best research. He then moved to England for his PhD at St John's College, Cambridge, where he was supervised by Robin Ball in the TCM group of the Cavendish Laboratory. He was a Research Fellow at Caius College, Cambridge and did a postdoc at École Normale Supérieure with Bernard Derrida. He now occupies his current positions at the London Institute and the CNRS.
+
+Research
+
+Fink is a researcher in theoretical physics. He published his first paper in the journal Science at the age of 20 while at Caltech and received his PhD at the Cavendish Laboratory in Cambridge. Fink uses statistical mechanics to study complex systems in physics and interdisciplinary fields.
+He has recently studied role of strategy and serendipity in innovation.
+Other interests include evolvability, cellular automata, non-random expression, competition between agents, dynamics on networks, small boolean networks, self-assembly and non-coding DNA, according to his website.
+
+Selected Papers
+S. Ahnert, T. Fink and A. Zinovyev, 'How much non-coding DNA do eukaryotes require?', J. Theor. Bio. 252, 587.
+F. Brown, T. Fink and K. Willbrand, ‘On arithmetic and asymptotic properties of up-down numbers’, Discrete Math. 307 1722.
+B. Derrida and T. Fink, 'Sequence determination from overlapping fragments', Phys. Rev. Lett. 88, 068106.
+T. Fink and R. Ball, 'How many conformations can a protein remember?', Phys. Rev. Lett. 87, 198103.
+T. Fink and Y. Mao, 'Designing Tie knots by random walks', Nature 398, 31.
+B. Werner and T. Fink, 'Beach cusps as self-organized patterns', Science 260, 968.

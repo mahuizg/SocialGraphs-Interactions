@@ -1,0 +1,29 @@
+Pierre Suquet (born 22 October 1954) is a French theoretician mechanic and research director at the CNRS. He is a member of the French Academy of Sciences.
+
+ Biography 
+
+He did his preparatory classes in Grenoble (Maths Sup) then at Louis-Le Grand (Maths Spé), to join the École Normale Supérieure (1973) to become an agrégé de Mathématiques in 1975, and Doctor in 1982.
+
+From 1983 to 1988 he was Professor at the University of Montpellier. Then CNRS Research Director, Mechanics and Acoustics Laboratory in Marseille, where he was Director from 1993 to 1999. From 2000 to 2001 he was Visiting Professor at the Clarke Millikan of the California Institute of Technology.
+
+Pierre Suquet is a specialist in continuous media and the behaviour of solid materials. His main research interests are elastoplastic structures, homogenization of non-linear composites and numerical simulation in materials mechanics.
+
+ Scientific work 
+
+ Existence and regularity of elastic-plastic solutions 
+In 1978, Pierre Suquet introduced the space of vector fields with bounded deformation and established certain properties (existence of internal and external traces on any surface, compact injection...). It shows that the evolution problem for a perfectly plastic elastic body admits a solution in speed (of displacement) in this space under a safe loading condition. It shows that there can be an infinite number of solutions, regular or non-regular.
+
+ Homogenization of dissipative media 
+The framework of generalized standard environments, due to Helphen and Nguyen Quoc Son, allows an easy writing of the laws of macroscopic behaviour. In 1982, Pierre Suquet established homogenization results for environments characterized by 2 potentials (free energy and dissipation potentials) and showed in particular that the generalized standard structure is preserved by changing scales when geometric variations are neglected. He notes that the homogenization of short-memory viscoelastic composites can lead to the appearance of long memory effects (an effect already noted by J. & E. Sanchez-Palencia in 1978). More recently, properties of these long memories have been established in relation to order moments 1 and 2 of the local fields.
+
+ Homogenization and limit loads 
+In 1983, Pierre Suquet gave a first upper bound of the resistance domain of a heterogeneous medium by solving a boundary analysis problem on a base cell. This result is improved by Bouchitte and Suquet who show that the homogenized analysis problem is divided into two sub-problems, one purely volumetric for which the resistance domain is that given by the boundary analysis of a base cell, the second, surface area for which a surface homogenization problem (and not on unit cell) must be solved.
+
+ Terminals for non-linear composites 
+In 1993, Pierre Suquet proposed a series of bollards for non-linear phase composites, using a method different from those available at the time (Willis, 1988, Ponte Castañeda, 1991), then showed in 1995 that Ponte Castañeda's (1991) variational method is a secant method using the second moment by phase of local fields.
+
+ Digital method for heterogeneous media based on FFT. 
+In 1994, H. Moulinec and P. Suquet introduced a numerical method using massively the Fast Fourier Transform (FFT) using only a pixelized image of the study microstructure (without mesh size). By introducing a homogeneous reference medium, the heterogeneity of the medium is transformed into a polarization constraint. The Green operator of the reference medium, known explicitly in Fourier space, can be used to iteratively update the polarization field. Several improvements and accelerations have been made to this method, which is now used internationally in dedicated codes.
+
+ Homogenization and reduction of models. 
+Since 2003, J.C. Michel and P. Suquet have been developing a method to reduce the number of internal variables of homogenized behavioural laws. This Nonuniform Transformation Field Analysis (NTFA) model uses the structuring of microscopic plastic deformation fields. A mode base is first built by the "snapshot POD" method along learning paths. Then the reduced kinetic equations for the field components in these modes are constructed by approaching the effective potentials by techniques derived from non-linear homogenization.

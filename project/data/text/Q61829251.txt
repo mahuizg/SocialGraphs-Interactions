@@ -1,0 +1,49 @@
+Wolfram Weckwerth is a German biochemist. He is professor of molecular systems biology at the University of Vienna, where he is founding chair of the Vienna Metabolomics Center. His research combines metabolomics, proteomics and mathematical modelling to study how genes, environment and metabolism interact in plants, microbes and humans. He is president of the Federation of European Societies of Plant Biology and of the Austrian Society of Plant Biology.
+
+Early life and education
+Weckwerth studied chemistry at the Technical University of Berlin, completing his diploma in 1994, and received his PhD in biochemistry from the same university in 1998.
+
+Academic career
+Max Planck Institute of Molecular Plant Physiology
+In 2000 Weckwerth joined the Max Planck Institute of Molecular Plant Physiology in Potsdam-Golm as a postdoctoral researcher, and from 2002 he led the research group "Integrative Proteomics and Metabolomics". At the institute he and colleagues described a process for the integrated extraction, identification and quantification of metabolites, proteins and RNA, intended to reveal their co-regulation in biochemical networks. He completed his habilitation in molecular plant physiology and systems biology at the University of Potsdam in 2007 and from 2007 to 2008 headed the central infrastructure systems biology laboratory of , a systems biology programme funded by Germany's Federal Ministry of Education and Research.
+
+University of Vienna
+Weckwerth became a full professor at the University of Vienna in 2008 and founded the Department of Molecular Systems Biology (MOSYS). From 2013 he headed the Department of Ecogenomics and Systems Biology, and from 2013 to 2022 he headed the university's Large Instrument Facility of Mass Spectrometry in Life Sciences.
+
+In 2015 he became founding chair of the Vienna Metabolomics Center (VIME), an interdisciplinary centre that applies genomics, transcriptomics, proteomics and metabolomics to plant, microbial and biomedical research. He was vice-head and then, from 2022 to 2024, head of the Department of Functional and Evolutionary Ecology, and has been speaker of the Faculty of Life Sciences' professorial curia since 2018. Since 2025 he has headed the university's research platform on artificial-intelligence-powered personalized nutrition (AIPN).
+
+He received professorial offers from Michigan State University (2006–2007) and the University of Liverpool (2016).
+
+Research
+Weckwerth's research addresses the relationship between genotype, environment and phenotype in plant, microbial, animal and human systems, combining systems theory with genome-scale molecular analysis.
+
+Metabolomics and systems biology
+At the Max Planck Institute, Weckwerth contributed to the Golm Metabolome Database, an open-access database of mass spectra for metabolite identification. His 2003 review "Metabolomics in systems biology" in the Annual Review of Plant Biology discussed how metabolite profiling could be combined with systems-level modelling. He returned to the theme in later reviews, including one on the unpredictability of metabolism and the role of metabolomics alongside next-generation sequencing (2011) and one on system-theoretical principles in biology and ecology (2019).
+
+Systems theory and mathematical modelling
+Weckwerth has developed computational methods for inferring the structure of biological systems from genome-scale molecular data. In 2012, Sun and Weckwerth published COVAIN, a software toolbox for statistics, time-series and correlation-network analysis of metabolomics data, including inverse estimation of the differential Jacobian from metabolite covariance data, an approach developed further in later work from his group. The group has also applied Granger causality analysis to integrated GC–MS and LC–MS metabolomics data to examine the interface between primary and secondary metabolism. A later software tool, COVRECON, integrates genome-scale metabolic network reconstruction with data-driven inverse modelling. The group has also combined phosphoproteomics with metabolomics to study signalling and regulation in plants, including a 2016 study of the kinase SnRK1, the plant ortholog of AMPK, as a metabolic master regulator under energy deprivation.
+
+His group has also applied inverse modelling to biomedical questions. A 2020 study involving the group identified the enzyme PHGDH as a metabolic checkpoint of macrophage polarization and proliferation, and a 2024 study with Weckwerth as senior author reported that targeting PHGDH reversed the immunosuppressive phenotype of tumour-associated macrophages.
+
+Weckwerth organises the Philosophisch-theologisch-biologisches Seminar at the University of Vienna, an interdisciplinary forum on systems theory, emergence and self-organisation in biology.
+
+Green systems biology
+In a 2011 review, Weckwerth used the term "green systems biology" for an approach that links genome-, proteome- and metabolome-level data to ecosystems research and biotechnology. His laboratory has applied this framework, together with inverse modelling, in ecology, evolution, development and biotechnology. In ecology and evolution, a 2023 study that included his group reported metabolome plasticity across 241 Arabidopsis thaliana accessions and evidence for evolutionary cold-adaptation processes. He has also presented the concept in a talk titled "Green systems biology – the need for ecological thinking in modern biology".
+
+Plant genomics and germplasm
+As chair of the Multinational Arabidopsis Steering Subcommittee for Proteomics, Weckwerth was a co-author of a 2008 report on a proteome database resource for Arabidopsis thaliana systems biology. More recently he was a co-author of a 2026 study of Clusia genomes and the evolution of crassulacean acid metabolism physiotypes.
+
+With colleagues, he proposed the concept "PANOMICS meets germplasm" in a 2020 paper, which describes integrating multi-omics data and genomic prediction with germplasm collections to identify climate-adaptive traits in crops. The term panomics extends pangenomics by applying genomics, proteomics and metabolomics to natural variation within a species. Weckwerth presented the concept at the 2015 conference of the Metabolomics Society. His group's contribution to crop-genetics collaborations, including with the International Maize and Wheat Improvement Center (CIMMYT) and the International Crops Research Institute for the Semi-Arid Tropics (ICRISAT), is centred on metabolomics, data integration and systems modelling, with work on drought resilience and nitrogen efficiency in wheat, pearl millet and chickpea. In a 2020 sponsored interview, he described an analysis of a germplasm collection of 3,000 chickpea genotypes as "metabolic genome-wide association studies".
+
+A further focus is biological nitrification inhibition (BNI), a trait in which some wheat genotypes release compounds that suppress soil nitrification. Weckwerth's group has studied the metabolomic basis of this trait with CIMMYT and ICRISAT partners.
+
+Holobionts and plant–microbiome interactions
+The holobiont concept, which treats a host together with its associated microbiome as a functional unit, was developed by other researchers in microbiology and evolutionary biology. Weckwerth's recent publications apply it to plant breeding, examining natural variation in the plant holobiont and arguing that breeding strategies should take the associated microbial community into account.
+
+Human and planetary health
+Weckwerth's group has more recently studied how plant-derived natural products affect inflammatory responses and immune function, and liver lipotoxicity, and has applied machine learning and inverse modelling to metabolomics data on active ageing. These themes underpin the AIPN research platform. He has also worked on translating frameworks such as the EAT-Lancet report into personalised, data-driven dietary concepts, linking planetary health with research on human metabolism and the microbiome.
+
+Professional service
+Weckwerth is president of the Federation of European Societies of Plant Biology (FESPB), an umbrella organisation of national plant biology societies in Europe, and president of the Austrian Society of Plant Biology, one of its member societies, a post he has held since 2023.
+
+He has been active in international Arabidopsis research coordination: he chaired the Multinational Arabidopsis Steering Committee, was founding chair of its proteomics subcommittee, and has chaired its metabolomics subcommittee. He is a founding member and European coordinator of the International Plant Proteomics Organization (INPPO). He is the founding special chief editor of the metabolomics section of Frontiers and has served on the editorial boards of the Journal of Personalized Medicine, Current Metabolomics, Plant and Cell Physiology and Frontiers in Plant Science. He has served on scientific advisory boards including Czech Globe (2013–2015), the Austrian Society of Analytical Chemistry (2010–2012), the International Pearl Millet Genome Sequencing Consortium at ICRISAT (since 2016) and Open Science – Lebenswissenschaften im Dialog in Vienna (since 2010), and on European Research Council evaluation panels (2022–2025).
