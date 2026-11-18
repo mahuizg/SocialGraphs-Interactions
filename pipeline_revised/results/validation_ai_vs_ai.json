@@ -1,0 +1,138 @@
+{
+  "what": "AI vs AI: second pass (Claude, 18 Nov 2026) against the first AI-assisted pass. Not human validation.",
+  "how_matches_were_checked": "correct = OpenAlex display name or alias contains the Wikipedia surname AND at least 2 words from the profile's top-5 OpenAlex topics appear in the Wikipedia wikitext; profile_complete = at least 1 OpenAlex work per career year since age 25",
+  "caveat_sentences": "the second labeller had seen the first-pass labels before labelling, so it is not blind",
+  "files": {
+    "first_pass_matches": "pipeline/data/processed/handcheck_sample.csv",
+    "first_pass_sentences": "pipeline/results/sentences_to_label.csv",
+    "second_pass_matches": "pipeline_revised/validation/matches_labeller.csv",
+    "second_pass_sentences": "pipeline_revised/validation/sentences_labeller.csv"
+  },
+  "matches": {
+    "correct": {
+      "n": 100,
+      "agreement": 1.0,
+      "kappa": null,
+      "positive_first_pass": 100,
+      "positive_second_pass": 100,
+      "by_gender_second_pass": {
+        "female": {
+          "k": 50,
+          "n": 50,
+          "wilson95": [
+            0.9286499658256813,
+            1.0
+          ]
+        },
+        "male": {
+          "k": 50,
+          "n": 50,
+          "wilson95": [
+            0.9286499658256813,
+            1.0
+          ]
+        }
+      }
+    },
+    "profile_complete": {
+      "n": 100,
+      "agreement": 0.98,
+      "kappa": 0.6575342465753424,
+      "positive_first_pass": 96,
+      "positive_second_pass": 98,
+      "by_gender_second_pass": {
+        "female": {
+          "k": 50,
+          "n": 50,
+          "wilson95": [
+            0.9286499658256813,
+            1.0
+          ]
+        },
+        "male": {
+          "k": 48,
+          "n": 50,
+          "wilson95": [
+            0.8653966212204534,
+            0.9889613473391734
+          ]
+        }
+      }
+    }
+  },
+  "sentences": {
+    "is_personal": {
+      "n": 300,
+      "agreement": 0.9966666666666667,
+      "kappa": 0.9926900584795322,
+      "positive_first_pass": 105,
+      "positive_second_pass": 106
+    },
+    "is_professional": {
+      "n": 300,
+      "agreement": 0.99,
+      "kappa": 0.9768280123583934,
+      "positive_first_pass": 205,
+      "positive_second_pass": 206
+    }
+  },
+  "word_lists": {
+    "note": "Stratum-weighted precision/recall of the word lists in ../pipeline/src/07_text.py. Recall differing by gender is why the lists were dropped from RQ2.",
+    "first_pass_labels": {
+      "personal": {
+        "precision": 0.9160340425531914,
+        "recall": 0.3585612776206514,
+        "precision_female": 0.98,
+        "recall_female": 0.5064404994404336,
+        "precision_male": 0.9,
+        "recall_male": 0.3320935384035316,
+        "recall_diff_women_minus_men": 0.17434696103690195,
+        "recall_diff_ci95": [
+          -0.14010080686968662,
+          0.549007077441186
+        ]
+      },
+      "professional": {
+        "precision": 0.9780645305697625,
+        "recall": 0.6104574406831923,
+        "precision_female": 0.9948711107965296,
+        "recall_female": 0.6083908516709452,
+        "precision_male": 0.9739735812898174,
+        "recall_male": 0.610973450738856,
+        "recall_diff_women_minus_men": -0.002582599067910807,
+        "recall_diff_ci95": [
+          -0.04067682824238944,
+          0.03291356494629257
+        ]
+      }
+    },
+    "second_pass_labels": {
+      "personal": {
+        "precision": 0.9160340425531914,
+        "recall": 0.3525908551885896,
+        "precision_female": 0.98,
+        "recall_female": 0.45562048406838546,
+        "precision_male": 0.9,
+        "recall_male": 0.3320935384035316,
+        "recall_diff_women_minus_men": 0.12352694566485384,
+        "recall_diff_ci95": [
+          -0.17818390924740335,
+          0.45942600005306544
+        ]
+      },
+      "professional": {
+        "precision": 0.9780645305697625,
+        "recall": 0.613827373395071,
+        "precision_female": 0.9948711107965296,
+        "recall_female": 0.6028170733316619,
+        "precision_male": 0.9739735812898174,
+        "recall_male": 0.6166276503805138,
+        "recall_diff_women_minus_men": -0.013810577048851913,
+        "recall_diff_ci95": [
+          -0.0522122037517646,
+          0.021043521322519246
+        ]
+      }
+    }
+  }
+}

@@ -15,6 +15,8 @@ def ci(x, d=2):
 
 
 r1, r2, r3, s = J("rq1_embeddedness_runs1000.json"), J("rq2_text_perms200.json"), J("rq3_homophily_runs1000.json"), J("selection_check.json")
+CHK = J("namematch_check.json") if (RES / "namematch_check.json").exists() else None
+VAL_AI = J("validation_ai_vs_ai.json") if (RES / "validation_ai_vs_ai.json").exists() else None
 D, P, P2, M, H = (r1["descriptives_raw"], r1["permutation_field_decade_citation5"], r1["permutation_subfield_decade_citation3"],
                   r1["models_in_degree"], r1["models_in_degree"]["hurdle"])
 MO, F, c, w = r1["models_out_degree"], r1["field_by_gender"], r2["classifier_strict_masking"], r2["words"]
@@ -105,9 +107,33 @@ for k, v in g.items():
 A(f"\nThe gap among the {g['not matched']['n']:,} unmatched pages is the same size as among matched pages, so it is not created "
   f"by the matching. Reweighting the comparison set to resemble all pages gives a rate ratio of "
   f"{s['ipw']['weighted_poisson']['irr']:.2f} {ci(s['ipw']['weighted_poisson']['ci95'])} "
-  f"(unweighted Poisson {s['ipw']['unweighted_poisson']['irr']:.2f}). What this cannot show is whether the gap holds "
-  f"*at equal citations* among unmatched people: that needs `r4b_openalex_namematch.py`, which is written but **not run** "
-  f"(the OpenAlex API was not reachable from the machine used for the revision).\n")
+  f"(unweighted Poisson {s['ipw']['unweighted_poisson']['irr']:.2f}).\n")
+nmx = s.get("name_matched_sample")
+if isinstance(nmx, dict):
+    st, pc, idm = nmx["status"], nmx.get("passing_check"), nmx["id_matched_same_model"]
+    A("**At equal citations among unmatched people (name match, 18 Nov 2026).** A random sample of unmatched people, "
+      f"stratified by birth decade ({nmx['sampled']['female']} women, {nmx['sampled']['male']} men), was searched by name in OpenAlex. "
+      "A profile was accepted only if it was the single candidate with at least 10 works, name similarity of at least 0.92 and a "
+      f"natural-science field. Accepted: {st['female']['accepted']} women ({st['female']['accepted'] / nmx['sampled']['female']:.0%}) and "
+      f"{st['male']['accepted']} men ({st['male']['accepted'] / nmx['sampled']['male']:.0%}); ambiguous names were dropped "
+      f"({st['female']['ambiguous']} and {st['male']['ambiguous']}).\n")
+    A("| Sample | n (women) | NB rate ratio, women vs men | 95% CI |\n|---|---|---|---|")
+    A(f"| ID-matched comparison set (same model) | 2,926 (606) | {idm['irr']:.2f} | {ci(idm['ci95'])} |")
+    A(f"| Name-matched unmatched people | {nmx['n']} ({nmx['women']}) | {nmx['negbin_irr']['irr']:.2f} | {ci(nmx['negbin_irr']['ci95'])} |")
+    if pc:
+        A(f"| ... only matches passing the data check | {pc['n']} ({pc['women']}) | {pc['negbin_irr']['irr']:.2f} | {ci(pc['negbin_irr']['ci95'])} |")
+    A(f"\nModel: log citations, field, birth decade, deceased. The point estimate among unmatched people is close to the "
+      f"ID-matched one, but with {nmx['n']} people the interval includes 1: the sample is consistent with the main result and "
+      f"too small to confirm it on its own. Women were name-matched less often than men, so the sample is itself selected.\n")
+    if CHK:
+        fb, mb = CHK["by_gender"]["female"], CHK["by_gender"]["male"]
+        A(f"Data check of all accepted matches (`r4c_namematch_check.py`, same rule as the second validation round: surname in the "
+          f"OpenAlex name and at least 2 words from the profile's main topics on the Wikipedia page): {fb['k']} of {fb['n']} women "
+          f"({fb['wilson95'][0]:.0%} to {fb['wilson95'][1]:.0%}) and {mb['k']} of {mb['n']} men ({mb['wilson95'][0]:.0%} to "
+          f"{mb['wilson95'][1]:.0%}) pass. Failures are mostly short pages, but common names (e.g. Peter Mason, John Corbett) "
+          f"may be wrong people; they are listed in `data/namematch_check_rows.csv` for a person to open.\n")
+    else:
+        A("")
 
 A("## RQ3. Who links to women's pages\n")
 A(f"{r3['women_to_women_edges']} of the {r3['edges_to_women']} links to women's pages come from women's pages "
@@ -159,14 +185,53 @@ A(f"**Held-out check.** Words chosen on one random half of the pages point the s
 e = r2["explicit_gender_mentions"]
 A(f"**Explicit gender mentions** (\"first woman to\", \"female physicist\"; unmasked text): {e['share_women']:.1%} of women's pages, "
   f"{e['share_men']:.1%} of men's; adjusted difference {e['adjusted_diff_pct_points']:.1f} points {ci(e['ci95'], 1)}.\n")
-A("**Dropped.** The personal-life word list (it found 51% of personal sentences on women's pages but 33% on men's, so it cannot "
-  "compare genders), and with it the 4.9% vs 2.8% difference in the top citation quintile, which stays an untested lead.\n")
+if VAL_AI:
+    w1, w2 = VAL_AI["word_lists"]["first_pass_labels"]["personal"], VAL_AI["word_lists"]["second_pass_labels"]["personal"]
+    A(f"**Dropped.** The personal-life word list. It finds only {w2['recall']:.0%} of personal sentences, and not equally: "
+      f"{w2['recall_female']:.0%} on women's pages and {w2['recall_male']:.0%} on men's with the second-pass labels "
+      f"({w1['recall_female']:.0%} and {w1['recall_male']:.0%} with the first; difference {w2['recall_diff_women_minus_men']:+.2f}, "
+      f"95% interval {ci(w2['recall_diff_ci95'])}). The interval is wide, so the list cannot be shown to work equally for both "
+      f"genders, and a comparison of personal-word rates between genders would mix the real difference with the list's own. "
+      f"With it goes the 4.9% vs 2.8% difference in the top citation quintile, which stays an untested lead.\n")
+else:
+    A("**Dropped.** The personal-life word list (it found 51% of personal sentences on women's pages but 33% on men's, so it cannot "
+      "compare genders), and with it the 4.9% vs 2.8% difference in the top citation quintile, which stays an untested lead.\n")
+
+if VAL_AI:
+    mc, mp = VAL_AI["matches"]["correct"], VAL_AI["matches"]["profile_complete"]
+    sp, sq = VAL_AI["sentences"]["is_personal"], VAL_AI["sentences"]["is_professional"]
+    fw_, mw_ = mc["by_gender_second_pass"]["female"], mc["by_gender_second_pass"]["male"]
+    A("## Validation of the labels\n")
+    A("Two checks rest on hand labels: 100 OpenAlex matches (is the profile the same person, does it cover the whole career) "
+      "and 300 sentences (personal, professional). **Both labelling rounds were done with AI assistance; no person has "
+      "re-labelled them.** The second round (18 Nov 2026) is a stability check, not human validation.\n")
+    A("| Label | n | Agreement, round 1 vs 2 | Cohen's kappa | Positive, round 1 / 2 |\n|---|---|---|---|---|")
+    for lab, x in (("Match correct", mc), ("Profile complete", mp), ("Sentence is personal", sp), ("Sentence is professional", sq)):
+        k = "not defined (all positive)" if x["kappa"] is None else f"{x['kappa']:.2f}"
+        A(f"| {lab} | {x['n']} | {x['agreement']:.1%} | {k} | {x['positive_first_pass']} / {x['positive_second_pass']} |")
+    A(f"\nMatches correct: {fw_['k']} of {fw_['n']} women (95% interval {fw_['wilson95'][0]:.0%} to {fw_['wilson95'][1]:.0%}) and "
+      f"{mw_['k']} of {mw_['n']} men ({mw_['wilson95'][0]:.0%} to {mw_['wilson95'][1]:.0%}). In the second round a match counted as "
+      f"correct when the OpenAlex name or an alias contains the Wikipedia surname and words from the profile's main OpenAlex "
+      f"topics appear in the page, a rule checked from the data rather than by opening both pages. With 50 per gender, "
+      f"a difference in match quality smaller than about ten points cannot be ruled out: report the intervals, not \"no bias\". "
+      f"Kappa is low for *profile complete* despite {mp['agreement']:.0%} agreement because almost every profile is positive "
+      f"(kappa is unstable when one class is rare); the second round used a crude rule (at least one work per career year). "
+      f"The sentence labeller in round two had seen the round-one labels, so the sentence kappas are an upper bound.\n")
 
 A("## What is still open\n")
-A("1. **Human validation.** `validation/` holds blind sheets for two people (100 matches, 300 sentences). Until they are filled in, "
-  "the only labels are AI-assisted, and the paper must say so. 50 of 50 correct per gender has a 95% interval of 93% to 100%: "
-  "it cannot rule out a difference in match quality between women and men.")
-A("2. **Selection at equal citations.** Run `r4b_openalex_namematch.py` with the OpenAlex key.")
+if VAL_AI:
+    A("1. **Human validation (optional).** Both labelling rounds were AI-assisted and agree closely (see *Validation of the labels*). "
+      "A person filling in blind sheets (`python r5_validation.py make`, then `score`) would turn this into human validation; "
+      "until then the paper says the labels were AI-assisted.")
+else:
+    A("1. **Human validation.** `validation/` holds blind sheets for two people (100 matches, 300 sentences). Until they are filled in, "
+      "the only labels are AI-assisted, and the paper must say so. 50 of 50 correct per gender has a 95% interval of 93% to 100%: "
+      "it cannot rule out a difference in match quality between women and men.")
+if isinstance(s.get("name_matched_sample"), dict):
+    A("2. **Selection at equal citations.** Done for a sample of 601 unmatched people (see RQ1, Selection); the estimate "
+      "points the same way but is imprecise. A larger name-matched sample, or a person checking the failed matches, would sharpen it.")
+else:
+    A("2. **Selection at equal citations.** Run `r4b_openalex_namematch.py` with the OpenAlex key.")
 A("3. **Page age and authorship.** Creation date and creator per page (one revisions API call each) would test the two main "
   "alternative explanations: women's pages are newer, and they are written by fewer editors.")
 A("4. **h-index** comes from the largest OpenAlex profile while citations are summed over split profiles; the single-profile "

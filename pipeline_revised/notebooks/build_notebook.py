@@ -139,6 +139,21 @@ pd.DataFrame({k: {"n": v["n"], "women": v["women"], "NB rate ratio": v["negbin_i
               for k, v in sel["gap_without_citation_control"].items()}).T.round(2)
 """)
 md("""
+Without citations for unmatched pages, the gap cannot be tested *at equal citations* there. So we name-matched a random
+sample of 601 unmatched people in OpenAlex (`../src/r4b_openalex_namematch.py`, 18 Nov 2026), accepting only unambiguous
+matches, and checked every accepted match from data (`../src/r4c_namematch_check.py`).
+""")
+code("""
+nm = sel["name_matched_sample"]
+print("accepted:", {g: v["accepted"] for g, v in nm["status"].items()}, "of", nm["sampled"])
+pd.DataFrame({"ID-matched set, same model": nm["id_matched_same_model"], "name-matched sample": nm["negbin_irr"],
+              "name-matched, passing check": nm["passing_check"]["negbin_irr"]}).T[["irr", "ci95", "n"]]
+""")
+md("""
+Same direction and a similar size, but with 188 people the interval includes 1: consistent with the main result, not a
+confirmation on its own.
+""")
+md("""
 ## 3. RQ3: who links to women's pages?
 
 **Captures:** same-gender linking. **Misses:** the reason (collaboration, shared prizes, the same editors).
@@ -181,17 +196,41 @@ print("held-out replication:", r2["words"]["split_half"])
 print("explicit gender mentions:", r2["explicit_gender_mentions"])
 """)
 md("""
-## 5. Validation status
+## 5. Validation of the hand labels
 
-The blind sheets in `../validation/` are waiting for two human labellers. Until `r5_validation.py score` has been run,
-the only labels are AI-assisted.
+Two checks rest on hand labels: 100 OpenAlex matches and 300 sentences. Both labelling rounds were done with AI assistance:
+round 1 in the original pipeline, round 2 (`../validation/matches_labeller.csv`, `../validation/sentences_labeller.csv`)
+on 18 Nov 2026. Agreement between the rounds shows the labels are **stable**; it is not a check by a person.
+Scored by `../src/r5_validation.py claude`.
 """)
 code("""
-import os
-for f in sorted(os.listdir(VAL)):
-    if f.endswith(".csv"):
-        t = pd.read_csv(VAL / f); col = "correct" if "matches" in f else "is_personal"
-        print(f"{f:<32} {t[col].notna().sum():>3} of {len(t)} rows labelled")
+va = J("validation_ai_vs_ai.json")
+rows = []
+for part, cols in (("matches", ["correct", "profile_complete"]), ("sentences", ["is_personal", "is_professional"])):
+    for c in cols:
+        x = va[part][c]
+        rows.append({"label": c, "n": x["n"], "agreement": round(x["agreement"], 3),
+                     "kappa": None if x["kappa"] is None else round(x["kappa"], 2),
+                     "positive round 1": x["positive_first_pass"], "positive round 2": x["positive_second_pass"]})
+display(pd.DataFrame(rows).set_index("label"))
+for g, x in va["matches"]["correct"]["by_gender_second_pass"].items():
+    print(f"matches correct, {g}: {x['k']} of {x['n']}, 95% Wilson interval {x['wilson95'][0]:.0%} to {x['wilson95'][1]:.0%}")
+""")
+md("""
+Kappa for *profile complete* is low despite 98% agreement because almost every profile is positive. With 50 matches per
+gender, a difference in match quality of less than about ten points cannot be ruled out, so we report intervals.
+
+The 300 sentences were labelled to test the personal-life word list. Its recall, with both rounds of labels:
+""")
+code("""
+wl = va["word_lists"]
+display(pd.DataFrame({k: {m: wl[k]["personal"][m] for m in ("recall", "recall_female", "recall_male", "recall_diff_women_minus_men")}
+                      for k in ("first_pass_labels", "second_pass_labels")}).round(3))
+print("95% interval of the women-minus-men recall difference (round 2):", np.round(wl["second_pass_labels"]["personal"]["recall_diff_ci95"], 2))
+""")
+md("""
+The list finds about a third of personal sentences, and the gender difference in recall is large but very uncertain.
+Comparing personal-word rates between genders with it would mix the real difference with the list's own, so it is dropped.
 """)
 md("""
 ## 6. Conclusions
@@ -202,7 +241,9 @@ See `../CONCLUSIONS.md` for the full tables. In short:
 2. The gap holds with subfield strata, with prose-only links (where it is larger), without Nobel laureates, among living people, and in physics, chemistry and biology alike. It is the same size among pages that could not be matched to OpenAlex.
 3. Links to women's pages come from women's pages more than topic clusters and cohort account for.
 4. The masked text still separates women's from men's pages. The words point to training and career steps on women's pages and to the work and its standing on men's, but page authorship is an untested alternative.
-5. Open: human validation, the name-match selection check, and page creation dates.
+5. The hand labels are stable across two AI-assisted rounds (kappa 0.98 to 0.99 for sentences, 100 of 100 matches); no person has re-checked them.
+6. A name-matched sample of unmatched people gives a similar rate ratio (0.63 vs 0.60) with a wide interval.
+7. Open: page creation dates and authorship, and a person checking the hand labels and failed name matches.
 """)
 nb["cells"] = C
 nbf.write(nb, "who_gets_remembered_revised.ipynb")

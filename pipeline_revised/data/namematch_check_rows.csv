@@ -1,0 +1,189 @@
+qid,title,gender,nm_name,openalex_url,wikipedia_url,surname_in_name,topic_words,topic_words_found,found,wikitext_found,correct
+Q101525903,Clara Lim-Sylianco,female,Clara Y. Lim-Sylianco,https://openalex.org/A5073137721,https://en.wikipedia.org/wiki/Clara_Lim-Sylianco,True,12,1,plant,True,0
+Q6660972,Ljubov Rebane,female,Ljubov Rebane,https://openalex.org/A5078351341,https://en.wikipedia.org/wiki/Ljubov_Rebane,True,14,3,solid spectroscopy state,True,1
+Q94579355,Eva Smolková-Keulemansová,female,Eva Smolková-Keulemansová,https://openalex.org/A5016985110,https://en.wikipedia.org/wiki/Eva_Smolková-Keulemansová,True,11,3,analytical chromatography supramolecular,True,1
+Q5702874,Helen Muir,female,Helen Muir,https://openalex.org/A5111405860,https://en.wikipedia.org/wiki/Helen_Muir,True,13,1,osteoarthritis,True,0
+Q4206620,Alina Kabata-Pendias,female,Alina Kabata‐Pendias,https://openalex.org/A5021866562,https://en.wikipedia.org/wiki/Alina_Kabata-Pendias,True,13,8,environment environmental geochemistry heavy metal metals micronutrient plant,True,1
+Q526401,Cécile DeWitt-Morette,female,Cécile DeWitt-Morette,https://openalex.org/A5112200179,https://en.wikipedia.org/wiki/Cécile_DeWitt-Morette,True,9,5,mathematical mechanics quantum relativity theoretical,True,1
+Q18699544,Karin Aurivillius,female,Karin Aurivillius,https://openalex.org/A5012506885,https://en.wikipedia.org/wiki/Karin_Aurivillius,True,12,6,compounds crystal crystallography diffraction inorganic structures,True,1
+Q38734568,Ruth Gall,female,Ruth Gall,https://openalex.org/A5062141162,https://en.wikipedia.org/wiki/Ruth_Gall,True,15,0,,True,0
+Q461112,Yvonne Choquet-Bruhat,female,Yvonne Choquet–Bruhat,https://openalex.org/A5037544311,https://en.wikipedia.org/wiki/Yvonne_Choquet-Bruhat,True,11,10,cosmology curvature differential geometric geometry gravitation gravitational mathematical problems relativity,True,1
+Q2831706,Alberte Pullman,female,Alberte Pullman,https://openalex.org/A5111426266,https://en.wikipedia.org/wiki/Alberte_Pullman,True,10,6,acid interactions molecular nucleic reaction structure,True,1
+Q105462405,Jacqueline Ficini,female,Jacqueline Ficini,https://openalex.org/A5051460350,https://en.wikipedia.org/wiki/Jacqueline_Ficini,True,9,4,alkyne organic synthesis synthetic,True,1
+Q21523888,Gisela Eckhardt,female,Gisela Eckhardt,https://openalex.org/A5063500511,https://en.wikipedia.org/wiki/Gisela_Eckhardt,True,12,1,semiconductor,True,0
+Q15074356,Vera Kistiakowsky,female,Vera Kistiakowsky,https://openalex.org/A5057864769,https://en.wikipedia.org/wiki/Vera_Kistiakowsky,True,11,5,energy experimental high nuclear particle,True,1
+Q1395779,Fay Ajzenberg-Selove,female,Fay Ajzenberg-Selove,https://openalex.org/A5026312958,https://en.wikipedia.org/wiki/Fay_Ajzenberg-Selove,True,10,3,atomic experimental nuclear,True,1
+Q6647801,Ora Kedem,female,Ora Kedem,https://openalex.org/A5112892775,https://en.wikipedia.org/wiki/Ora_Kedem,True,10,2,separation transport,True,1
+Q15146747,Rajeshwari Chatterjee,female,Rajeshwari Chatterjee,https://openalex.org/A5112315941,https://en.wikipedia.org/wiki/Rajeshwari_Chatterjee,True,13,1,engine,True,0
+Q1897095,Marie-Anne Bouchiat,female,Marie-Anne Bouchiat,https://openalex.org/A5108368929,https://en.wikipedia.org/wiki/Marie-Anne_Bouchiat,True,12,3,atomic experimental quantum,True,1
+Q17274888,Mariana Weissmann,female,Mariana Weissmann,https://openalex.org/A5023580634,https://en.wikipedia.org/wiki/Mariana_Weissmann,True,11,1,surface,True,0
+Q7662506,Synnøve Liaaen Jensen,female,Synnøve Liaaen‐Jensen,https://openalex.org/A5110139171,https://en.wikipedia.org/wiki/Synnøve_Liaaen_Jensen,True,12,0,,True,0
+Q131323765,Marthe Bacal,female,Marthe Bacal,https://openalex.org/A5044389969,https://en.wikipedia.org/wiki/Marthe_Bacal,True,15,3,beam diagnostics plasma,True,1
+Q7555701,Solange Magalhães,female,Solange Magalhães,https://openalex.org/A5044211431,https://en.wikipedia.org/wiki/Solange_Magalhães,True,11,0,,True,0
+Q36777269,Dervilla M. X. Donnelly,female,Dervilla M. X. Donnelly,https://openalex.org/A5112444019,https://en.wikipedia.org/wiki/Dervilla_M._X._Donnelly,True,10,2,activities phytochemistry,True,1
+Q3059260,Ethel Moustacchi,female,Ethel Moustacchi,https://openalex.org/A5041927531,https://en.wikipedia.org/wiki/Ethel_Moustacchi,True,13,4,mechanisms radiation repair yeast,True,1
+Q17305719,Brigitte Mühlenbruch,female,Brigitte Mühlenbruch,https://openalex.org/A5081391317,https://en.wikipedia.org/wiki/Brigitte_Mühlenbruch,True,11,2,career gender,True,1
+Q20047091,Juliet Lee-Franzini,female,Juliet Lee‐Franzini,https://openalex.org/A5103347658,https://en.wikipedia.org/wiki/Juliet_Lee-Franzini,True,13,5,energy experimental high interactions particle,True,1
+Q22277782,Maria Fidecaro,female,Maria Fidecaro,https://openalex.org/A5112027308,https://en.wikipedia.org/wiki/Maria_Fidecaro,True,13,9,accelerators beam detector energy experimental high interactions particle quantum,True,1
+Q7301557,Reatha Clark King,female,Reatha Clark King,https://openalex.org/A5063027503,https://en.wikipedia.org/wiki/Reatha_Clark_King,True,13,6,american compounds history molecular race society,True,1
+Q6076750,Pirkko Eskola,female,Pirkko Eskola,https://openalex.org/A5018634347,https://en.wikipedia.org/wiki/Pirkko_Eskola,True,10,3,decay information nuclear,True,1
+Q33201933,Andrée Marquet,female,Andrée Marquet,https://openalex.org/A5108685311,https://en.wikipedia.org/wiki/Andrée_Marquet,True,13,9,biochemistry biotin iron organic proteins reaction steroid sulfur synthesis,True,1
+Q17305761,Virginia Carter,female,Virginia Carter,https://openalex.org/A5026836829,https://en.wikipedia.org/wiki/Virginia_Carter,True,15,1,management,True,0
+Q28409356,Ching-Liang Lin,female,Ching-Liang Lin,https://openalex.org/A5030242492,https://en.wikipedia.org/wiki/Ching-Liang_Lin,True,9,1,quantum,True,0
+Q28945679,Shirley E. Schwartz,female,Shirley E. Schwartz,https://openalex.org/A5089130615,https://en.wikipedia.org/wiki/Shirley_E._Schwartz,True,14,6,engine engineering lubricants lubrication technical tribology,True,1
+Q120488988,Denise Barthomeuf,female,Denise Barthomeuf,https://openalex.org/A5002523065,https://en.wikipedia.org/wiki/Denise_Barthomeuf,True,14,5,catalysis materials minerals reactions zeolite,True,1
+Q5363407,Elizabeth Rauscher,female,ELIZABETH A. RAUSCHER,https://openalex.org/A5019648095,https://en.wikipedia.org/wiki/Elizabeth_Rauscher,True,10,3,interactions nuclear quantum,True,1
+Q28743912,Margaret C. Etter,female,Margaret C. Etter,https://openalex.org/A5078914114,https://en.wikipedia.org/wiki/Margaret_C._Etter,True,11,10,compounds crystal crystallography interactions molecular solid spectroscopy state structures supramolecular,True,1
+Q20810631,Meera Chandrasekhar,female,Meera Chandrasekhar,https://openalex.org/A5044103069,https://en.wikipedia.org/wiki/Meera_Chandrasekhar,True,13,3,high pressure semiconductor,True,1
+Q955751,Liia Hänni,female,Liia Hänni,https://openalex.org/A5024939002,https://en.wikipedia.org/wiki/Liia_Hänni,True,12,4,astro astronomy astrophysics star,True,1
+Q17388836,Marion C. Thurnauer,female,Marion C. Thurnauer,https://openalex.org/A5081322051,https://en.wikipedia.org/wiki/Marion_C._Thurnauer,True,12,9,electron mechanisms photochemistry photosynthetic resonance solar spectroscopy spin transfer,True,1
+Q105248311,Maria Dworzecka,female,Maria Dworzecka,https://openalex.org/A5062567713,https://en.wikipedia.org/wiki/Maria_Dworzecka,True,12,3,energy high nuclear,True,1
+Q9357316,Teresa Kowalska,female,Teresa Kowalska,https://openalex.org/A5088336925,https://en.wikipedia.org/wiki/Teresa_Kowalska,True,12,2,chromatography thermodynamic,True,1
+Q94082125,Helga E. Rafelski,female,Helga E. Rafelski,https://openalex.org/A5037416145,https://en.wikipedia.org/wiki/Helga_E._Rafelski,True,12,3,fusion muon particle,True,1
+Q61675290,Mary Rakowski DuBois,female,Mary Rakowski DuBois,https://openalex.org/A5110024241,https://en.wikipedia.org/wiki/Mary_Rakowski_DuBois,True,17,7,characterization complex electrocatalysts inorganic iron organometallic synthesis,True,1
+Q6375197,Katarzyna Chałasińska-Macukow,female,Katarzyna Chałasińska-Macukow,https://openalex.org/A5016613962,https://en.wikipedia.org/wiki/Katarzyna_Chałasińska-Macukow,True,12,3,holography optical optics,True,1
+Q57778849,Maha Ashour-Abdalla,female,Maha Ashour‐Abdalla,https://openalex.org/A5032054009,https://en.wikipedia.org/wiki/Maha_Ashour-Abdalla,True,14,5,ionosphere magnetosphere plasma solar space,True,1
+Q7255,Darshan Ranganathan,female,Darshan Ranganathan,https://openalex.org/A5082029301,https://en.wikipedia.org/wiki/Darshan_Ranganathan,True,9,3,molecular supramolecular synthesis,True,1
+Q125507010,N. Anne Davies,female,N. Anne Davies,https://openalex.org/A5025822524,https://en.wikipedia.org/wiki/N._Anne_Davies,True,12,4,confinement fusion magnetic plasma,True,1
+Q55957,Judith Herzfeld,female,Judith Herzfeld,https://openalex.org/A5023102369,https://en.wikipedia.org/wiki/Judith_Herzfeld,True,11,6,electron mechanisms protein resonance spin structure,True,1
+Q274054,Catherine Bréchignac,female,Catherine Bréchignac,https://openalex.org/A5033980157,https://en.wikipedia.org/wiki/Catherine_Bréchignac,True,10,3,atomic matter molecular,True,1
+Q15146755,Joyanti Chutia,female,Joyanti Chutia,https://openalex.org/A5011203807,https://en.wikipedia.org/wiki/Joyanti_Chutia,True,16,3,film plasma thin,True,1
+Q11715941,Jadwiga Ostrowska-Czubenko,female,Jadwiga Ostrowska‐Czubenko,https://openalex.org/A5017171513,https://en.wikipedia.org/wiki/Jadwiga_Ostrowska-Czubenko,True,13,1,polymer,True,0
+Q9095619,Zhao Yufen,female,Zhao Yu-fen,https://openalex.org/A5112113202,https://en.wikipedia.org/wiki/Zhao_Yufen,True,12,3,organic phosphorus synthesis,True,1
+Q110281368,Barbara Goss Levi,female,Barbara Goss Levi,https://openalex.org/A5109206758,https://en.wikipedia.org/wiki/Barbara_Goss_Levi,True,16,4,atom experimental particle theoretical,True,1
+Q18222071,Sandra C. Greer,female,Sandra C. Greer,https://openalex.org/A5001209138,https://en.wikipedia.org/wiki/Sandra_C._Greer,True,12,4,phase polymer thermodynamic thermodynamics,True,1
+Q22669820,Beate Naroska,female,Beate Naroska,https://openalex.org/A5146296921,https://en.wikipedia.org/wiki/Beate_Naroska,True,11,3,detector experimental particle,True,1
+Q4944215,Helen Dannetun,female,Helen Dannetun,https://openalex.org/A5015143810,https://en.wikipedia.org/wiki/Helen_Dannetun,True,12,0,,True,0
+Q5111199,Christine Sutton,female,Christine Sutton,https://openalex.org/A5079243701,https://en.wikipedia.org/wiki/Christine_Sutton,True,10,3,cosmic nuclear particle,True,1
+Q3315682,Mioara Mugur-Schächter,female,Mioara Mugur-Schächter,https://openalex.org/A5036828866,https://en.wikipedia.org/wiki/Mioara_Mugur-Schächter,True,12,6,mechanics philosophy probability quantum relativity scientific,True,1
+Q4953737,Kersti Hermansson,female,Kersti Hermansson,https://openalex.org/A5035932611,https://en.wikipedia.org/wiki/Kersti_Hermansson,True,7,1,quantum,True,0
+Q55639402,Camille Petit,female,Camille Petit,https://openalex.org/A5051539428,https://en.wikipedia.org/wiki/Camille_Petit,True,15,10,adsorption capture carbon dioxide frameworks materials metal nanomaterials organic synthesis,True,1
+Q112337676,Barbara S. Larsen,female,Barbara S. Larsen,https://openalex.org/A5044576119,https://en.wikipedia.org/wiki/Barbara_S._Larsen,True,8,4,analytical chromatography mass spectrometry,True,1
+Q15120304,B. Vijayalakshmi,female,P. Vijayalakshmi,https://openalex.org/A5109120719,https://en.wikipedia.org/wiki/B._Vijayalakshmi,True,9,0,,True,0
+Q21062325,Nancy B. Jackson,female,Nancy B. Jackson,https://openalex.org/A5073678913,https://en.wikipedia.org/wiki/Nancy_B._Jackson,True,12,3,catalysis catalysts safety,True,1
+Q6153588,Janet S. Fender,female,Janet S. Fender,https://openalex.org/A5017537741,https://en.wikipedia.org/wiki/Janet_S._Fender,True,13,3,astronomy optical optics,True,1
+Q15146803,Chitra Mandal,female,Chitra Mandal,https://openalex.org/A5080932420,https://en.wikipedia.org/wiki/Chitra_Mandal,True,10,2,glycosylation treatment,True,1
+Q7911326,Valerie Randle,female,Valerie Randlè,https://openalex.org/A5083018076,https://en.wikipedia.org/wiki/Valerie_Randle,True,12,4,material materials metallurgy microstructure,True,1
+Q4511370,Katherine Freese,female,Katherine Freese,https://openalex.org/A5039320034,https://en.wikipedia.org/wiki/Katherine_Freese,True,13,8,cosmic cosmology dark evolution matter neutrino particle theoretical,True,1
+Q23823628,Anna Tramontano,female,Anna Tramontano,https://openalex.org/A5111621363,https://en.wikipedia.org/wiki/Anna_Tramontano,True,12,3,computational protein structure,True,1
+Q469310,Anne Lauvergeon,female,Anne Lauvergeon,https://openalex.org/A5037080635,https://en.wikipedia.org/wiki/Anne_Lauvergeon,True,14,8,energy engineering global management nuclear power reactor technologies,True,1
+Q13042878,Mimoza Hafizi,female,Mimoza Hafizi,https://openalex.org/A5075855636,https://en.wikipedia.org/wiki/Mimoza_Hafizi,True,14,0,,True,0
+Q6945612,My Hang V. Huynh,female,My Hang V. Huynh,https://openalex.org/A5109037879,https://en.wikipedia.org/wiki/My_Hang_V._Huynh,True,15,6,complex compounds energetic materials metal synthesis,True,1
+Q7468,Catherine Coleman,female,Catherine Coleman,https://openalex.org/A5102368351,https://en.wikipedia.org/wiki/Catherine_Coleman,True,13,1,care,True,0
+Q115628401,Antje Töpfer,female,Antje Töpfer,https://openalex.org/A5082235163,https://en.wikipedia.org/wiki/Antje_Töpfer,True,10,2,agriculture food,True,1
+Q102303691,Johanna Erdmenger,female,Johanna Erdmenger,https://openalex.org/A5078581746,https://en.wikipedia.org/wiki/Johanna_Erdmenger,True,13,5,black gravity particle quantum theoretical,True,1
+Q11774172,Dana Drábová,female,Dana Drábová,https://openalex.org/A5022562357,https://en.wikipedia.org/wiki/Dana_Drábová,True,12,3,international nuclear radiation,True,1
+Q15725998,Francisca Nneka Okeke,female,Francisca Nneka Okeke,https://openalex.org/A5112633437,https://en.wikipedia.org/wiki/Francisca_Nneka_Okeke,True,12,6,earthquake geomagnetism geophysical ionosphere solar space,True,1
+Q28413483,He Yaling,female,HE Ya-Ling,https://openalex.org/A5119011477,https://en.wikipedia.org/wiki/He_Yaling,True,15,1,thermodynamic,True,0
+Q11179080,Maya Paczuski,female,Maya Paczuski,https://openalex.org/A5049272357,https://en.wikipedia.org/wiki/Maya_Paczuski,True,13,5,complex dynamics network statistical theoretical,True,1
+Q27942058,Rabia Salihu Sa'id,female,Rabia Salihu Sa’id,https://openalex.org/A5082338422,https://en.wikipedia.org/wiki/Rabia_Salihu_Sa'id,True,12,3,aerosols atmospheric solar,True,1
+Q5125193,Claire F. Gmachl,female,Claire F. Gmachl,https://openalex.org/A5061195967,https://en.wikipedia.org/wiki/Claire_F._Gmachl,True,11,10,design devices laser lasers materials optical quantum semiconductor spectroscopy structures,True,1
+Q105826893,Corinna Kollath,female,Corinna Kollath,https://openalex.org/A5107439390,https://en.wikipedia.org/wiki/Corinna_Kollath,True,15,4,atom body many quantum,True,1
+Q63107740,Chen-Yu Liu,female,Chen-Yu Liu,https://openalex.org/A5063877587,https://en.wikipedia.org/wiki/Chen-Yu_Liu,True,7,2,experimental nuclear,True,1
+Q102246968,Anja Schlömerkemper,female,Anja Schlömerkemper,https://openalex.org/A5046788561,https://en.wikipedia.org/wiki/Anja_Schlömerkemper,True,15,5,equation material mathematical mathematics solutions,True,1
+Q1610257,Herman Chernoff,male,Herman Chernoff,https://openalex.org/A5029987215,https://en.wikipedia.org/wiki/Herman_Chernoff,True,7,2,distribution statistical,True,1
+Q904952,Harmon Craig,male,Harmon Craig,https://openalex.org/A5109181979,https://en.wikipedia.org/wiki/Harmon_Craig,True,11,6,astro fossils geochemical geochemistry isotope planetary,True,1
+Q6712454,M. C. Joshi,male,M.C. Joshi,https://openalex.org/A5083332103,https://en.wikipedia.org/wiki/M._C._Joshi,True,10,2,atomic nuclear,True,1
+Q2798145,Richard Geller (physicist),male,Richard Geller,https://openalex.org/A5082135633,https://en.wikipedia.org/wiki/Richard_Geller_(physicist),True,15,6,accelerators atomic beam fusion particle plasma,True,1
+Q356027,Octave Levenspiel,male,Octave Levenspiel,https://openalex.org/A5109980770,https://en.wikipedia.org/wiki/Octave_Levenspiel,True,15,4,engineering flow fluid heat,True,1
+Q15821514,John M. Blatt,male,John M. Blatt,https://openalex.org/A5114254192,https://en.wikipedia.org/wiki/John_M._Blatt,True,9,4,economic nuclear particle theoretical,True,1
+Q471965,Yuval Ne'eman,male,Yuval Ne’eman,https://openalex.org/A5019091345,https://en.wikipedia.org/wiki/Yuval_Ne'eman,True,11,4,nuclear particle quantum theoretical,True,1
+Q155773,Masatoshi Koshiba,male,Masatoshi Koshiba,https://openalex.org/A5107839752,https://en.wikipedia.org/wiki/Masatoshi_Koshiba,True,11,7,astrophysics cosmic detector experimental neutrino particle theoretical,True,1
+Q4707191,Alan M. Lovelace,male,Alan M. Lovelace,https://openalex.org/A5112076387,https://en.wikipedia.org/wiki/Alan_M._Lovelace,True,11,6,composites fiber fluorine organic polymer polymers,True,1
+Q262077,Nándor Balázs,male,Nándor Balázs,https://openalex.org/A5010444060,https://en.wikipedia.org/wiki/Nándor_Balázs,True,10,0,,True,0
+Q907642,John W. Cahn,male,John W. Cahn,https://openalex.org/A5112821022,https://en.wikipedia.org/wiki/John_W._Cahn,True,14,11,alloy alloys crystal growth mechanical metallurgical metals phenomena quasicrystal solidification thermodynamic,True,1
+Q29519785,Russell S. Drago,male,Russell S. Drago,https://openalex.org/A5027608920,https://en.wikipedia.org/wiki/Russell_S._Drago,True,15,9,catalysis catalyzed complex compounds inorganic mechanisms metal reaction synthesis,True,1
+Q1585833,Harold Grad,male,Harold Grad,https://openalex.org/A5104362272,https://en.wikipedia.org/wiki/Harold_Grad,True,12,6,dynamics equation fusion kinetic magnetic plasma,True,1
+Q17977140,Harold S. Johnston,male,Harold S. Johnston,https://openalex.org/A5111849022,https://en.wikipedia.org/wiki/Harold_S._Johnston,True,12,3,atmospheric engine ozone,True,1
+Q42422424,Ger Challa,male,Ger Challa,https://openalex.org/A5108810452,https://en.wikipedia.org/wiki/Ger_Challa,True,11,1,polymer,True,0
+Q5806004,Mats Hillert,male,Mats Hillert,https://openalex.org/A5068020944,https://en.wikipedia.org/wiki/Mats_Hillert,True,14,3,metals thermodynamic thermodynamics,True,1
+Q16009894,Julius Ashkin,male,Julius Ashkin,https://openalex.org/A5058388580,https://en.wikipedia.org/wiki/Julius_Ashkin,True,11,9,collisions detector energy experimental high interactions nuclear particle theoretical,True,1
+Q18576345,Hugh Fish,male,Hugh Fish,https://openalex.org/A5087418436,https://en.wikipedia.org/wiki/Hugh_Fish,True,12,4,control environmental quality water,True,1
+Q9105910,Yu Guocong,male,YU Guo-cong,https://openalex.org/A5112134076,https://en.wikipedia.org/wiki/Yu_Guocong,True,14,1,transfer,True,0
+Q12004298,Sven Furberg,male,Sven Furberg,https://openalex.org/A5069523609,https://en.wikipedia.org/wiki/Sven_Furberg,True,11,5,acid crystal crystallography molecular nucleic,True,1
+Q5407381,Eugene Jarosewich,male,EUGENE JAROSEWICH,https://openalex.org/A5044393706,https://en.wikipedia.org/wiki/Eugene_Jarosewich,True,9,0,,True,0
+Q13534367,Lorentz Eldjarn,male,Lorentz Eldjarn,https://openalex.org/A5044411910,https://en.wikipedia.org/wiki/Lorentz_Eldjarn,True,14,1,metabolism,True,0
+Q76283506,Hiroshi Enatsu,male,Hiroshi Enatsu,https://openalex.org/A5067526224,https://en.wikipedia.org/wiki/Hiroshi_Enatsu,True,11,5,nuclear particle quantum relativity theoretical,True,1
+Q3434905,Robert Dautray,male,Robert Dautray,https://openalex.org/A5077276082,https://en.wikipedia.org/wiki/Robert_Dautray,True,13,6,energy laser nuclear plasma power reactor,True,1
+Q19604929,Jan Rydberg,male,Jan Rydberg,https://openalex.org/A5009575432,https://en.wikipedia.org/wiki/Jan_Rydberg,True,9,4,element engineering nuclear radioactive,True,1
+Q105437756,Richard F. Fenske,male,Richard F. Fenske,https://openalex.org/A5073056703,https://en.wikipedia.org/wiki/Richard_F._Fenske,True,11,0,,True,0
+Q4775280,Peter Mason (physicist),male,Peter Mason,https://openalex.org/A5112084165,https://en.wikipedia.org/wiki/Peter_Mason_(physicist),True,14,0,,True,0
+Q10307827,John E. Franz,male,John E. Franz,https://openalex.org/A5113549417,https://en.wikipedia.org/wiki/John_E._Franz,True,14,6,acid compounds organic reaction reactions synthesis,True,1
+Q56872951,Richard Bersohn,male,Richard Bersohn,https://openalex.org/A5011813082,https://en.wikipedia.org/wiki/Richard_Bersohn,True,9,4,interactions molecular photolysis structure,True,1
+Q620394,Louis Witten,male,Louis Witten,https://openalex.org/A5006072523,https://en.wikipedia.org/wiki/Louis_Witten,True,12,6,black gravitation gravity quantum relativity theoretical,True,1
+Q7341283,Robert A. Plane,male,Robert A. Plane,https://openalex.org/A5029892104,https://en.wikipedia.org/wiki/Robert_A._Plane,True,11,1,inorganic,True,0
+Q6227093,John Corbett (chemist),male,John Corbett,https://openalex.org/A5027535881,https://en.wikipedia.org/wiki/John_Corbett_(chemist),True,9,0,,True,0
+Q7616455,Stig Stenholm,male,Stig Stenholm,https://openalex.org/A5108223331,https://en.wikipedia.org/wiki/Stig_Stenholm,True,10,4,information laser optics quantum,True,1
+Q190697,Claude Cohen-Tannoudji,male,Claude N. Cohen-Tannoudji,https://openalex.org/A5015209954,https://en.wikipedia.org/wiki/Claude_Cohen-Tannoudji,True,13,8,atom atomic electrodynamics interactions mechanics molecular optics quantum,True,1
+Q7350672,Robert W. Fuller,male,Robert W. Fuller,https://openalex.org/A5064544593,https://en.wikipedia.org/wiki/Robert_W._Fuller,True,14,1,high,True,0
+Q10268267,Donald T. Farley,male,Donald T. Farley,https://openalex.org/A5111697061,https://en.wikipedia.org/wiki/Donald_T._Farley,True,14,2,ionosphere plasma,True,1
+Q113503130,William A. Lester,male,William A. Lester,https://openalex.org/A5103483505,https://en.wikipedia.org/wiki/William_A._Lester,True,7,3,interactions molecular quantum,True,1
+Q9085678,Zhang Hanxin,male,Zhang Hanxin,https://openalex.org/A5112119666,https://en.wikipedia.org/wiki/Zhang_Hanxin,True,9,2,aerodynamics fluid,True,1
+Q5371409,Emil Pollert (canoeist),male,Emil Pollert,https://openalex.org/A5023427754,https://en.wikipedia.org/wiki/Emil_Pollert_(canoeist),True,11,1,magnetic,True,0
+Q709201,Alexander Skrinsky,male,Alexander N. Skrinsky,https://openalex.org/A5111489422,https://en.wikipedia.org/wiki/Alexander_Skrinsky,True,15,8,accelerators beam electron energy experimental high particle quantum,True,1
+Q24700963,George Blasse,male,George Blasse,https://openalex.org/A5012884088,https://en.wikipedia.org/wiki/George_Blasse,True,14,5,luminescence materials metal solid state,True,1
+Q93431955,Ira N. Levine,male,Ira N. Levine,https://openalex.org/A5026653284,https://en.wikipedia.org/wiki/Ira_N._Levine,True,6,3,molecular spectroscopy structure,True,1
+Q6712608,M. George Craford,male,M. George Craford,https://openalex.org/A5069211610,https://en.wikipedia.org/wiki/M._George_Craford,True,11,4,devices materials optical semiconductor,True,1
+Q710842,John N. Bahcall,male,John N. Bahcall,https://openalex.org/A5107828640,https://en.wikipedia.org/wiki/John_N._Bahcall,True,12,6,galactic neutrino nuclear particle stellar theoretical,True,1
+Q13417506,Gerald O. Barney,male,Gerald O. Barney,https://openalex.org/A5014363375,https://en.wikipedia.org/wiki/Gerald_O._Barney,True,14,6,complex dynamics environmental global management sustainable,True,1
+Q9025098,Qu Qinyue,male,Qu Qin-yue,https://openalex.org/A5101078260,https://en.wikipedia.org/wiki/Qu_Qinyue,True,14,6,astrophysical astrophysics cosmic gamma pulsars stellar,True,1
+Q1222628,Dieter Pohl (physicist),male,Dieter Pohl,https://openalex.org/A5029310225,https://en.wikipedia.org/wiki/Dieter_Pohl_(physicist),True,13,8,field microscopy national near optical plasmon plasmonic surface,True,1
+Q15906339,Eugene Hecht,male,Eugene Hecht,https://openalex.org/A5099996930,https://en.wikipedia.org/wiki/Eugene_Hecht,True,13,2,optical optics,True,1
+Q5236197,David L. Fried,male,David L. Fried,https://openalex.org/A5078709176,https://en.wikipedia.org/wiki/David_L._Fried,True,14,10,adaptive astronomy communication detection laser measurement optical optics technology wavefront,True,1
+Q64437967,Daniel S. Koltun,male,Daniel S. Koltun,https://openalex.org/A5056216951,https://en.wikipedia.org/wiki/Daniel_S._Koltun,True,11,6,energy high interactions nuclear quantum theoretical,True,1
+Q5714953,Torleif Ericson,male,Torleif Ericson,https://openalex.org/A5108720992,https://en.wikipedia.org/wiki/Torleif_Ericson,True,12,9,chaos energy experimental high interactions nuclear particle quantum theoretical,True,1
+Q11903458,Struther Arnott,male,Struther Arnott,https://openalex.org/A5066992392,https://en.wikipedia.org/wiki/Struther_Arnott,True,12,1,structure,True,0
+Q26923414,Harold Slusher,male,Harold Slusher,https://openalex.org/A5023282194,https://en.wikipedia.org/wiki/Harold_Slusher,True,14,1,evolution,True,0
+Q15994740,Bernard L. Shaw,male,Bernard L. Shaw,https://openalex.org/A5113213566,https://en.wikipedia.org/wiki/Bernard_L._Shaw,True,13,3,complex inorganic organometallic,True,1
+Q120962136,Laszlo Adler,male,Laszlo Adler,https://openalex.org/A5031434541,https://en.wikipedia.org/wiki/Laszlo_Adler,True,11,10,acoustic destructive elasticity engineering materials phenomena propagation testing ultrasonics wave,True,1
+Q16095654,Alex Hershaft,male,Alex Hershaft,https://openalex.org/A5089878286,https://en.wikipedia.org/wiki/Alex_Hershaft,True,9,5,crystal crystallography inorganic materials structures,True,1
+Q4492817,Ray Freeman,male,Ray Freeman,https://openalex.org/A5110171853,https://en.wikipedia.org/wiki/Ray_Freeman,True,6,1,spectroscopy,True,0
+Q11206489,Chadwick A. Tolman,male,Chadwick A. Tolman,https://openalex.org/A5110093400,https://en.wikipedia.org/wiki/Chadwick_A._Tolman,True,15,7,catalysis catalytic complex coupling inorganic organometallic oxidation,True,1
+Q74900092,Andrzej Kossakowski,male,Andrzej Kossakowski,https://openalex.org/A5056187445,https://en.wikipedia.org/wiki/Andrzej_Kossakowski,True,10,6,information mechanics operator quantum statistical thermodynamics,True,1
+Q140084555,Bernard Kirtman,male,Bernard Kirtman,https://openalex.org/A5002727198,https://en.wikipedia.org/wiki/Bernard_Kirtman,True,8,0,,True,0
+Q692084,Arndt Simon,male,Arndt Simon,https://openalex.org/A5109075130,https://en.wikipedia.org/wiki/Arndt_Simon,True,10,6,compounds crystal earth inorganic structures superconductivity,True,1
+Q6284746,Joseph L. McCauley,male,Joseph L. McCauley,https://openalex.org/A5081170709,https://en.wikipedia.org/wiki/Joseph_L._McCauley,True,12,6,chaos control dynamics fractals quantum superfluid,True,1
+Q1296057,Henry Tye,male,Henry Tye,https://openalex.org/A5036519977,https://en.wikipedia.org/wiki/Henry_Tye,True,12,4,cosmology particle quantum theoretical,True,1
+Q3433756,Tuomo Suntola,male,Tuomo Suntola,https://openalex.org/A5001030475,https://en.wikipedia.org/wiki/Tuomo_Suntola,True,11,6,cosmology devices materials quantum relativity semiconductor,True,1
+Q85632,Walter Kaminsky,male,Walter Kaminsky,https://openalex.org/A5102726180,https://en.wikipedia.org/wiki/Walter_Kaminsky,True,10,3,organometallic polymer synthesis,True,1
+Q737322,Zsolt Bor,male,Zsolt Bor,https://openalex.org/A5108437705,https://en.wikipedia.org/wiki/Zsolt_Bor,True,12,1,design,True,0
+Q1176630,David Sherrington (physicist),male,David Sherrington,https://openalex.org/A5110909541,https://en.wikipedia.org/wiki/David_Sherrington_(physicist),True,10,3,condensed matter theoretical,True,1
+Q18618827,Igor Bogdanoff,male,Igor Bogdanoff,https://openalex.org/A5026301144,https://en.wikipedia.org/wiki/Igor_Bogdanoff,True,14,5,christian gravity philosophy quantum theoretical,True,1
+Q3770071,Giuseppe Basini,male,Giuseppe Basini,https://openalex.org/A5056722303,https://en.wikipedia.org/wiki/Giuseppe_Basini,True,10,0,,True,0
+Q18045305,Paul K. Hansma,male,Paul K. Hansma,https://openalex.org/A5055980912,https://en.wikipedia.org/wiki/Paul_K._Hansma,True,14,3,bone force microscopy,True,1
+Q15990419,Brian P. Flannery,male,Brian P. Flannery,https://openalex.org/A5064306655,https://en.wikipedia.org/wiki/Brian_P._Flannery,True,13,2,astrophysics star,True,1
+Q11548478,Koichi Mizushima (scientist),male,Koichi Mizushima,https://openalex.org/A5076890372,https://en.wikipedia.org/wiki/Koichi_Mizushima_(scientist),True,10,0,,True,0
+Q381772,Nathan Isgur,male,Nathan Isgur,https://openalex.org/A5090837913,https://en.wikipedia.org/wiki/Nathan_Isgur,True,11,9,chromodynamics collisions experimental high interactions nuclear particle quantum theoretical,True,1
+Q1731619,Karl Hess (scientist),male,Karl Hess,https://openalex.org/A5112742915,https://en.wikipedia.org/wiki/Karl_Hess_(scientist),True,16,5,engineering information medicine society technology,True,1
+Q1399445,Alexander Vilenkin,male,Alexander Vilenkin,https://openalex.org/A5055385497,https://en.wikipedia.org/wiki/Alexander_Vilenkin,True,14,6,black cosmic cosmology particle quantum theoretical,True,1
+Q29533530,Gabor Forgacs,male,Gabor Forgács,https://openalex.org/A5064842757,https://en.wikipedia.org/wiki/Gabor_Forgacs,True,15,3,biology engineering theoretical,True,1
+Q23915227,Svante Wold,male,Svante Wold,https://openalex.org/A5019110925,https://en.wikipedia.org/wiki/Svante_Wold,True,9,4,chemometric organic spectroscopy statistical,True,1
+Q348149,Marc Davis (astronomer),male,Marc Davis,https://openalex.org/A5108728467,https://en.wikipedia.org/wiki/Marc_Davis_(astronomer),True,13,6,astrophysical astrophysics cosmology formation galactic galaxies,True,1
+Q6529449,Les Ebdon,male,Les Ebdon,https://openalex.org/A5054907274,https://en.wikipedia.org/wiki/Les_Ebdon,True,9,1,analytical,True,0
+Q92931,Charles H. Bennett (physicist),male,Charles H. Bennett,https://openalex.org/A5053166798,https://en.wikipedia.org/wiki/Charles_H._Bennett_(physicist),True,11,5,computing cryptography information logic quantum,True,1
+Q907014,Seiji Shinkai,male,Seiji Shinkai,https://openalex.org/A5110768639,https://en.wikipedia.org/wiki/Seiji_Shinkai,True,12,5,assembly molecular self sensors supramolecular,True,1
+Q2965064,Christian Bordé,male,Christian Bordé,https://openalex.org/A5113621994,https://en.wikipedia.org/wiki/Christian_Bordé,True,9,4,atomic laser molecular spectroscopy,True,1
+Q1699541,John Cardy,male,John Cardy,https://openalex.org/A5008391443,https://en.wikipedia.org/wiki/John_Cardy,True,13,8,black body holes many mechanics quantum statistical theoretical,True,1
+Q345526,Ad Lagendijk,male,Ad Lagendijk,https://openalex.org/A5054843956,https://en.wikipedia.org/wiki/Ad_Lagendijk,True,15,3,matter media scattering,True,1
+Q30672908,Dieter Zeppenfeld,male,Dieter Zeppenfeld,https://openalex.org/A5104353173,https://en.wikipedia.org/wiki/Dieter_Zeppenfeld,True,12,4,experimental interactions particle theoretical,True,1
+Q16193237,Charles R. Martin,male,Charles R. Martin,https://openalex.org/A5039175925,https://en.wikipedia.org/wiki/Charles_R._Martin,True,12,1,electrochemical,True,0
+Q4867452,Basilis C. Xanthopoulos,male,Basilis C. Xanthopoulos,https://openalex.org/A5051482440,https://en.wikipedia.org/wiki/Basilis_C._Xanthopoulos,True,11,7,black gravitation gravitational holes relativity theoretical waves,True,1
+Q102045640,Yuriy Reznikov,male,Yuriy Reznikov,https://openalex.org/A5109326148,https://en.wikipedia.org/wiki/Yuriy_Reznikov,True,11,6,crystal liquid material materials nonlinear optical,True,1
+Q113107853,Sandip Tiwari,male,Sandip Tiwari,https://openalex.org/A5104088975,https://en.wikipedia.org/wiki/Sandip_Tiwari,True,12,7,circuit design devices high power quantum semiconductor,True,1
+Q106621,Harald Fuchs,male,Harald Fuchs,https://openalex.org/A5066782879,https://en.wikipedia.org/wiki/Harald_Fuchs,True,12,1,microscopy,True,0
+Q93883746,Costas Kounnas,male,Costas Kounnas,https://openalex.org/A5026768972,https://en.wikipedia.org/wiki/Costas_Kounnas,True,13,4,cosmology particle quantum theoretical,True,1
+Q1517797,Sajeev John,male,Sajeev John,https://openalex.org/A5074594387,https://en.wikipedia.org/wiki/Sajeev_John,True,15,7,crystals light matter photonic quantum scattering strong,True,1
+Q4977597,Bruce H. Lipshutz,male,Bruce H. Lipshutz,https://openalex.org/A5089736452,https://en.wikipedia.org/wiki/Bruce_H._Lipshutz,True,12,6,asymmetric catalysis complex coupling cross synthesis,True,1
+Q687024,Demetrios Christodoulou,male,Demetrios Christodoulou,https://openalex.org/A5078317716,https://en.wikipedia.org/wiki/Demetrios_Christodoulou,True,14,7,black equation gravitational holes mathematical relativity solutions,True,1
+Q12754957,Marko V. Jaric,male,Marko V. Jarić,https://openalex.org/A5082398606,https://en.wikipedia.org/wiki/Marko_V._Jaric,True,10,2,crystals theoretical,True,1
+Q1333246,Alexander Zamolodchikov,male,Alexander B. Zamolodchikov,https://openalex.org/A5103338438,https://en.wikipedia.org/wiki/Alexander_Zamolodchikov,True,13,2,quantum theoretical,True,1
+Q2918440,Juan Pablo Paz,male,Juan Pablo Paz,https://openalex.org/A5018384914,https://en.wikipedia.org/wiki/Juan_Pablo_Paz,True,11,3,computing information quantum,True,1
+Q112498422,Efstratios Manousakis,male,Efstratios Manousakis,https://openalex.org/A5078668309,https://en.wikipedia.org/wiki/Efstratios_Manousakis,True,12,8,condensed helium magnetism matter quantum superconductivity superfluid theoretical,True,1
+Q7901082,Uroš Seljak,male,Uroš Seljak,https://openalex.org/A5087071619,https://en.wikipedia.org/wiki/Uroš_Seljak,True,14,7,astronomy astrophysical cosmic cosmology dark gravitation matter,True,1
+Q1718814,Ulf Leonhardt,male,Ulf Leonhardt,https://openalex.org/A5085040467,https://en.wikipedia.org/wiki/Ulf_Leonhardt,True,11,5,casimir electrodynamics metamaterials optics quantum,True,1
+Q2912378,Raman Sundrum,male,Raman Sundrum,https://openalex.org/A5019170301,https://en.wikipedia.org/wiki/Raman_Sundrum,True,12,2,particle theoretical,True,1
+Q2979093,Clifford V. Johnson,male,Clifford V. Johnson,https://openalex.org/A5077640973,https://en.wikipedia.org/wiki/Clifford_V._Johnson,True,13,6,black gravity holes particle quantum theoretical,True,1
+Q5217317,Daniel Gottesman,male,Daniel Gottesman,https://openalex.org/A5006327208,https://en.wikipedia.org/wiki/Daniel_Gottesman,True,10,2,information quantum,True,1
+Q5719236,Saeid Esmaeilzadeh,male,Saeid Esmaeilzadeh,https://openalex.org/A5057223907,https://en.wikipedia.org/wiki/Saeid_Esmaeilzadeh,True,9,4,crystal glass inorganic materials,True,1
+Q2832498,Aleksandar Popović (politician),male,Aleksandar R. Popović,https://openalex.org/A5080814224,https://en.wikipedia.org/wiki/Aleksandar_Popović_(politician),True,13,2,environment environmental,True,1
+Q6347618,Kaido Reivelt,male,Kaido Reivelt,https://openalex.org/A5036892652,https://en.wikipedia.org/wiki/Kaido_Reivelt,True,16,1,optics,True,0

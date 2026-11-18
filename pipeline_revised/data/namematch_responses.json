@@ -1,0 +1,5356 @@
+{
+"_meta": {
+"source": "api.openalex.org/authors?search=<name>&per-page=10, called from the built-in browser of the Claude desktop app because api.openalex.org was blocked for the analysis machine",
+"started": "2026-11-18T10:43:53Z",
+"finished": "2026-11-18T11:16:59Z",
+"people": 601,
+"errors": 0,
+"kept": "candidates with works_count >= 10, top-topic field in FIELDS_OK and name similarity >= 0.92 (difflib ratio, exact JavaScript port checked against Python); all other candidates cannot pass the acceptance rule and were not saved. 'n' (number of results) was not transferred.",
+"columns": [
+"openalex_id",
+"display_name",
+"cited_by_count",
+"works_count",
+"h_index",
+"field",
+"similarity_js",
+"top5_topics (only for the 50+50 people in the check sample)"
+],
+"sha256_of_candidates_json": "ef73684880d6252a449ab33596122829eb40e236a87c7180c4d0f7d90c0764c1"
+},
+"Q101525903": {
+"n": null,
+"c": [
+[
+"A5073137721",
+"Clara Y. Lim-Sylianco",
+175,
+12,
+5,
+"Biochemistry, Genetics and Molecular Biology",
+0.9231,
+"Carcinogens and Genotoxicity Assessment|Phytochemical Studies and Bioactivities|Advances in Cucurbitaceae Research|Moringa oleifera research and applications|Plant Toxicity and Pharmacological Properties"
+]
+],
+"check_sample": 1
+},
+"Q104708804": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q214757": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q50355775": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6660972": {
+"n": null,
+"c": [
+[
+"A5078351341",
+"Ljubov Rebane",
+20,
+15,
+3,
+"Materials Science",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q4726732": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q94579355": {
+"n": null,
+"c": [
+[
+"A5016985110",
+"Eva Smolková-Keulemansová",
+2710,
+48,
+19,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q114112646": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q19548042": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5702874": {
+"n": null,
+"c": [
+[
+"A5111405860",
+"Helen Muir",
+7178,
+100,
+44,
+"Biochemistry, Genetics and Molecular Biology",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q19803278": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q1935336": {
+"n": null,
+"c": [
+[
+"A5023432370",
+"Milla Baldo-Ceolin",
+3630,
+114,
+30,
+"Physics and Astronomy",
+1,
+""
+],
+[
+"A5024240193",
+"Milla Baldo Ceolin",
+1600,
+38,
+17,
+"Physics and Astronomy",
+0.9444,
+""
+]
+],
+"check_sample": 0
+},
+"Q8969261": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q11431": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q56073496": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6862158": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q109284438": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7212": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4206620": {
+"n": null,
+"c": [
+[
+"A5021866562",
+"Alina Kabata‐Pendias",
+24251,
+179,
+21,
+"Environmental Science",
+0.95,
+""
+]
+],
+"check_sample": 0
+},
+"Q66011478": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6778832": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7494130": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q16089663": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q110280862": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q70546738": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q77729": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q526401": {
+"n": null,
+"c": [
+[
+"A5112200179",
+"Cécile DeWitt-Morette",
+6459,
+113,
+24,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q43396949": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q18699544": {
+"n": null,
+"c": [
+[
+"A5012506885",
+"Karin Aurivillius",
+560,
+35,
+13,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q39040687": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q55996259": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7416": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q75773562": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q16930347": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q60691476": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q38734568": {
+"n": null,
+"c": [
+[
+"A5062141162",
+"Ruth Gall",
+404,
+60,
+10,
+"Earth and Planetary Sciences",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q11015464": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q234888": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q3299010": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q59725169": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q461112": {
+"n": null,
+"c": [
+[
+"A5037544311",
+"Yvonne Choquet–Bruhat",
+8875,
+286,
+46,
+"Physics and Astronomy",
+0.9524,
+""
+]
+],
+"check_sample": 0
+},
+"Q132660543": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q53410186": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q11096978": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q2831706": {
+"n": null,
+"c": [
+[
+"A5111426266",
+"Alberte Pullman",
+10750,
+330,
+55,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q581536": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q106369324": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q59680667": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q105462405": {
+"n": null,
+"c": [
+[
+"A5051460350",
+"Jacqueline Ficini",
+1430,
+133,
+21,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q21523888": {
+"n": null,
+"c": [
+[
+"A5063500511",
+"Gisela Eckhardt",
+1270,
+20,
+12,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q6312455": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q130427599": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6120201": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q16975426": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q15074356": {
+"n": null,
+"c": [
+[
+"A5057864769",
+"Vera Kistiakowsky",
+1690,
+427,
+22,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q2902710": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q132059832": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q108258139": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q1395779": {
+"n": null,
+"c": [
+[
+"A5026312958",
+"Fay Ajzenberg-Selove",
+12297,
+160,
+38,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q23013835": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6647801": {
+"n": null,
+"c": [
+[
+"A5112892775",
+"Ora Kedem",
+1476,
+30,
+17,
+"Environmental Science",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q15146747": {
+"n": null,
+"c": [
+[
+"A5112315941",
+"Rajeshwari Chatterjee",
+465,
+55,
+13,
+"Energy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q4388787": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6714584": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1897095": {
+"n": null,
+"c": [
+[
+"A5108368929",
+"Marie-Anne Bouchiat",
+5328,
+150,
+31,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q11203232": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7943919": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q20642391": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q17274888": {
+"n": null,
+"c": [
+[
+"A5023580634",
+"Mariana Weissmann",
+2052,
+127,
+23,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q7662506": {
+"n": null,
+"c": [
+[
+"A5110139171",
+"Synnøve Liaaen‐Jensen",
+1137,
+59,
+16,
+"Chemistry",
+0.9524,
+""
+]
+],
+"check_sample": 0
+},
+"Q18207929": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q697977": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q57242645": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5817542": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q131323765": {
+"n": null,
+"c": [
+[
+"A5044389969",
+"Marthe Bacal",
+5689,
+267,
+38,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q7555701": {
+"n": null,
+"c": [
+[
+"A5044211431",
+"Solange Magalhães",
+972,
+34,
+15,
+"Chemical Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q36777269": {
+"n": null,
+"c": [
+[
+"A5112444019",
+"Dervilla M. X. Donnelly",
+3246,
+152,
+33,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q16727842": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q29359528": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q16518205": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q14948749": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q3059260": {
+"n": null,
+"c": [
+[
+"A5041927531",
+"Ethel Moustacchi",
+7928,
+237,
+52,
+"Biochemistry, Genetics and Molecular Biology",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q17305719": {
+"n": null,
+"c": [
+[
+"A5081391317",
+"Brigitte Mühlenbruch",
+97,
+25,
+5,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q114099896": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q239131": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q20047091": {
+"n": null,
+"c": [
+[
+"A5103347658",
+"Juliet Lee‐Franzini",
+280,
+99,
+9,
+"Physics and Astronomy",
+0.9474,
+""
+]
+],
+"check_sample": 0
+},
+"Q110990964": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q3240818": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q85682822": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q22277782": {
+"n": null,
+"c": [
+[
+"A5112027308",
+"Maria Fidecaro",
+3907,
+478,
+31,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q16013430": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q2900256": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7301557": {
+"n": null,
+"c": [
+[
+"A5063027503",
+"Reatha Clark King",
+295,
+10,
+5,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q65705915": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q96065666": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6076750": {
+"n": null,
+"c": [
+[
+"A5018634347",
+"Pirkko Eskola",
+916,
+34,
+14,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q16405183": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q33201933": {
+"n": null,
+"c": [
+[
+"A5108685311",
+"Andrée Marquet",
+5167,
+244,
+41,
+"Biochemistry, Genetics and Molecular Biology",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q17305761": {
+"n": null,
+"c": [
+[
+"A5026836829",
+"Virginia Carter",
+4985,
+66,
+22,
+"Earth and Planetary Sciences",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q28409356": {
+"n": null,
+"c": [
+[
+"A5030242492",
+"Ching-Liang Lin",
+108,
+10,
+4,
+"Physics and Astronomy",
+1,
+"GaN-based semiconductor devices and materials|Photonic and Optical Devices|Semiconductor Lasers and Optical Devices|Advanced optical system design|Semiconductor Quantum Structures and Devices"
+]
+],
+"check_sample": 1
+},
+"Q56685696": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q16013743": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7309": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q15839342": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q954392": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q17402465": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q588716": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q105623804": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q28945679": {
+"n": null,
+"c": [
+[
+"A5089130615",
+"Shirley E. Schwartz",
+213,
+23,
+9,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q29573": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q51537525": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q9146600": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q120488988": {
+"n": null,
+"c": [
+[
+"A5002523065",
+"Denise Barthomeuf",
+6495,
+143,
+44,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q107744987": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5363407": {
+"n": null,
+"c": [
+[
+"A5019648095",
+"ELIZABETH A. RAUSCHER",
+519,
+85,
+13,
+"Physics and Astronomy",
+0.9231,
+""
+]
+],
+"check_sample": 0
+},
+"Q100878578": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q2143363": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q12734885": {
+"n": null,
+"c": [
+[
+"A5075157615",
+"Maria Zaharescu",
+3491,
+184,
+31,
+"Energy",
+1,
+""
+],
+[
+"A5008029507",
+"Maria ZAHARESCU",
+1731,
+112,
+24,
+"Materials Science",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q2940097": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q19664122": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q28743912": {
+"n": null,
+"c": [
+[
+"A5078914114",
+"Margaret C. Etter",
+14108,
+142,
+37,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q439102": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q20810631": {
+"n": null,
+"c": [
+[
+"A5044103069",
+"Meera Chandrasekhar",
+3493,
+138,
+28,
+"Physics and Astronomy",
+1,
+"Semiconductor Quantum Structures and Devices|Semiconductor materials and interfaces|Organic Electronics and Photovoltaics|High-pressure geophysics and materials|Advanced Semiconductor Detectors and Materials"
+]
+],
+"check_sample": 1
+},
+"Q18340364": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q7472": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q8022681": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q56176": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q87656203": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5460898": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q955751": {
+"n": null,
+"c": [
+[
+"A5024939002",
+"Liia Hänni",
+16,
+16,
+2,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q237470": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q2978485": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q42343908": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q17388836": {
+"n": null,
+"c": [
+[
+"A5081322051",
+"Marion C. Thurnauer",
+12161,
+163,
+50,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q6022858": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q11764034": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q105248311": {
+"n": null,
+"c": [
+[
+"A5062567713",
+"Maria Dworzecka",
+680,
+50,
+14,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q9357316": {
+"n": null,
+"c": [
+[
+"A5088336925",
+"Teresa Kowalska",
+3882,
+358,
+26,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q3129074": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q94082125": {
+"n": null,
+"c": [
+[
+"A5037416145",
+"Helga E. Rafelski",
+109,
+11,
+5,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q233795": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6205419": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q21274968": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4955014": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q109250137": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q61675290": {
+"n": null,
+"c": [
+[
+"A5110024241",
+"Mary Rakowski DuBois",
+1212,
+15,
+11,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q232639": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q441764": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6375197": {
+"n": null,
+"c": [
+[
+"A5016613962",
+"Katarzyna Chałasińska-Macukow",
+418,
+87,
+12,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q57778849": {
+"n": null,
+"c": [
+[
+"A5032054009",
+"Maha Ashour‐Abdalla",
+8580,
+446,
+51,
+"Earth and Planetary Sciences",
+0.9474,
+""
+]
+],
+"check_sample": 0
+},
+"Q15994650": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7255": {
+"n": null,
+"c": [
+[
+"A5082029301",
+"Darshan Ranganathan",
+2311,
+228,
+26,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q125507010": {
+"n": null,
+"c": [
+[
+"A5025822524",
+"N. Anne Davies",
+87,
+13,
+5,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q65163503": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q455700": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7223": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q109044313": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q22985987": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q98736555": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q22915095": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q1996590": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q56734312": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q59100242": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q55957": {
+"n": null,
+"c": [
+[
+"A5023102369",
+"Judith Herzfeld",
+15517,
+228,
+64,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q274054": {
+"n": null,
+"c": [
+[
+"A5033980157",
+"Catherine Bréchignac",
+5032,
+191,
+40,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q15146755": {
+"n": null,
+"c": [
+[
+"A5011203807",
+"Joyanti Chutia",
+1489,
+100,
+23,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q1523239": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q19909713": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q11715941": {
+"n": null,
+"c": [
+[
+"A5017171513",
+"Jadwiga Ostrowska‐Czubenko",
+1160,
+38,
+14,
+"Materials Science",
+0.9615,
+""
+]
+],
+"check_sample": 0
+},
+"Q7508": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q9095619": {
+"n": null,
+"c": [
+[
+"A5112113202",
+"Zhao Yu-fen",
+167,
+60,
+6,
+"Chemistry",
+0.9524,
+""
+]
+],
+"check_sample": 0
+},
+"Q110281368": {
+"n": null,
+"c": [
+[
+"A5109206758",
+"Barbara Goss Levi",
+1993,
+344,
+23,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q707900": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q18222071": {
+"n": null,
+"c": [
+[
+"A5001209138",
+"Sandra C. Greer",
+2846,
+100,
+29,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q6152194": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5598521": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q21469": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q15848313": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q56167": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q22669820": {
+"n": null,
+"c": [
+[
+"A5146296921",
+"Beate Naroska",
+15712,
+413,
+65,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q6308209": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q27063685": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q70126501": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q19560573": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q108767946": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q9122598": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4944215": {
+"n": null,
+"c": [
+[
+"A5015143810",
+"Helen Dannetun",
+1176,
+52,
+15,
+"Materials Science",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q113517648": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q1763248": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5111199": {
+"n": null,
+"c": [
+[
+"A5079243701",
+"Christine Sutton",
+149,
+52,
+5,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q49285": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q96026047": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q87407785": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q56087": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q28842038": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q3315682": {
+"n": null,
+"c": [
+[
+"A5036828866",
+"Mioara Mugur-Schächter",
+221,
+66,
+8,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q4953737": {
+"n": null,
+"c": [
+[
+"A5035932611",
+"Kersti Hermansson",
+12614,
+340,
+57,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q260054": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q27631845": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q55218579": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7145694": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q55639402": {
+"n": null,
+"c": [
+[
+"A5051539428",
+"Camille Petit",
+16620,
+199,
+55,
+"Chemical Engineering",
+1,
+"Carbon Dioxide Capture Technologies|Metal-Organic Frameworks: Synthesis and Applications|Advanced Photocatalysis Techniques|Adsorption, diffusion, and thermodynamic properties of materials|Boron and Carbon Nanomaterials Research"
+]
+],
+"check_sample": 1
+},
+"Q112337676": {
+"n": null,
+"c": [
+[
+"A5044576119",
+"Barbara S. Larsen",
+3431,
+87,
+29,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q16202637": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q20774351": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q15120304": {
+"n": null,
+"c": [
+[
+"A5109120719",
+"P. Vijayalakshmi",
+2053,
+75,
+15,
+"Chemistry",
+0.9375,
+""
+]
+],
+"check_sample": 0
+},
+"Q235451": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4990332": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q56634166": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q21062325": {
+"n": null,
+"c": [
+[
+"A5073678913",
+"Nancy B. Jackson",
+1170,
+85,
+12,
+"Chemical Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q541252": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6153588": {
+"n": null,
+"c": [
+[
+"A5017537741",
+"Janet S. Fender",
+286,
+50,
+10,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q2965737": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q15146803": {
+"n": null,
+"c": [
+[
+"A5080932420",
+"Chitra Mandal",
+6226,
+205,
+46,
+"Biochemistry, Genetics and Molecular Biology",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q7911326": {
+"n": null,
+"c": [
+[
+"A5083018076",
+"Valerie Randlè",
+10085,
+213,
+47,
+"Materials Science",
+0.9286,
+""
+]
+],
+"check_sample": 0
+},
+"Q54860907": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6152209": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q29512412": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q98447015": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q15994730": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q26251363": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q107863042": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4511370": {
+"n": null,
+"c": [
+[
+"A5039320034",
+"Katherine Freese",
+23077,
+382,
+71,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q42816739": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q2925403": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q25249301": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q23823628": {
+"n": null,
+"c": [
+[
+"A5111621363",
+"Anna Tramontano",
+762,
+86,
+9,
+"Biochemistry, Genetics and Molecular Biology",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q58885827": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6761071": {
+"n": null,
+"c": [
+[
+"A5003920548",
+"Maria C. Tamargo",
+4242,
+249,
+34,
+"Physics and Astronomy",
+1,
+""
+],
+[
+"A5103502285",
+"María C. Tamargo",
+490,
+84,
+11,
+"Physics and Astronomy",
+0.9375,
+""
+]
+],
+"check_sample": 0
+},
+"Q16301976": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q265261": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q469310": {
+"n": null,
+"c": [
+[
+"A5037080635",
+"Anne Lauvergeon",
+67,
+37,
+6,
+"Energy",
+1,
+"Nuclear reactor physics and engineering|Advanced Power Generation Technologies|Global Energy Security and Policy|Nuclear and radioactivity studies|Risk Perception and Management"
+]
+],
+"check_sample": 1
+},
+"Q11208317": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4725875": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5095243": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1379068": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q111046504": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q133597392": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5928882": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q56616565": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q21116173": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q467813": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q13042878": {
+"n": null,
+"c": [
+[
+"A5075855636",
+"Mimoza Hafizi",
+365,
+47,
+5,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q6945612": {
+"n": null,
+"c": [
+[
+"A5109037879",
+"My Hang V. Huynh",
+5184,
+77,
+26,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q7468": {
+"n": null,
+"c": [
+[
+"A5102368351",
+"Catherine Coleman",
+305,
+15,
+5,
+"Biochemistry, Genetics and Molecular Biology",
+1,
+"Muscle Physiology and Disorders|Neurogenetic and Muscular Disorders Research|RNA Research and Splicing|Cancer survivorship and care|Cutaneous Melanoma Detection and Management"
+]
+],
+"check_sample": 1
+},
+"Q63538306": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q22003101": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q237473": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q115628401": {
+"n": null,
+"c": [
+[
+"A5082235163",
+"Antje Töpfer",
+144,
+10,
+4,
+"Chemistry",
+1,
+"Analytical chemistry methods development|Mycotoxins in Agriculture and Food|Spectroscopy and Chemometric Analyses|Organic Food and Agriculture|Pesticide Residue Analysis and Safety"
+]
+],
+"check_sample": 1
+},
+"Q1594425": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q96575176": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q26396095": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q60631413": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q102303691": {
+"n": null,
+"c": [
+[
+"A5078581746",
+"Johanna Erdmenger",
+9947,
+273,
+48,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q51329455": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q240708": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q468099": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q11774172": {
+"n": null,
+"c": [
+[
+"A5022562357",
+"Dana Drábová",
+12,
+10,
+2,
+"Environmental Science",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q56879455": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q15725998": {
+"n": null,
+"c": [
+[
+"A5112633437",
+"Francisca Nneka Okeke",
+731,
+126,
+12,
+"Earth and Planetary Sciences",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q5044747": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q28413483": {
+"n": null,
+"c": [
+[
+"A5119011477",
+"HE Ya-Ling",
+241,
+20,
+4,
+"Energy",
+0.9474,
+""
+]
+],
+"check_sample": 0
+},
+"Q15113558": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q11179080": {
+"n": null,
+"c": [
+[
+"A5049272357",
+"Maya Paczuski",
+7137,
+131,
+39,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q15903893": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1736696": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1729275": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4991137": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q48808767": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q29470887": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q24251462": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q27942058": {
+"n": null,
+"c": [
+[
+"A5082338422",
+"Rabia Salihu Sa’id",
+106,
+25,
+6,
+"Environmental Science",
+0.9444,
+""
+]
+],
+"check_sample": 0
+},
+"Q26211095": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q5125193": {
+"n": null,
+"c": [
+[
+"A5061195967",
+"Claire F. Gmachl",
+17393,
+675,
+69,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q52633624": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q131377757": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q17278381": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q20751684": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q62934483": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q18379475": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q105826893": {
+"n": null,
+"c": [
+[
+"A5107439390",
+"Corinna Kollath",
+10057,
+171,
+47,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q15820840": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q131922997": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q24545694": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q50377218": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q16204268": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q41978308": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q47542233": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q19856984": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q58347481": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q63107740": {
+"n": null,
+"c": [
+[
+"A5063877587",
+"Chen-Yu Liu",
+3169,
+148,
+28,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q106466072": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q27044310": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q26995850": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6553704": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q102246968": {
+"n": null,
+"c": [
+[
+"A5046788561",
+"Anja Schlömerkemper",
+692,
+79,
+16,
+"Mathematics",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q108126": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q29511938": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q4511380": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q20664589": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q16017599": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1610257": {
+"n": null,
+"c": [
+[
+"A5029987215",
+"Herman Chernoff",
+16118,
+148,
+44,
+"Mathematics",
+1,
+"Probability and Statistical Research|Statistical Methods and Applications|Statistical Distribution Estimation and Applications|Statistical Methods and Inference|Statistical Methods in Clinical Trials"
+]
+],
+"check_sample": 1
+},
+"Q904952": {
+"n": null,
+"c": [
+[
+"A5109181979",
+"Harmon Craig",
+23830,
+51,
+28,
+"Earth and Planetary Sciences",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q380807": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q2150778": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q198109": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6712454": {
+"n": null,
+"c": [
+[
+"A5083332103",
+"M.C. Joshi",
+601,
+37,
+13,
+"Physics and Astronomy",
+0.9524,
+""
+]
+],
+"check_sample": 0
+},
+"Q68488": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6240035": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q2798145": {
+"n": null,
+"c": [
+[
+"A5082135633",
+"Richard Geller",
+2772,
+194,
+26,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q1279110": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q61940452": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q2897515": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q88331188": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q16303917": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q356027": {
+"n": null,
+"c": [
+[
+"A5109980770",
+"Octave Levenspiel",
+22215,
+206,
+49,
+"Engineering",
+1,
+"Heat and Mass Transfer in Porous Media|Granular flow and fluidized beds|Fluid Dynamics and Mixing|Heat Transfer and Optimization|Chemical and Environmental Engineering Research"
+]
+],
+"check_sample": 1
+},
+"Q66725460": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q63184945": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q15869294": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q15821514": {
+"n": null,
+"c": [
+[
+"A5114254192",
+"John M. Blatt",
+9493,
+162,
+31,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q3441496": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q366340": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q471965": {
+"n": null,
+"c": [
+[
+"A5019091345",
+"Yuval Ne’eman",
+8276,
+441,
+36,
+"Physics and Astronomy",
+0.9231,
+""
+]
+],
+"check_sample": 0
+},
+"Q2465021": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5909536": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5526911": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q155773": {
+"n": null,
+"c": [
+[
+"A5107839752",
+"Masatoshi Koshiba",
+42253,
+289,
+84,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q6233295": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4707191": {
+"n": null,
+"c": [
+[
+"A5112076387",
+"Alan M. Lovelace",
+327,
+24,
+9,
+"Chemistry",
+1,
+"Fluorine in Organic Chemistry|Synthesis and properties of polymers|Mechanical Behavior of Composites|Advanced Polymer Synthesis and Characterization|Fiber-reinforced polymer composites"
+]
+],
+"check_sample": 1
+},
+"Q16015557": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q262077": {
+"n": null,
+"c": [
+[
+"A5010444060",
+"Nándor Balázs",
+895,
+17,
+10,
+"Energy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q907642": {
+"n": null,
+"c": [
+[
+"A5112821022",
+"John W. Cahn",
+61597,
+306,
+82,
+"Materials Science",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q1037510": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q29519785": {
+"n": null,
+"c": [
+[
+"A5027608920",
+"Russell S. Drago",
+19574,
+508,
+72,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q1585833": {
+"n": null,
+"c": [
+[
+"A5104362272",
+"Harold Grad",
+8910,
+68,
+29,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q47483292": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q32707": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q66543364": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1413407": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q32602": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q17977140": {
+"n": null,
+"c": [
+[
+"A5111849022",
+"Harold S. Johnston",
+10293,
+218,
+51,
+"Earth and Planetary Sciences",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q42422424": {
+"n": null,
+"c": [
+[
+"A5108810452",
+"Ger Challa",
+2460,
+53,
+23,
+"Chemistry",
+1,
+"Advanced Polymer Synthesis and Characterization|Oxidative Organic Chemistry Reactions|Metal-Catalyzed Oxygenation Mechanisms|Polymer Synthesis and Characterization|Polymer crystallization and properties"
+]
+],
+"check_sample": 1
+},
+"Q24633379": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q2400861": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5806004": {
+"n": null,
+"c": [
+[
+"A5068020944",
+"Mats Hillert",
+19892,
+320,
+62,
+"Materials Science",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q16009894": {
+"n": null,
+"c": [
+[
+"A5058388580",
+"Julius Ashkin",
+1771,
+38,
+17,
+"Physics and Astronomy",
+1,
+"Particle physics theoretical and experimental studies|Quantum Chromodynamics and Particle Interactions|Nuclear physics research studies|Particle Detector Development and Performance|High-Energy Particle Collisions Research"
+]
+],
+"check_sample": 1
+},
+"Q18576345": {
+"n": null,
+"c": [
+[
+"A5087418436",
+"Hugh Fish",
+190,
+12,
+3,
+"Environmental Science",
+1,
+"Water Quality and Pollution Assessment|Environmental and Sediment Control|Environmental Toxicology and Ecotoxicology|Pesticide and Herbicide Environmental Studies|Water Quality and Resources Studies"
+]
+],
+"check_sample": 1
+},
+"Q9105910": {
+"n": null,
+"c": [
+[
+"A5112134076",
+"YU Guo-cong",
+328,
+46,
+11,
+"Chemical Engineering",
+0.9524,
+""
+]
+],
+"check_sample": 0
+},
+"Q4224294": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q12004298": {
+"n": null,
+"c": [
+[
+"A5069523609",
+"Sven Furberg",
+1860,
+95,
+24,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q5407381": {
+"n": null,
+"c": [
+[
+"A5044393706",
+"EUGENE JAROSEWICH",
+6813,
+145,
+36,
+"Earth and Planetary Sciences",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q13534367": {
+"n": null,
+"c": [
+[
+"A5044411910",
+"Lorentz Eldjarn",
+3704,
+110,
+36,
+"Biochemistry, Genetics and Molecular Biology",
+1,
+"Metabolism and Genetic Disorders|Sulfur Compounds in Biology|Amino Acid Enzymes and Metabolism|Effects of Radiation Exposure|Redox biology and oxidative stress"
+]
+],
+"check_sample": 1
+},
+"Q16820515": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1252476": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q764747": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q76283506": {
+"n": null,
+"c": [
+[
+"A5067526224",
+"Hiroshi Enatsu",
+116,
+37,
+6,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q10307880": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q20984389": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q3434905": {
+"n": null,
+"c": [
+[
+"A5077276082",
+"Robert Dautray",
+3188,
+190,
+19,
+"Energy",
+1,
+"Renewable energy and sustainable power systems|Global Energy and Sustainability Research|Renewable Energy and Sustainability|Nuclear reactor physics and engineering|Laser-Plasma Interactions and Diagnostics"
+]
+],
+"check_sample": 1
+},
+"Q190770": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q19604929": {
+"n": null,
+"c": [
+[
+"A5009575432",
+"Jan Rydberg",
+3438,
+166,
+26,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q105437756": {
+"n": null,
+"c": [
+[
+"A5073056703",
+"Richard F. Fenske",
+4134,
+103,
+37,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q4775280": {
+"n": null,
+"c": [
+[
+"A5112084165",
+"Peter Mason",
+741,
+37,
+14,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q4648091": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q19753406": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q21165119": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5700185": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q2159263": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q134423642": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q16091107": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7051514": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1602919": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q8052534": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1507638": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q10307827": {
+"n": null,
+"c": [
+[
+"A5113549417",
+"John E. Franz",
+1662,
+27,
+15,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q56872951": {
+"n": null,
+"c": [
+[
+"A5011813082",
+"Richard Bersohn",
+10059,
+219,
+57,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q18708263": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q620394": {
+"n": null,
+"c": [
+[
+"A5006072523",
+"Louis Witten",
+5319,
+118,
+30,
+"Physics and Astronomy",
+1,
+"Relativity and Gravitational Theory|Black Holes and Theoretical Physics|Cosmology and Gravitation Theories|Noncommutative and Quantum Gravity Theories|Advanced Differential Geometry Research"
+]
+],
+"check_sample": 1
+},
+"Q24844370": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q64945223": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q22959161": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q26440376": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q908316": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q102115460": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q7341283": {
+"n": null,
+"c": [
+[
+"A5029892104",
+"Robert A. Plane",
+3024,
+98,
+36,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q6227093": {
+"n": null,
+"c": [
+[
+"A5027535881",
+"John Corbett",
+1122,
+44,
+17,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q1623549": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q6242903": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7616455": {
+"n": null,
+"c": [
+[
+"A5108223331",
+"Stig Stenholm",
+9641,
+442,
+48,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q743546": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q190697": {
+"n": null,
+"c": [
+[
+"A5015209954",
+"Claude N. Cohen-Tannoudji",
+26408,
+824,
+73,
+"Physics and Astronomy",
+0.9362,
+""
+]
+],
+"check_sample": 0
+},
+"Q30672899": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1399160": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q55209317": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q64597452": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4168313": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1528517": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7350672": {
+"n": null,
+"c": [
+[
+"A5064544593",
+"Robert W. Fuller",
+1139,
+23,
+8,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q12730562": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q10268267": {
+"n": null,
+"c": [
+[
+"A5111697061",
+"Donald T. Farley",
+1333,
+41,
+19,
+"Earth and Planetary Sciences",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q604951": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7347949": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q113503130": {
+"n": null,
+"c": [
+[
+"A5103483505",
+"William A. Lester",
+8690,
+234,
+48,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q9085678": {
+"n": null,
+"c": [
+[
+"A5112119666",
+"Zhang Hanxin",
+886,
+34,
+5,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q100941165": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4663791": {
+"n": null,
+"c": [
+[
+"A5075923593",
+"Abbas Shafiee",
+21142,
+901,
+73,
+"Chemistry",
+1,
+""
+],
+[
+"A5006885747",
+"Abbas Shafiee",
+277,
+16,
+9,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q381326": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1360110": {
+"n": null,
+"c": [
+[
+"A5006099295",
+"Ernst Schmützer",
+604,
+164,
+12,
+"Physics and Astronomy",
+0.9333,
+""
+],
+[
+"A5099730964",
+"Ernst Schmutzer",
+5,
+23,
+2,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q5371409": {
+"n": null,
+"c": [
+[
+"A5023427754",
+"Emil Pollert",
+4540,
+164,
+36,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q1702225": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q192708": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q21166624": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q16221578": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q709201": {
+"n": null,
+"c": [
+[
+"A5111489422",
+"Alexander N. Skrinsky",
+9477,
+317,
+53,
+"Physics and Astronomy",
+0.9231,
+""
+]
+],
+"check_sample": 0
+},
+"Q6965361": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q24700963": {
+"n": null,
+"c": [
+[
+"A5012884088",
+"George Blasse",
+44118,
+848,
+88,
+"Materials Science",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q93431955": {
+"n": null,
+"c": [
+[
+"A5026653284",
+"Ira N. Levine",
+1007,
+25,
+11,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q6712608": {
+"n": null,
+"c": [
+[
+"A5069211610",
+"M. George Craford",
+8153,
+117,
+36,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q15990443": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q117824641": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q13371078": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q710842": {
+"n": null,
+"c": [
+[
+"A5107828640",
+"John N. Bahcall",
+47982,
+835,
+106,
+"Physics and Astronomy",
+1,
+"Neutrino Physics Research|Stellar, planetary, and galactic studies|Galaxies: Formation, Evolution, Phenomena|Nuclear physics research studies|Particle physics theoretical and experimental studies"
+]
+],
+"check_sample": 1
+},
+"Q102352668": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q13417506": {
+"n": null,
+"c": [
+[
+"A5014363375",
+"Gerald O. Barney",
+565,
+70,
+9,
+"Environmental Science",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q2841857": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q9025098": {
+"n": null,
+"c": [
+[
+"A5101078260",
+"Qu Qin-yue",
+50,
+23,
+5,
+"Physics and Astronomy",
+0.9474,
+"Astrophysics and Cosmic Phenomena|Astrophysical Phenomena and Observations|Stellar, planetary, and galactic studies|Pulsars and Gravitational Waves Research|Gamma-ray bursts and supernovae"
+]
+],
+"check_sample": 1
+},
+"Q1222628": {
+"n": null,
+"c": [
+[
+"A5029310225",
+"Dieter Pohl",
+20572,
+299,
+58,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q96219": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q157250": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q15906339": {
+"n": null,
+"c": [
+[
+"A5099996930",
+"Eugene Hecht",
+22,
+35,
+1,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q873804": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q136341618": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q130347": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q5236197": {
+"n": null,
+"c": [
+[
+"A5078709176",
+"David L. Fried",
+8433,
+139,
+35,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q21165335": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1175389": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5088085": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q17385900": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q64437967": {
+"n": null,
+"c": [
+[
+"A5056216951",
+"Daniel S. Koltun",
+1710,
+94,
+22,
+"Physics and Astronomy",
+1,
+"Nuclear physics research studies|Quantum Chromodynamics and Particle Interactions|Particle physics theoretical and experimental studies|Neutrino Physics Research|High-Energy Particle Collisions Research"
+]
+],
+"check_sample": 1
+},
+"Q5714953": {
+"n": null,
+"c": [
+[
+"A5108720992",
+"Torleif Ericson",
+3925,
+42,
+20,
+"Physics and Astronomy",
+1,
+"Nuclear physics research studies|Quantum Chromodynamics and Particle Interactions|Particle physics theoretical and experimental studies|Quantum chaos and dynamical systems|High-Energy Particle Collisions Research"
+]
+],
+"check_sample": 1
+},
+"Q6208951": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q11903458": {
+"n": null,
+"c": [
+[
+"A5066992392",
+"Struther Arnott",
+13869,
+180,
+59,
+"Biochemistry, Genetics and Molecular Biology",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q26923414": {
+"n": null,
+"c": [
+[
+"A5023282194",
+"Harold Slusher",
+24,
+14,
+2,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q6504842": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q56885100": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q9059474": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7458252": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q15994740": {
+"n": null,
+"c": [
+[
+"A5113213566",
+"Bernard L. Shaw",
+11239,
+646,
+51,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q11202677": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q18921796": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q120962136": {
+"n": null,
+"c": [
+[
+"A5031434541",
+"Laszlo Adler",
+2989,
+305,
+28,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q2589920": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4234074": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q16095654": {
+"n": null,
+"c": [
+[
+"A5089878286",
+"Alex Hershaft",
+302,
+16,
+5,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q7970439": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q142086363": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7152212": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4492817": {
+"n": null,
+"c": [
+[
+"A5110171853",
+"Ray Freeman",
+32421,
+379,
+83,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q11206489": {
+"n": null,
+"c": [
+[
+"A5110093400",
+"Chadwick A. Tolman",
+11087,
+55,
+25,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q16104510": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q74900092": {
+"n": null,
+"c": [
+[
+"A5056187445",
+"Andrzej Kossakowski",
+10300,
+126,
+33,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q1346619": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q707626": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q140084555": {
+"n": null,
+"c": [
+[
+"A5002727198",
+"Bernard Kirtman",
+15437,
+298,
+59,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q6231773": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4493947": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4224534": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q3740182": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5649894": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q20657455": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q15784132": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4755430": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q7626933": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q2965165": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q1173618": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q691090": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q119401": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q56868017": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q692084": {
+"n": null,
+"c": [
+[
+"A5109075130",
+"Arndt Simon",
+19697,
+1287,
+65,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q893686": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6284746": {
+"n": null,
+"c": [
+[
+"A5081170709",
+"Joseph L. McCauley",
+346,
+33,
+5,
+"Mathematics",
+1,
+"Mathematical Dynamics and Fractals|Theoretical and Computational Physics|Quantum, superfluid, helium dynamics|Chaos control and synchronization|Quantum chaos and dynamical systems"
+]
+],
+"check_sample": 1
+},
+"Q3022708": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1296057": {
+"n": null,
+"c": [
+[
+"A5036519977",
+"Henry Tye",
+57,
+18,
+2,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q3433756": {
+"n": null,
+"c": [
+[
+"A5001030475",
+"Tuomo Suntola",
+3258,
+70,
+22,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q85632": {
+"n": null,
+"c": [
+[
+"A5102726180",
+"Walter Kaminsky",
+19032,
+244,
+70,
+"Chemistry",
+1,
+"Organometallic Complex Synthesis and Catalysis|Advanced Polymer Synthesis and Characterization|biodegradable polymer synthesis and properties|Polymer crystallization and properties|Synthetic Organic Chemistry Methods"
+]
+],
+"check_sample": 1
+},
+"Q944755": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q104839697": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q737322": {
+"n": null,
+"c": [
+[
+"A5108437705",
+"Zsolt Bor",
+2475,
+80,
+21,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q11927766": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1176630": {
+"n": null,
+"c": [
+[
+"A5110909541",
+"David Sherrington",
+19,
+23,
+2,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q16770099": {
+"n": null,
+"c": [
+[
+"A5033737670",
+"Yosuke Kamide",
+2037,
+108,
+26,
+"Earth and Planetary Sciences",
+1,
+""
+],
+[
+"A5131546087",
+"Yousuke Kamide",
+0,
+11,
+0,
+"Earth and Planetary Sciences",
+0.963,
+""
+]
+],
+"check_sample": 0
+},
+"Q27918303": {
+"n": null,
+"c": [
+[
+"A5077624064",
+"Kaushal Kishore",
+1935,
+152,
+24,
+"Materials Science",
+1,
+""
+],
+[
+"A5080658464",
+"Kaushal Kishore",
+928,
+62,
+19,
+"Engineering",
+1,
+""
+],
+[
+"A5066599481",
+"Kaushal Kishore",
+377,
+32,
+10,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q18618827": {
+"n": null,
+"c": [
+[
+"A5026301144",
+"Igor Bogdanoff",
+29,
+19,
+3,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q3770071": {
+"n": null,
+"c": [
+[
+"A5056722303",
+"Giuseppe Basini",
+1915,
+124,
+22,
+"Physics and Astronomy",
+1,
+"Astrophysics and Cosmic Phenomena|Particle Detector Development and Performance|Particle physics theoretical and experimental studies|Dark Matter and Cosmic Phenomena|Neutrino Physics Research"
+]
+],
+"check_sample": 1
+},
+"Q28355183": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q18045305": {
+"n": null,
+"c": [
+[
+"A5055980912",
+"Paul K. Hansma",
+39909,
+362,
+97,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q1700732": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q109588": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q76757": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q16019177": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q2756759": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q15990419": {
+"n": null,
+"c": [
+[
+"A5064306655",
+"Brian P. Flannery",
+100788,
+109,
+39,
+"Physics and Astronomy",
+1,
+"Stellar, planetary, and galactic studies|Mathematical and Computational Methods|Mathematical functions and polynomials|Galaxies: Formation, Evolution, Phenomena|Astrophysics and Star Formation Studies"
+]
+],
+"check_sample": 1
+},
+"Q18224055": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q11548478": {
+"n": null,
+"c": [
+[
+"A5076890372",
+"Koichi Mizushima",
+7836,
+131,
+28,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q381772": {
+"n": null,
+"c": [
+[
+"A5090837913",
+"Nathan Isgur",
+27618,
+223,
+64,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q29528645": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1731619": {
+"n": null,
+"c": [
+[
+"A5112742915",
+"Karl Hess",
+66,
+14,
+5,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q131450318": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1325855": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1399445": {
+"n": null,
+"c": [
+[
+"A5055385497",
+"Alexander Vilenkin",
+39653,
+330,
+93,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q117008": {
+"n": null,
+"c": [
+[
+"A5109160404",
+"Michaël Grätzel",
+503221,
+2820,
+322,
+"Energy",
+0.9333,
+""
+],
+[
+"A5102840218",
+"Michael Grätzel",
+303,
+28,
+9,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q7149151": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7283012": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q29533530": {
+"n": null,
+"c": [
+[
+"A5064842757",
+"Gabor Forgács",
+15839,
+207,
+49,
+"Biochemistry, Genetics and Molecular Biology",
+0.9231,
+""
+]
+],
+"check_sample": 0
+},
+"Q21165269": {
+"n": null,
+"c": [
+[
+"A5071406570",
+"Philip Kocieński",
+6753,
+891,
+43,
+"Chemistry",
+0.9375,
+""
+],
+[
+"A5057093628",
+"Philip Kocienski",
+34,
+299,
+2,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q23915227": {
+"n": null,
+"c": [
+[
+"A5019110925",
+"Svante Wold",
+63860,
+435,
+78,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q353915": {
+"n": null,
+"c": [
+[
+"A5033597379",
+"David I. Friedman",
+7591,
+112,
+51,
+"Biochemistry, Genetics and Molecular Biology",
+0.9412,
+""
+],
+[
+"A5103504068",
+"David B. Friedman",
+5971,
+96,
+42,
+"Chemistry",
+0.9412,
+""
+]
+],
+"check_sample": 0
+},
+"Q348149": {
+"n": null,
+"c": [
+[
+"A5108728467",
+"Marc Davis",
+33830,
+204,
+64,
+"Physics and Astronomy",
+1,
+"Galaxies: Formation, Evolution, Phenomena|Stellar, planetary, and galactic studies|Cosmology and Gravitation Theories|Astrophysics and Star Formation Studies|Astrophysical Phenomena and Observations"
+]
+],
+"check_sample": 1
+},
+"Q2802160": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6529449": {
+"n": null,
+"c": [
+[
+"A5054907274",
+"Les Ebdon",
+7471,
+262,
+49,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q92931": {
+"n": null,
+"c": [
+[
+"A5053166798",
+"Charles H. Bennett",
+85201,
+116,
+57,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q907014": {
+"n": null,
+"c": [
+[
+"A5110768639",
+"Seiji Shinkai",
+62857,
+1259,
+116,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q2965064": {
+"n": null,
+"c": [
+[
+"A5113621994",
+"Christian Bordé",
+1270,
+72,
+19,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q1699541": {
+"n": null,
+"c": [
+[
+"A5008391443",
+"John Cardy",
+46198,
+320,
+93,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q935034": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q345526": {
+"n": null,
+"c": [
+[
+"A5054843956",
+"Ad Lagendijk",
+25889,
+592,
+75,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q7356161": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q8071142": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q11203422": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q3898033": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q5345651": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q16106395": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q66350981": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q18386648": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q21592504": {
+"n": null,
+"c": [
+[
+"A5075285207",
+"John Buckingham",
+1612,
+167,
+13,
+"Chemistry",
+1,
+""
+],
+[
+"A5112023329",
+"John Buckingham",
+46,
+13,
+4,
+"Environmental Science",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q16469080": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q47500100": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q13544767": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q21033680": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q30672908": {
+"n": null,
+"c": [
+[
+"A5104353173",
+"Dieter Zeppenfeld",
+4333,
+82,
+30,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q16193237": {
+"n": null,
+"c": [
+[
+"A5039175925",
+"Charles R. Martin",
+47580,
+412,
+109,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q8462011": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q18601988": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4867452": {
+"n": null,
+"c": [
+[
+"A5051482440",
+"Basilis C. Xanthopoulos",
+1513,
+71,
+21,
+"Physics and Astronomy",
+1,
+"Relativity and Gravitational Theory|Black Holes and Theoretical Physics|Cosmology and Gravitation Theories|Advanced Differential Geometry Research|Pulsars and Gravitational Waves Research"
+]
+],
+"check_sample": 1
+},
+"Q102045640": {
+"n": null,
+"c": [
+[
+"A5109326148",
+"Yuriy Reznikov",
+1761,
+44,
+20,
+"Materials Science",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q136222288": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q113107853": {
+"n": null,
+"c": [
+[
+"A5104088975",
+"Sandip Tiwari",
+4195,
+179,
+18,
+"Engineering",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q3309032": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6264711": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q24856148": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q21062144": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q134622705": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q106621": {
+"n": null,
+"c": [
+[
+"A5066782879",
+"Harald Fuchs",
+30028,
+697,
+87,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q93883746": {
+"n": null,
+"c": [
+[
+"A5026768972",
+"Costas Kounnas",
+14479,
+290,
+64,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q16186961": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6591792": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1717493": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q363250": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1517797": {
+"n": null,
+"c": [
+[
+"A5074594387",
+"Sajeev John",
+30788,
+293,
+69,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q1400218": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q6526355": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4103711": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q4977597": {
+"n": null,
+"c": [
+[
+"A5089736452",
+"Bruce H. Lipshutz",
+35517,
+829,
+104,
+"Chemistry",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q687024": {
+"n": null,
+"c": [
+[
+"A5078317716",
+"Demetrios Christodoulou",
+11702,
+102,
+40,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q76687": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7052578": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q12754957": {
+"n": null,
+"c": [
+[
+"A5082398606",
+"Marko V. Jarić",
+1968,
+95,
+20,
+"Physics and Astronomy",
+0.9286,
+""
+]
+],
+"check_sample": 0
+},
+"Q1333246": {
+"n": null,
+"c": [
+[
+"A5103338438",
+"Alexander B. Zamolodchikov",
+7167,
+40,
+20,
+"Physics and Astronomy",
+0.9388,
+""
+]
+],
+"check_sample": 0
+},
+"Q5217042": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q2918440": {
+"n": null,
+"c": [
+[
+"A5018384914",
+"Juan Pablo Paz",
+10717,
+126,
+48,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q112498422": {
+"n": null,
+"c": [
+[
+"A5078668309",
+"Efstratios Manousakis",
+6634,
+302,
+42,
+"Physics and Astronomy",
+1,
+"Physics of Superconductivity and Magnetism|Theoretical and Computational Physics|Quantum many-body systems|Advanced Condensed Matter Physics|Quantum, superfluid, helium dynamics"
+]
+],
+"check_sample": 1
+},
+"Q22133629": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q27827019": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q10804357": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q29052555": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q265709": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7901082": {
+"n": null,
+"c": [
+[
+"A5087071619",
+"Uroš Seljak",
+79425,
+337,
+115,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q744057": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q17579998": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q23927260": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q1718814": {
+"n": null,
+"c": [
+[
+"A5085040467",
+"Ulf Leonhardt",
+20172,
+290,
+61,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q21166738": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q2912378": {
+"n": null,
+"c": [
+[
+"A5019170301",
+"Raman Sundrum",
+36871,
+165,
+61,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q339577": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q2979093": {
+"n": null,
+"c": [
+[
+"A5077640973",
+"Clifford V. Johnson",
+12249,
+305,
+53,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q953601": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q3784859": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q96943509": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q7398764": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q15431265": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q136785212": {
+"n": null,
+"c": [],
+"check_sample": 1
+},
+"Q27965011": {
+"n": null,
+"c": [
+[
+"A5103090496",
+"Sandeep Verma",
+1387,
+37,
+22,
+"Chemistry",
+1,
+"Photochemistry and Electron Transfer Studies|TiO2 Photocatalysis and Solar Cells|Spectroscopy and Quantum Chemical Studies|Quantum Dots Synthesis And Properties|Semiconductor Quantum Structures and Devices"
+],
+[
+"A5059015318",
+"Sandeep Verma",
+320,
+38,
+6,
+"Biochemistry, Genetics and Molecular Biology",
+1,
+"Gut microbiota and health|Clostridium difficile and Clostridium perfringens research|Gastrointestinal motility and disorders|Genomics and Phylogenetic Studies|Bacterial Identification and Susceptibility Testing"
+]
+],
+"check_sample": 1
+},
+"Q15093113": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5217317": {
+"n": null,
+"c": [
+[
+"A5006327208",
+"Daniel Gottesman",
+28219,
+136,
+51,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q2658111": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q42306403": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q5719236": {
+"n": null,
+"c": [
+[
+"A5057223907",
+"Saeid Esmaeilzadeh",
+1214,
+58,
+21,
+"Materials Science",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q2832498": {
+"n": null,
+"c": [
+[
+"A5080814224",
+"Aleksandar R. Popović",
+3115,
+139,
+31,
+"Environmental Science",
+0.9231,
+""
+]
+],
+"check_sample": 0
+},
+"Q6347618": {
+"n": null,
+"c": [
+[
+"A5036892652",
+"Kaido Reivelt",
+988,
+22,
+11,
+"Physics and Astronomy",
+1,
+""
+]
+],
+"check_sample": 0
+},
+"Q78701": {
+"n": null,
+"c": [],
+"check_sample": 0
+},
+"Q20630513": {
+"n": null,
+"c": [],
+"check_sample": 0
+}
+}

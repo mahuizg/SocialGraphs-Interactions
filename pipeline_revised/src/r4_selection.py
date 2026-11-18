@@ -8,9 +8,10 @@ women are much younger than the matched men. Three checks that need no new data:
      gap were created by the matching, it would be absent among unmatched pages.
   3. inverse-probability weighting: the comparison set reweighted to resemble all pages
      (probability of being matched modelled from gender, decade, field, page length, links, prizes).
-A fourth check needs the OpenAlex API (not reachable from the machine this was run on):
-  4. r4b_openalex_namematch.py name-matches a random sample of unmatched people; if
-     data/impact_namematch.csv exists, the at-equal-citations model is re-run on that sample here.
+A fourth check uses new data:
+  4. r4b_openalex_namematch.py name-matched a random sample of unmatched people (run 18 Nov 2026) and
+     r4c_namematch_check.py checked the accepted matches; the at-equal-citations model is re-run on that sample here,
+     with and without the matches that fail the check.
 """
 import numpy as np
 import pandas as pd
@@ -74,10 +75,23 @@ def main():
     f = DATA / "impact_namematch.csv"
     if f.exists():
         nm = pd.read_csv(f).set_index("qid")
+        st = nm.groupby(["gender", "status"]).size().unstack(fill_value=0)
         s = k.join(nm[["nm_citations"]], how="inner")
         s = s[s.nm_citations > 0].assign(log_cit=lambda x: np.log10(x.nm_citations))
-        out["name_matched_sample"] = {"n": len(s), "women": int(s.female.sum()),
-                                      "negbin_irr": irr(negbin(s, "in_degree", rhs))}
+        res = {"sampled": {g: int(st.loc[g].sum()) for g in st.index},
+               "status": {g: {c: int(v) for c, v in st.loc[g].items()} for g in st.index},
+               "n": len(s), "women": int(s.female.sum()),
+               "raw_mean_in_degree": s.groupby("gender").in_degree.mean().round(3).to_dict(),
+               "median_citations": s.groupby("gender").nm_citations.median().to_dict(),
+               "negbin_irr": irr(negbin(s, "in_degree", rhs))}
+        chk = DATA / "namematch_check_rows.csv"
+        if chk.exists():
+            ok = pd.read_csv(chk).set_index("qid").correct
+            s2 = s[s.index.isin(ok[ok == 1].index)]
+            res["passing_check"] = {"n": len(s2), "women": int(s2.female.sum()), "negbin_irr": irr(negbin(s2, "in_degree", rhs))}
+        # the same model on the ID-matched comparison set, for comparison
+        res["id_matched_same_model"] = irr(negbin(d, "in_degree", rhs))
+        out["name_matched_sample"] = res
     else:
         out["name_matched_sample"] = "not run: needs the OpenAlex API (see r4b_openalex_namematch.py)"
     save_json(out, "selection_check.json")

@@ -111,7 +111,19 @@ Gap in links received **without** a citation control (field, decade, deceased, p
 | matched (comparison set) | 2,926 (606) | 0.56 / 1.51 | 0.51 | [0.44, 0.59] |
 | not matched | 6,747 (858) | 0.42 / 1.08 | 0.50 | [0.43, 0.58] |
 
-The gap among the 6,747 unmatched pages is the same size as among matched pages, so it is not created by the matching. Reweighting the comparison set to resemble all pages gives a rate ratio of 0.48 [0.38, 0.61] (unweighted Poisson 0.58). What this cannot show is whether the gap holds *at equal citations* among unmatched people: that needs `r4b_openalex_namematch.py`, which is written but **not run** (the OpenAlex API was not reachable from the machine used for the revision).
+The gap among the 6,747 unmatched pages is the same size as among matched pages, so it is not created by the matching. Reweighting the comparison set to resemble all pages gives a rate ratio of 0.48 [0.38, 0.61] (unweighted Poisson 0.58).
+
+**At equal citations among unmatched people (name match, 18 Nov 2026).** A random sample of unmatched people, stratified by birth decade (300 women, 301 men), was searched by name in OpenAlex. A profile was accepted only if it was the single candidate with at least 10 works, name similarity of at least 0.92 and a natural-science field. Accepted: 82 women (27%) and 106 men (35%); ambiguous names were dropped (3 and 9).
+
+| Sample | n (women) | NB rate ratio, women vs men | 95% CI |
+|---|---|---|---|
+| ID-matched comparison set (same model) | 2,926 (606) | 0.60 | [0.51, 0.70] |
+| Name-matched unmatched people | 188 (82) | 0.63 | [0.38, 1.05] |
+| ... only matches passing the data check | 149 (65) | 0.73 | [0.44, 1.21] |
+
+Model: log citations, field, birth decade, deceased. The point estimate among unmatched people is close to the ID-matched one, but with 188 people the interval includes 1: the sample is consistent with the main result and too small to confirm it on its own. Women were name-matched less often than men, so the sample is itself selected.
+
+Data check of all accepted matches (`r4c_namematch_check.py`, same rule as the second validation round: surname in the OpenAlex name and at least 2 words from the profile's main topics on the Wikipedia page): 65 of 82 women (69% to 87%) and 84 of 106 men (71% to 86%) pass. Failures are mostly short pages, but common names (e.g. Peter Mason, John Corbett) may be wrong people; they are listed in `data/namematch_check_rows.csv` for a person to open.
 
 ## RQ3. Who links to women's pages
 
@@ -152,11 +164,24 @@ Of the 60 strongest words from the unadjusted comparison, 100% keep their direct
 
 **Explicit gender mentions** ("first woman to", "female physicist"; unmasked text): 15.5% of women's pages, 0.1% of men's; adjusted difference 16.6 points [13.5, 19.7].
 
-**Dropped.** The personal-life word list (it found 51% of personal sentences on women's pages but 33% on men's, so it cannot compare genders), and with it the 4.9% vs 2.8% difference in the top citation quintile, which stays an untested lead.
+**Dropped.** The personal-life word list. It finds only 35% of personal sentences, and not equally: 46% on women's pages and 33% on men's with the second-pass labels (51% and 33% with the first; difference +0.12, 95% interval [-0.18, 0.46]). The interval is wide, so the list cannot be shown to work equally for both genders, and a comparison of personal-word rates between genders would mix the real difference with the list's own. With it goes the 4.9% vs 2.8% difference in the top citation quintile, which stays an untested lead.
+
+## Validation of the labels
+
+Two checks rest on hand labels: 100 OpenAlex matches (is the profile the same person, does it cover the whole career) and 300 sentences (personal, professional). **Both labelling rounds were done with AI assistance; no person has re-labelled them.** The second round (18 Nov 2026) is a stability check, not human validation.
+
+| Label | n | Agreement, round 1 vs 2 | Cohen's kappa | Positive, round 1 / 2 |
+|---|---|---|---|---|
+| Match correct | 100 | 100.0% | not defined (all positive) | 100 / 100 |
+| Profile complete | 100 | 98.0% | 0.66 | 96 / 98 |
+| Sentence is personal | 300 | 99.7% | 0.99 | 105 / 106 |
+| Sentence is professional | 300 | 99.0% | 0.98 | 205 / 206 |
+
+Matches correct: 50 of 50 women (95% interval 93% to 100%) and 50 of 50 men (93% to 100%). In the second round a match counted as correct when the OpenAlex name or an alias contains the Wikipedia surname and words from the profile's main OpenAlex topics appear in the page, a rule checked from the data rather than by opening both pages. With 50 per gender, a difference in match quality smaller than about ten points cannot be ruled out: report the intervals, not "no bias". Kappa is low for *profile complete* despite 98% agreement because almost every profile is positive (kappa is unstable when one class is rare); the second round used a crude rule (at least one work per career year). The sentence labeller in round two had seen the round-one labels, so the sentence kappas are an upper bound.
 
 ## What is still open
 
-1. **Human validation.** `validation/` holds blind sheets for two people (100 matches, 300 sentences). Until they are filled in, the only labels are AI-assisted, and the paper must say so. 50 of 50 correct per gender has a 95% interval of 93% to 100%: it cannot rule out a difference in match quality between women and men.
-2. **Selection at equal citations.** Run `r4b_openalex_namematch.py` with the OpenAlex key.
+1. **Human validation (optional).** Both labelling rounds were AI-assisted and agree closely (see *Validation of the labels*). A person filling in blind sheets (`python r5_validation.py make`, then `score`) would turn this into human validation; until then the paper says the labels were AI-assisted.
+2. **Selection at equal citations.** Done for a sample of 601 unmatched people (see RQ1, Selection); the estimate points the same way but is imprecise. A larger name-matched sample, or a person checking the failed matches, would sharpen it.
 3. **Page age and authorship.** Creation date and creator per page (one revisions API call each) would test the two main alternative explanations: women's pages are newer, and they are written by fewer editors.
 4. **h-index** comes from the largest OpenAlex profile while citations are summed over split profiles; the single-profile row in the robustness table avoids the mismatch and gives the same answer.

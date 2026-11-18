@@ -1,0 +1,299 @@
+{
+  "rule": "correct = OpenAlex display name contains the Wikipedia surname AND >= 2 distinct content words from the top-5 OpenAlex topics appear in the wikitext; checked from data, not by a person",
+  "checked": 188,
+  "by_gender": {
+    "female": {
+      "k": 65,
+      "n": 82,
+      "share": 0.7926829268292683,
+      "wilson95": [
+        0.6928322530568152,
+        0.8663371939246018
+      ]
+    },
+    "male": {
+      "k": 84,
+      "n": 106,
+      "share": 0.7924528301886793,
+      "wilson95": [
+        0.705694607192994,
+        0.858754563248806
+      ]
+    }
+  },
+  "failed": [
+    {
+      "qid": "Q101525903",
+      "title": "Clara Lim-Sylianco",
+      "nm_name": "Clara Y. Lim-Sylianco",
+      "topic_words_found": 1,
+      "found": "plant"
+    },
+    {
+      "qid": "Q5702874",
+      "title": "Helen Muir",
+      "nm_name": "Helen Muir",
+      "topic_words_found": 1,
+      "found": "osteoarthritis"
+    },
+    {
+      "qid": "Q38734568",
+      "title": "Ruth Gall",
+      "nm_name": "Ruth Gall",
+      "topic_words_found": 0,
+      "found": ""
+    },
+    {
+      "qid": "Q21523888",
+      "title": "Gisela Eckhardt",
+      "nm_name": "Gisela Eckhardt",
+      "topic_words_found": 1,
+      "found": "semiconductor"
+    },
+    {
+      "qid": "Q15146747",
+      "title": "Rajeshwari Chatterjee",
+      "nm_name": "Rajeshwari Chatterjee",
+      "topic_words_found": 1,
+      "found": "engine"
+    },
+    {
+      "qid": "Q17274888",
+      "title": "Mariana Weissmann",
+      "nm_name": "Mariana Weissmann",
+      "topic_words_found": 1,
+      "found": "surface"
+    },
+    {
+      "qid": "Q7662506",
+      "title": "Synn\u00f8ve Liaaen Jensen",
+      "nm_name": "Synn\u00f8ve Liaaen\u2010Jensen",
+      "topic_words_found": 0,
+      "found": ""
+    },
+    {
+      "qid": "Q7555701",
+      "title": "Solange Magalh\u00e3es",
+      "nm_name": "Solange Magalh\u00e3es",
+      "topic_words_found": 0,
+      "found": ""
+    },
+    {
+      "qid": "Q17305761",
+      "title": "Virginia Carter",
+      "nm_name": "Virginia Carter",
+      "topic_words_found": 1,
+      "found": "management"
+    },
+    {
+      "qid": "Q28409356",
+      "title": "Ching-Liang Lin",
+      "nm_name": "Ching-Liang Lin",
+      "topic_words_found": 1,
+      "found": "quantum"
+    },
+    {
+      "qid": "Q11715941",
+      "title": "Jadwiga Ostrowska-Czubenko",
+      "nm_name": "Jadwiga Ostrowska\u2010Czubenko",
+      "topic_words_found": 1,
+      "found": "polymer"
+    },
+    {
+      "qid": "Q4944215",
+      "title": "Helen Dannetun",
+      "nm_name": "Helen Dannetun",
+      "topic_words_found": 0,
+      "found": ""
+    },
+    {
+      "qid": "Q4953737",
+      "title": "Kersti Hermansson",
+      "nm_name": "Kersti Hermansson",
+      "topic_words_found": 1,
+      "found": "quantum"
+    },
+    {
+      "qid": "Q15120304",
+      "title": "B. Vijayalakshmi",
+      "nm_name": "P. Vijayalakshmi",
+      "topic_words_found": 0,
+      "found": ""
+    },
+    {
+      "qid": "Q13042878",
+      "title": "Mimoza Hafizi",
+      "nm_name": "Mimoza Hafizi",
+      "topic_words_found": 0,
+      "found": ""
+    },
+    {
+      "qid": "Q7468",
+      "title": "Catherine Coleman",
+      "nm_name": "Catherine Coleman",
+      "topic_words_found": 1,
+      "found": "care"
+    },
+    {
+      "qid": "Q28413483",
+      "title": "He Yaling",
+      "nm_name": "HE Ya-Ling",
+      "topic_words_found": 1,
+      "found": "thermodynamic"
+    },
+    {
+      "qid": "Q262077",
+      "title": "N\u00e1ndor Bal\u00e1zs",
+      "nm_name": "N\u00e1ndor Bal\u00e1zs",
+      "topic_words_found": 0,
+      "found": ""
+    },
+    {
+      "qid": "Q42422424",
+      "title": "Ger Challa",
+      "nm_name": "Ger Challa",
+      "topic_words_found": 1,
+      "found": "polymer"
+    },
+    {
+      "qid": "Q9105910",
+      "title": "Yu Guocong",
+      "nm_name": "YU Guo-cong",
+      "topic_words_found": 1,
+      "found": "transfer"
+    },
+    {
+      "qid": "Q5407381",
+      "title": "Eugene Jarosewich",
+      "nm_name": "EUGENE JAROSEWICH",
+      "topic_words_found": 0,
+      "found": ""
+    },
+    {
+      "qid": "Q13534367",
+      "title": "Lorentz Eldjarn",
+      "nm_name": "Lorentz Eldjarn",
+      "topic_words_found": 1,
+      "found": "metabolism"
+    },
+    {
+      "qid": "Q105437756",
+      "title": "Richard F. Fenske",
+      "nm_name": "Richard F. Fenske",
+      "topic_words_found": 0,
+      "found": ""
+    },
+    {
+      "qid": "Q4775280",
+      "title": "Peter Mason (physicist)",
+      "nm_name": "Peter Mason",
+      "topic_words_found": 0,
+      "found": ""
+    },
+    {
+      "qid": "Q7341283",
+      "title": "Robert A. Plane",
+      "nm_name": "Robert A. Plane",
+      "topic_words_found": 1,
+      "found": "inorganic"
+    },
+    {
+      "qid": "Q6227093",
+      "title": "John Corbett (chemist)",
+      "nm_name": "John Corbett",
+      "topic_words_found": 0,
+      "found": ""
+    },
+    {
+      "qid": "Q7350672",
+      "title": "Robert W. Fuller",
+      "nm_name": "Robert W. Fuller",
+      "topic_words_found": 1,
+      "found": "high"
+    },
+    {
+      "qid": "Q5371409",
+      "title": "Emil Pollert (canoeist)",
+      "nm_name": "Emil Pollert",
+      "topic_words_found": 1,
+      "found": "magnetic"
+    },
+    {
+      "qid": "Q11903458",
+      "title": "Struther Arnott",
+      "nm_name": "Struther Arnott",
+      "topic_words_found": 1,
+      "found": "structure"
+    },
+    {
+      "qid": "Q26923414",
+      "title": "Harold Slusher",
+      "nm_name": "Harold Slusher",
+      "topic_words_found": 1,
+      "found": "evolution"
+    },
+    {
+      "qid": "Q4492817",
+      "title": "Ray Freeman",
+      "nm_name": "Ray Freeman",
+      "topic_words_found": 1,
+      "found": "spectroscopy"
+    },
+    {
+      "qid": "Q140084555",
+      "title": "Bernard Kirtman",
+      "nm_name": "Bernard Kirtman",
+      "topic_words_found": 0,
+      "found": ""
+    },
+    {
+      "qid": "Q737322",
+      "title": "Zsolt Bor",
+      "nm_name": "Zsolt Bor",
+      "topic_words_found": 1,
+      "found": "design"
+    },
+    {
+      "qid": "Q3770071",
+      "title": "Giuseppe Basini",
+      "nm_name": "Giuseppe Basini",
+      "topic_words_found": 0,
+      "found": ""
+    },
+    {
+      "qid": "Q11548478",
+      "title": "Koichi Mizushima (scientist)",
+      "nm_name": "Koichi Mizushima",
+      "topic_words_found": 0,
+      "found": ""
+    },
+    {
+      "qid": "Q6529449",
+      "title": "Les Ebdon",
+      "nm_name": "Les Ebdon",
+      "topic_words_found": 1,
+      "found": "analytical"
+    },
+    {
+      "qid": "Q16193237",
+      "title": "Charles R. Martin",
+      "nm_name": "Charles R. Martin",
+      "topic_words_found": 1,
+      "found": "electrochemical"
+    },
+    {
+      "qid": "Q106621",
+      "title": "Harald Fuchs",
+      "nm_name": "Harald Fuchs",
+      "topic_words_found": 1,
+      "found": "microscopy"
+    },
+    {
+      "qid": "Q6347618",
+      "title": "Kaido Reivelt",
+      "nm_name": "Kaido Reivelt",
+      "topic_words_found": 1,
+      "found": "optics"
+    }
+  ]
+}

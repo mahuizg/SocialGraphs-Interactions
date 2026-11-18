@@ -1,0 +1,602 @@
+qid,status,nm_openalex_id,nm_name,nm_citations,nm_works,nm_h_index,nm_field,nm_similarity,nm_topics,title,gender,birth_year
+Q101525903,accepted,A5073137721,Clara Y. Lim-Sylianco,175.0,12.0,5.0,"Biochemistry, Genetics and Molecular Biology",0.9231,Carcinogens and Genotoxicity Assessment|Phytochemical Studies and Bioactivities|Advances in Cucurbitaceae Research|Moringa oleifera research and applications|Plant Toxicity and Pharmacological Properties,Clara Lim-Sylianco,female,1925
+Q104708804,no candidate,,,,,,,,,Elizabeth Baranger,female,1927
+Q214757,no candidate,,,,,,,,,Gertrude Neumark,female,1927
+Q50355775,no candidate,,,,,,,,,Alice Schwartz,female,1926
+Q6660972,accepted,A5078351341,Ljubov Rebane,20.0,15.0,3.0,Materials Science,1.0,,Ljubov Rebane,female,1929
+Q4726732,no candidate,,,,,,,,,Alina Surmacka Szczesniak,female,1925
+Q94579355,accepted,A5016985110,Eva Smolková-Keulemansová,2710.0,48.0,19.0,Chemistry,1.0,,Eva Smolková-Keulemansová,female,1927
+Q114112646,no candidate,,,,,,,,,Frieda Stahl,female,1922
+Q19548042,no candidate,,,,,,,,,Magda Ericson,female,1929
+Q5702874,accepted,A5111405860,Helen Muir,7178.0,100.0,44.0,"Biochemistry, Genetics and Molecular Biology",1.0,,Helen Muir,female,1920
+Q19803278,no candidate,,,,,,,,,Felisa Núñez Cubero,female,1924
+Q1935336,ambiguous,,,,,,,,,Milla Baldo-Ceolin,female,1924
+Q8969261,no candidate,,,,,,,,,Huang Liang (chemist),female,1920
+Q11431,no candidate,,,,,,,,,Evelyn Berezin,female,1925
+Q56073496,no candidate,,,,,,,,,Brigid Cotter,female,1921
+Q6862158,no candidate,,,,,,,,,Mimi Lee,female,1920
+Q109284438,no candidate,,,,,,,,,Rachel Takserman-Krozer,female,1921
+Q7212,no candidate,,,,,,,,,Pauline Newman,female,1927
+Q4206620,accepted,A5021866562,Alina Kabata‐Pendias,24251.0,179.0,21.0,Environmental Science,0.95,,Alina Kabata-Pendias,female,1929
+Q66011478,no candidate,,,,,,,,,Katheryn Emanuel Lawson,female,1926
+Q6778832,no candidate,,,,,,,,,Mary Amdur,female,1921
+Q7494130,no candidate,,,,,,,,,Shen Tianhui,female,1923
+Q16089663,no candidate,,,,,,,,,Kathryn Hach-Darrow,female,1922
+Q110280862,no candidate,,,,,,,,,Ruth Fitzmayer Schwarz,female,1925
+Q70546738,no candidate,,,,,,,,,Joan Mattingley,female,1926
+Q77729,no candidate,,,,,,,,,Ursula Franklin,female,1921
+Q526401,accepted,A5112200179,Cécile DeWitt-Morette,6459.0,113.0,24.0,Physics and Astronomy,1.0,,Cécile DeWitt-Morette,female,1922
+Q43396949,no candidate,,,,,,,,,Adriana Fiorentini,female,1926
+Q18699544,accepted,A5012506885,Karin Aurivillius,560.0,35.0,13.0,Chemistry,1.0,,Karin Aurivillius,female,1920
+Q39040687,no candidate,,,,,,,,,Li Lienfung,female,1923
+Q55996259,no candidate,,,,,,,,,Julia Weertman,female,1926
+Q7416,no candidate,,,,,,,,,Margaret Thatcher,female,1925
+Q75773562,no candidate,,,,,,,,,Marguerite S. Chang,female,1923
+Q16930347,no candidate,,,,,,,,,Sonja Ashauer,female,1923
+Q60691476,no candidate,,,,,,,,,Lieselotte Feikes,female,1923
+Q38734568,accepted,A5062141162,Ruth Gall,404.0,60.0,10.0,Earth and Planetary Sciences,1.0,,Ruth Gall,female,1923
+Q11015464,no candidate,,,,,,,,,Aleksandra Kornhauser Frazer,female,1926
+Q234888,no candidate,,,,,,,,,Vera Rubin,female,1928
+Q3299010,no candidate,,,,,,,,,Alenush Terian,female,1920
+Q59725169,no candidate,,,,,,,,,Lucy Oldfield,female,1925
+Q461112,accepted,A5037544311,Yvonne Choquet–Bruhat,8875.0,286.0,46.0,Physics and Astronomy,0.9524,,Yvonne Choquet-Bruhat,female,1923
+Q132660543,no candidate,,,,,,,,,Patimah Moerwani,female,1927
+Q53410186,no candidate,,,,,,,,,Esther A. Hopkins,female,1926
+Q11096978,no candidate,,,,,,,,,Li Lin (physicist),female,1923
+Q2831706,accepted,A5111426266,Alberte Pullman,10750.0,330.0,55.0,Physics and Astronomy,1.0,,Alberte Pullman,female,1920
+Q581536,no candidate,,,,,,,,,Hélène Langevin-Joliot,female,1927
+Q106369324,no candidate,,,,,,,,,Vera Furness,female,1921
+Q59680667,no candidate,,,,,,,,,Rubye Prigmore Torrey,female,1926
+Q105462405,accepted,A5051460350,Jacqueline Ficini,1430.0,133.0,21.0,Chemistry,1.0,,Jacqueline Ficini,female,1923
+Q21523888,accepted,A5063500511,Gisela Eckhardt,1270.0,20.0,12.0,Engineering,1.0,,Gisela Eckhardt,female,1926
+Q6312455,no candidate,,,,,,,,,June Zimmerman Fullmer,female,1920
+Q130427599,no candidate,,,,,,,,,Vilmosné Gryllus,female,1924
+Q6120201,no candidate,,,,,,,,,Jacqueline S. Moore,female,1926
+Q16975426,no candidate,,,,,,,,,Evans Hayward,female,1922
+Q15074356,accepted,A5057864769,Vera Kistiakowsky,1690.0,427.0,22.0,Physics and Astronomy,1.0,,Vera Kistiakowsky,female,1928
+Q2902710,no candidate,,,,,,,,,Yvonne Brill,female,1924
+Q132059832,no candidate,,,,,,,,,Odile Croissant,female,1923
+Q108258139,no candidate,,,,,,,,,Marilyn Levy,female,1922
+Q1395779,accepted,A5026312958,Fay Ajzenberg-Selove,12297.0,160.0,38.0,Physics and Astronomy,1.0,,Fay Ajzenberg-Selove,female,1926
+Q23013835,no candidate,,,,,,,,,Marie Mercury Roth,female,1926
+Q6647801,accepted,A5112892775,Ora Kedem,1476.0,30.0,17.0,Environmental Science,1.0,,Ora Kedem,female,1924
+Q15146747,accepted,A5112315941,Rajeshwari Chatterjee,465.0,55.0,13.0,Energy,1.0,,Rajeshwari Chatterjee,female,1922
+Q4388787,no candidate,,,,,,,,,Ksenia Aleksandrovna Razumova,female,1931
+Q6714584,no candidate,,,,,,,,,Elmira Süleymanova,female,1937
+Q1897095,accepted,A5108368929,Marie-Anne Bouchiat,5328.0,150.0,31.0,Physics and Astronomy,1.0,,Marie-Anne Bouchiat,female,1934
+Q11203232,no candidate,,,,,,,,,Joan Berkowitz,female,1931
+Q7943919,no candidate,,,,,,,,,Vyda Ragulskienė,female,1931
+Q20642391,no candidate,,,,,,,,,Susan McKenna-Lawlor,female,1935
+Q17274888,accepted,A5023580634,Mariana Weissmann,2052.0,127.0,23.0,Physics and Astronomy,1.0,,Mariana Weissmann,female,1933
+Q7662506,accepted,A5110139171,Synnøve Liaaen‐Jensen,1137.0,59.0,16.0,Chemistry,0.9524,,Synnøve Liaaen Jensen,female,1932
+Q18207929,no candidate,,,,,,,,,Hessy Levinsons Taft,female,1934
+Q697977,no candidate,,,,,,,,,Ann C. Noble,female,1935
+Q57242645,no candidate,,,,,,,,,Joan C. Sherman,female,1932
+Q5817542,no candidate,,,,,,,,,Edda Adler,female,1937
+Q131323765,accepted,A5044389969,Marthe Bacal,5689.0,267.0,38.0,Engineering,1.0,,Marthe Bacal,female,1931
+Q7555701,accepted,A5044211431,Solange Magalhães,972.0,34.0,15.0,Chemical Engineering,1.0,,Solange Magalhães,female,1939
+Q36777269,accepted,A5112444019,Dervilla M. X. Donnelly,3246.0,152.0,33.0,Chemistry,1.0,,Dervilla M. X. Donnelly,female,1930
+Q16727842,no candidate,,,,,,,,,Caroline Herzenberg,female,1932
+Q29359528,no candidate,,,,,,,,,Natalia Alexandrovna Smirnova,female,1933
+Q16518205,no candidate,,,,,,,,,Tatiana Korcová,female,1937
+Q14948749,no candidate,,,,,,,,,Gloria Long Anderson,female,1938
+Q3059260,accepted,A5041927531,Ethel Moustacchi,7928.0,237.0,52.0,"Biochemistry, Genetics and Molecular Biology",1.0,,Ethel Moustacchi,female,1933
+Q17305719,accepted,A5081391317,Brigitte Mühlenbruch,97.0,25.0,5.0,Chemistry,1.0,,Brigitte Mühlenbruch,female,1936
+Q114099896,no candidate,,,,,,,,,Beatriz Susana Cougnet de Roederer,female,1930
+Q239131,no candidate,,,,,,,,,Evelyn Fox Keller,female,1936
+Q20047091,accepted,A5103347658,Juliet Lee‐Franzini,280.0,99.0,9.0,Physics and Astronomy,0.9474,,Juliet Lee-Franzini,female,1933
+Q110990964,no candidate,,,,,,,,,Teresa Wang,female,1937
+Q3240818,no candidate,,,,,,,,,Liliane Ackermann,female,1938
+Q85682822,no candidate,,,,,,,,,Gloria Lubkin,female,1933
+Q22277782,accepted,A5112027308,Maria Fidecaro,3907.0,478.0,31.0,Physics and Astronomy,1.0,,Maria Fidecaro,female,1930
+Q16013430,no candidate,,,,,,,,,Bettye Washington Greene,female,1935
+Q2900256,no candidate,,,,,,,,,Betty R. Moore,female,1934
+Q7301557,accepted,A5063027503,Reatha Clark King,295.0,10.0,5.0,Chemistry,1.0,,Reatha Clark King,female,1938
+Q65705915,no candidate,,,,,,,,,Artemis Simopoulos,female,1933
+Q96065666,no candidate,,,,,,,,,Theodora Greene,female,1931
+Q6076750,accepted,A5018634347,Pirkko Eskola,916.0,34.0,14.0,Physics and Astronomy,1.0,,Pirkko Eskola,female,1938
+Q16405183,no candidate,,,,,,,,,Vilve Maremäe,female,1938
+Q33201933,accepted,A5108685311,Andrée Marquet,5167.0,244.0,41.0,"Biochemistry, Genetics and Molecular Biology",1.0,,Andrée Marquet,female,1934
+Q17305761,accepted,A5026836829,Virginia Carter,4985.0,66.0,22.0,Earth and Planetary Sciences,1.0,,Virginia Carter,female,1936
+Q28409356,accepted,A5030242492,Ching-Liang Lin,108.0,10.0,4.0,Physics and Astronomy,1.0,GaN-based semiconductor devices and materials|Photonic and Optical Devices|Semiconductor Lasers and Optical Devices|Advanced optical system design|Semiconductor Quantum Structures and Devices,Ching-Liang Lin,female,1931
+Q56685696,no candidate,,,,,,,,,Janet Rideout,female,1939
+Q16013743,no candidate,,,,,,,,,Antoinette Rodez Schiesler,female,1934
+Q7309,no candidate,,,,,,,,,Maxine Singer,female,1931
+Q15839342,no candidate,,,,,,,,,Jane Blankenship,female,1936
+Q954392,no candidate,,,,,,,,,Monique Sené,female,1936
+Q17402465,no candidate,,,,,,,,,Margaret Benston,female,1937
+Q588716,no candidate,,,,,,,,,Glaci Zancan,female,1935
+Q105623804,no candidate,,,,,,,,,Gilda H. Loew,female,1930
+Q28945679,accepted,A5089130615,Shirley E. Schwartz,213.0,23.0,9.0,Engineering,1.0,,Shirley E. Schwartz,female,1935
+Q29573,no candidate,,,,,,,,,Mildred Dresselhaus,female,1930
+Q51537525,no candidate,,,,,,,,,Ann Mercy Hunt,female,1938
+Q9146600,no candidate,,,,,,,,,Aleksandra Leliwa-Kopystyńska,female,1937
+Q120488988,accepted,A5002523065,Denise Barthomeuf,6495.0,143.0,44.0,Chemistry,1.0,,Denise Barthomeuf,female,1934
+Q107744987,no candidate,,,,,,,,,Sylvia Rumball,female,1939
+Q5363407,accepted,A5019648095,ELIZABETH A. RAUSCHER,519.0,85.0,13.0,Physics and Astronomy,0.9231,,Elizabeth Rauscher,female,1937
+Q100878578,no candidate,,,,,,,,,Jill Bonner,female,1937
+Q2143363,no candidate,,,,,,,,,Renate Chasman,female,1932
+Q12734885,ambiguous,,,,,,,,,Maria Zaharescu,female,1938
+Q2940097,no candidate,,,,,,,,,Carolyn Merchant,female,1936
+Q19664122,no candidate,,,,,,,,,Hattie Carwell,female,1948
+Q28743912,accepted,A5078914114,Margaret C. Etter,14108.0,142.0,37.0,Chemistry,1.0,,Margaret C. Etter,female,1943
+Q439102,no candidate,,,,,,,,,Ene Ergma,female,1944
+Q20810631,accepted,A5044103069,Meera Chandrasekhar,3493.0,138.0,28.0,Physics and Astronomy,1.0,Semiconductor Quantum Structures and Devices|Semiconductor materials and interfaces|Organic Electronics and Photovoltaics|High-pressure geophysics and materials|Advanced Semiconductor Detectors and Materials,Meera Chandrasekhar,female,1949
+Q18340364,no candidate,,,,,,,,,Aba Andam,female,1948
+Q7472,no candidate,,,,,,,,,Joanna Fowler,female,1942
+Q8022681,no candidate,,,,,,,,,Wilma Subra,female,1943
+Q56176,no candidate,,,,,,,,,Martha Greenblatt,female,1941
+Q87656203,no candidate,,,,,,,,,Ruth Margaret Williams,female,1945
+Q5460898,no candidate,,,,,,,,,Florentina Mosora,female,1940
+Q955751,accepted,A5024939002,Liia Hänni,16.0,16.0,2.0,Physics and Astronomy,1.0,,Liia Hänni,female,1946
+Q237470,no candidate,,,,,,,,,Anna Lee Fisher,female,1949
+Q2978485,no candidate,,,,,,,,,Claudine Hermann,female,1945
+Q42343908,no candidate,,,,,,,,,Adriana Calvo,female,1947
+Q17388836,accepted,A5081322051,Marion C. Thurnauer,12161.0,163.0,50.0,Chemistry,1.0,,Marion C. Thurnauer,female,1945
+Q6022858,no candidate,,,,,,,,,Montserrat Soliva Torrentó,female,1943
+Q11764034,no candidate,,,,,,,,,Ludwika Wujec,female,1941
+Q105248311,accepted,A5062567713,Maria Dworzecka,680.0,50.0,14.0,Physics and Astronomy,1.0,,Maria Dworzecka,female,1941
+Q9357316,accepted,A5088336925,Teresa Kowalska,3882.0,358.0,26.0,Chemistry,1.0,,Teresa Kowalska,female,1946
+Q3129074,no candidate,,,,,,,,,Heather Couper,female,1949
+Q94082125,accepted,A5037416145,Helga E. Rafelski,109.0,11.0,5.0,Physics and Astronomy,1.0,,Helga E. Rafelski,female,1949
+Q233795,no candidate,,,,,,,,,Shannon Lucid,female,1943
+Q6205419,no candidate,,,,,,,,,Joan S. Valentine,female,1945
+Q21274968,no candidate,,,,,,,,,Angela Camacho,female,1947
+Q4955014,no candidate,,,,,,,,,Inger-Lena Hultberg,female,1942
+Q109250137,no candidate,,,,,,,,,Marta Irene Litter,female,1946
+Q61675290,accepted,A5110024241,Mary Rakowski DuBois,1212.0,15.0,11.0,Chemistry,1.0,,Mary Rakowski DuBois,female,1946
+Q232639,no candidate,,,,,,,,,Margaret Beckett,female,1943
+Q441764,no candidate,,,,,,,,,Karen Silkwood,female,1946
+Q6375197,accepted,A5016613962,Katarzyna Chałasińska-Macukow,418.0,87.0,12.0,Physics and Astronomy,1.0,,Katarzyna Chałasińska-Macukow,female,1946
+Q57778849,accepted,A5032054009,Maha Ashour‐Abdalla,8580.0,446.0,51.0,Earth and Planetary Sciences,0.9474,,Maha Ashour-Abdalla,female,1943
+Q15994650,no candidate,,,,,,,,,Elizabeth Morris (glaciologist),female,1946
+Q7255,accepted,A5082029301,Darshan Ranganathan,2311.0,228.0,26.0,Chemistry,1.0,,Darshan Ranganathan,female,1941
+Q125507010,accepted,A5025822524,N. Anne Davies,87.0,13.0,5.0,Physics and Astronomy,1.0,,N. Anne Davies,female,1943
+Q65163503,no candidate,,,,,,,,,Isabel Mijares,female,1942
+Q455700,no candidate,,,,,,,,,Liu Yandong,female,1945
+Q7223,no candidate,,,,,,,,,Wilma Olson,female,1945
+Q109044313,no candidate,,,,,,,,,Priscilla Laws,female,1940
+Q22985987,no candidate,,,,,,,,,Ruthild Winkler,female,1941
+Q98736555,no candidate,,,,,,,,,Zakya Kafafi,female,1948
+Q22915095,no candidate,,,,,,,,,Gillian Gehring,female,1941
+Q1996590,no candidate,,,,,,,,,Nora Owen,female,1945
+Q56734312,no candidate,,,,,,,,,Patricia Elena Aceves Pastrana,female,1948
+Q59100242,no candidate,,,,,,,,,Azra Quraishi,female,1945
+Q55957,accepted,A5023102369,Judith Herzfeld,15517.0,228.0,64.0,Chemistry,1.0,,Judith Herzfeld,female,1948
+Q274054,accepted,A5033980157,Catherine Bréchignac,5032.0,191.0,40.0,Physics and Astronomy,1.0,,Catherine Bréchignac,female,1946
+Q15146755,accepted,A5011203807,Joyanti Chutia,1489.0,100.0,23.0,Engineering,1.0,,Joyanti Chutia,female,1948
+Q1523239,no candidate,,,,,,,,,Giedrė Purvaneckienė,female,1945
+Q19909713,no candidate,,,,,,,,,Galina Ivanovna Tsukanova,female,1942
+Q11715941,accepted,A5017171513,Jadwiga Ostrowska‐Czubenko,1160.0,38.0,14.0,Materials Science,0.9615,,Jadwiga Ostrowska-Czubenko,female,1949
+Q7508,no candidate,,,,,,,,,Ann Kiessling,female,1942
+Q9095619,accepted,A5112113202,Zhao Yu-fen,167.0,60.0,6.0,Chemistry,0.9524,,Zhao Yufen,female,1948
+Q110281368,accepted,A5109206758,Barbara Goss Levi,1993.0,344.0,23.0,Physics and Astronomy,1.0,,Barbara Goss Levi,female,1943
+Q707900,no candidate,,,,,,,,,Chen Zhili,female,1942
+Q18222071,accepted,A5001209138,Sandra C. Greer,2846.0,100.0,29.0,Chemistry,1.0,,Sandra C. Greer,female,1945
+Q6152194,no candidate,,,,,,,,,Jane English,female,1942
+Q5598521,no candidate,,,,,,,,,Grażyna Ciemniak,female,1948
+Q21469,no candidate,,,,,,,,,Valerie Thomas,female,1943
+Q15848313,no candidate,,,,,,,,,Jennie Patrick,female,1949
+Q56167,no candidate,,,,,,,,,Suzanne Fortier,female,1949
+Q22669820,accepted,A5146296921,Beate Naroska,15712.0,413.0,65.0,Physics and Astronomy,1.0,,Beate Naroska,female,1943
+Q6308209,no candidate,,,,,,,,,Julie Gould,female,1949
+Q27063685,no candidate,,,,,,,,,Jehane Ragai,female,1944
+Q70126501,no candidate,,,,,,,,,Nancy Crooker,female,1944
+Q19560573,no candidate,,,,,,,,,Cornelia Gillyard,female,1941
+Q108767946,no candidate,,,,,,,,,Laurie McNeil,female,1956
+Q9122598,no candidate,,,,,,,,,Nancy T. Chang,female,1950
+Q4944215,accepted,A5015143810,Helen Dannetun,1176.0,52.0,15.0,Materials Science,1.0,,Helen Dannetun,female,1957
+Q113517648,no candidate,,,,,,,,,Cynthia Kieras Phillips,female,1954
+Q1763248,no candidate,,,,,,,,,Persis Drell,female,1955
+Q5111199,accepted,A5079243701,Christine Sutton,149.0,52.0,5.0,Physics and Astronomy,1.0,,Christine Sutton,female,1950
+Q49285,no candidate,,,,,,,,,Sally Ride,female,1951
+Q96026047,no candidate,,,,,,,,,Ella Jones,female,1954
+Q87407785,no candidate,,,,,,,,,Kay Kinoshita,female,1954
+Q56087,no candidate,,,,,,,,,Jane Margaret O'Brien,female,1953
+Q28842038,no candidate,,,,,,,,,Cheryl L. Shavers,female,1953
+Q3315682,accepted,A5036828866,Mioara Mugur-Schächter,221.0,66.0,8.0,Physics and Astronomy,1.0,,Mioara Mugur-Schächter,female,1953
+Q4953737,accepted,A5035932611,Kersti Hermansson,12614.0,340.0,57.0,Physics and Astronomy,1.0,,Kersti Hermansson,female,1951
+Q260054,no candidate,,,,,,,,,Catherine Asaro,female,1955
+Q27631845,no candidate,,,,,,,,,Olga Dontsova,female,1959
+Q55218579,no candidate,,,,,,,,,Manar Fayyad,female,1950
+Q7145694,no candidate,,,,,,,,,Patricia Lewis (physicist),female,1957
+Q55639402,accepted,A5051539428,Camille Petit,16620.0,199.0,55.0,Chemical Engineering,1.0,"Carbon Dioxide Capture Technologies|Metal-Organic Frameworks: Synthesis and Applications|Advanced Photocatalysis Techniques|Adsorption, diffusion, and thermodynamic properties of materials|Boron and Carbon Nanomaterials Research",Camille Petit,female,1950
+Q112337676,accepted,A5044576119,Barbara S. Larsen,3431.0,87.0,29.0,Chemistry,1.0,,Barbara S. Larsen,female,1956
+Q16202637,no candidate,,,,,,,,,Carmen Magallón,female,1951
+Q20774351,no candidate,,,,,,,,,Folashade Sherifat Jaji,female,1957
+Q15120304,accepted,A5109120719,P. Vijayalakshmi,2053.0,75.0,15.0,Chemistry,0.9375,,B. Vijayalakshmi,female,1952
+Q235451,no candidate,,,,,,,,,Vandana Shiva,female,1952
+Q4990332,no candidate,,,,,,,,,Margaret Wertheim,female,1958
+Q56634166,no candidate,,,,,,,,,Cherlynlavaughn Bradley,female,1951
+Q21062325,accepted,A5073678913,Nancy B. Jackson,1170.0,85.0,12.0,Chemical Engineering,1.0,,Nancy B. Jackson,female,1956
+Q541252,no candidate,,,,,,,,,Birutė Vėsaitė,female,1951
+Q6153588,accepted,A5017537741,Janet S. Fender,286.0,50.0,10.0,Physics and Astronomy,1.0,,Janet S. Fender,female,1950
+Q2965737,no candidate,,,,,,,,,Christiane Ayotte,female,1956
+Q15146803,accepted,A5080932420,Chitra Mandal,6226.0,205.0,46.0,"Biochemistry, Genetics and Molecular Biology",1.0,,Chitra Mandal,female,1951
+Q7911326,accepted,A5083018076,Valerie Randlè,10085.0,213.0,47.0,Materials Science,0.9286,,Valerie Randle,female,1953
+Q54860907,no candidate,,,,,,,,,Joanna Bauldreay,female,1950
+Q6152209,no candidate,,,,,,,,,Jane Fancher,female,1952
+Q29512412,no candidate,,,,,,,,,Malika Haimeur,female,1956
+Q98447015,no candidate,,,,,,,,,Galina Khitrova,female,1959
+Q15994730,no candidate,,,,,,,,,Frances Saunders (scientist),female,1954
+Q26251363,no candidate,,,,,,,,,Leticia Corral,female,1959
+Q107863042,no candidate,,,,,,,,,Patricia Reiff,female,1950
+Q4511370,accepted,A5039320034,Katherine Freese,23077.0,382.0,71.0,Physics and Astronomy,1.0,,Katherine Freese,female,1957
+Q42816739,no candidate,,,,,,,,,Martha Lux-Steiner,female,1950
+Q2925403,no candidate,,,,,,,,,Brigitte Boisselier,female,1956
+Q25249301,no candidate,,,,,,,,,Judith Young (astronomer),female,1952
+Q23823628,accepted,A5111621363,Anna Tramontano,762.0,86.0,9.0,"Biochemistry, Genetics and Molecular Biology",1.0,,Anna Tramontano,female,1957
+Q58885827,no candidate,,,,,,,,,Margaret Faul,female,1950
+Q6761071,ambiguous,,,,,,,,,Maria C. Tamargo,female,1951
+Q16301976,no candidate,,,,,,,,,María Cristina Pineda Suazo,female,1954
+Q265261,no candidate,,,,,,,,,Janet L. Kavandi,female,1959
+Q469310,accepted,A5037080635,Anne Lauvergeon,67.0,37.0,6.0,Energy,1.0,Nuclear reactor physics and engineering|Advanced Power Generation Technologies|Global Energy Security and Policy|Nuclear and radioactivity studies|Risk Perception and Management,Anne Lauvergeon,female,1959
+Q11208317,no candidate,,,,,,,,,Lesley Yellowlees,female,1953
+Q4725875,no candidate,,,,,,,,,Alice Gast,female,1958
+Q5095243,no candidate,,,,,,,,,Chiara Nappi,female,1951
+Q1379068,no candidate,,,,,,,,,Eva-Maria Neher,female,1950
+Q111046504,no candidate,,,,,,,,,Leanne Pitchford,female,1950
+Q133597392,no candidate,,,,,,,,,Mara Prentiss,female,1959
+Q5928882,no candidate,,,,,,,,,Jeannette Benavides,female,1952
+Q56616565,no candidate,,,,,,,,,Nancy Craig,female,1952
+Q21116173,no candidate,,,,,,,,,Vanina Ruhlmann-Kleider,female,1961
+Q467813,no candidate,,,,,,,,,Tina Birbili,female,1969
+Q13042878,accepted,A5075855636,Mimoza Hafizi,365.0,47.0,5.0,Physics and Astronomy,1.0,,Mimoza Hafizi,female,1962
+Q6945612,accepted,A5109037879,My Hang V. Huynh,5184.0,77.0,26.0,Chemistry,1.0,,My Hang V. Huynh,female,1962
+Q7468,accepted,A5102368351,Catherine Coleman,305.0,15.0,5.0,"Biochemistry, Genetics and Molecular Biology",1.0,Muscle Physiology and Disorders|Neurogenetic and Muscular Disorders Research|RNA Research and Splicing|Cancer survivorship and care|Cutaneous Melanoma Detection and Management,Catherine Coleman,female,1960
+Q63538306,no candidate,,,,,,,,,Anush Begloian,female,1969
+Q22003101,no candidate,,,,,,,,,Heather C. Allen,female,1960
+Q237473,no candidate,,,,,,,,,Helen Sharman,female,1963
+Q115628401,accepted,A5082235163,Antje Töpfer,144.0,10.0,4.0,Chemistry,1.0,Analytical chemistry methods development|Mycotoxins in Agriculture and Food|Spectroscopy and Chemometric Analyses|Organic Food and Agriculture|Pesticide Residue Analysis and Safety,Antje Töpfer,female,1968
+Q1594425,no candidate,,,,,,,,,Heidrun Jänchen,female,1965
+Q96575176,no candidate,,,,,,,,,Vivienne Thom,female,1960
+Q26396095,no candidate,,,,,,,,,Erna Frins,female,1960
+Q60631413,no candidate,,,,,,,,,Maia Miminoshvili,female,1960
+Q102303691,accepted,A5078581746,Johanna Erdmenger,9947.0,273.0,48.0,Physics and Astronomy,1.0,,Johanna Erdmenger,female,1969
+Q51329455,no candidate,,,,,,,,,Teresa Anderson,female,1962
+Q240708,no candidate,,,,,,,,,Shannon Walker,female,1965
+Q468099,no candidate,,,,,,,,,Aslı Erdoğan,female,1967
+Q11774172,accepted,A5022562357,Dana Drábová,12.0,10.0,2.0,Environmental Science,1.0,,Dana Drábová,female,1961
+Q56879455,no candidate,,,,,,,,,Angela Olinto,female,1961
+Q15725998,accepted,A5112633437,Francisca Nneka Okeke,731.0,126.0,12.0,Earth and Planetary Sciences,1.0,,Francisca Nneka Okeke,female,1968
+Q5044747,no candidate,,,,,,,,,Carolin Crawford,female,1963
+Q28413483,accepted,A5119011477,HE Ya-Ling,241.0,20.0,4.0,Energy,0.9474,,He Yaling,female,1963
+Q15113558,no candidate,,,,,,,,,Kristin Vinje,female,1963
+Q11179080,accepted,A5049272357,Maya Paczuski,7137.0,131.0,39.0,Physics and Astronomy,1.0,,Maya Paczuski,female,1963
+Q15903893,no candidate,,,,,,,,,Dan D. Yang,female,1965
+Q1736696,no candidate,,,,,,,,,Katrin Becker,female,1967
+Q1729275,no candidate,,,,,,,,,Karen Rose,female,1964
+Q4991137,no candidate,,,,,,,,,Christina Lampe-Önnerud,female,1967
+Q48808767,no candidate,,,,,,,,,Susan Blessing,female,1961
+Q29470887,no candidate,,,,,,,,,Suzanne Staggs,female,1965
+Q24251462,no candidate,,,,,,,,,Sandra Cauffman,female,1962
+Q27942058,accepted,A5082338422,Rabia Salihu Sa’id,106.0,25.0,6.0,Environmental Science,0.9444,,Rabia Salihu Sa'id,female,1963
+Q26211095,no candidate,,,,,,,,,Margaret Sheil,female,1961
+Q5125193,accepted,A5061195967,Claire F. Gmachl,17393.0,675.0,69.0,Chemistry,1.0,,Claire F. Gmachl,female,1967
+Q52633624,no candidate,,,,,,,,,Janet Conrad,female,1963
+Q131377757,no candidate,,,,,,,,,Stephanie Chasteen,female,1972
+Q17278381,no candidate,,,,,,,,,Heather Willauer,female,1974
+Q20751684,no candidate,,,,,,,,,Houda-Imane Faraoun,female,1979
+Q62934483,no candidate,,,,,,,,,Aline Miller,female,1975
+Q18379475,no candidate,,,,,,,,,Buyisiwe Sondezi,female,1976
+Q105826893,accepted,A5107439390,Corinna Kollath,10057.0,171.0,47.0,Physics and Astronomy,1.0,,Corinna Kollath,female,1976
+Q15820840,no candidate,,,,,,,,,Jasmin Staiblin,female,1970
+Q131922997,no candidate,,,,,,,,,Kathleen Amm,female,1971
+Q24545694,no candidate,,,,,,,,,Susanne Viefers,female,1970
+Q50377218,no candidate,,,,,,,,,Magdalena González Sánchez,female,1974
+Q16204268,no candidate,,,,,,,,,Paula Lapido,female,1975
+Q41978308,no candidate,,,,,,,,,Inés González Árraga,female,1973
+Q47542233,no candidate,,,,,,,,,Anne McNeil,female,1977
+Q19856984,no candidate,,,,,,,,,Jimena Canales,female,1973
+Q58347481,no candidate,,,,,,,,,Aziza Baccouche,female,1976
+Q63107740,accepted,A5063877587,Chen-Yu Liu,3169.0,148.0,28.0,Physics and Astronomy,1.0,,Chen-Yu Liu,female,1975
+Q106466072,no candidate,,,,,,,,,Rebecca Thompson,female,1979
+Q27044310,no candidate,,,,,,,,,Maja Lasić,female,1979
+Q26995850,no candidate,,,,,,,,,Iolanda Cintura,female,1972
+Q6553704,no candidate,,,,,,,,,Ling Meng,female,1972
+Q102246968,accepted,A5046788561,Anja Schlömerkemper,692.0,79.0,16.0,Mathematics,1.0,,Anja Schlömerkemper,female,1973
+Q108126,no candidate,,,,,,,,,Katherina Reiche,female,1973
+Q29511938,no candidate,,,,,,,,,Béatrice Chatel,female,1970
+Q4511380,no candidate,,,,,,,,,Anita Goel,female,1973
+Q20664589,no candidate,,,,,,,,,Nashwa Eassa,female,1980
+Q16017599,no candidate,,,,,,,,,Theodore Litovitz,male,1923
+Q1610257,accepted,A5029987215,Herman Chernoff,16118.0,148.0,44.0,Mathematics,1.0,Probability and Statistical Research|Statistical Methods and Applications|Statistical Distribution Estimation and Applications|Statistical Methods and Inference|Statistical Methods in Clinical Trials,Herman Chernoff,male,1923
+Q904952,accepted,A5109181979,Harmon Craig,23830.0,51.0,28.0,Earth and Planetary Sciences,1.0,,Harmon Craig,male,1926
+Q380807,no candidate,,,,,,,,,Michel Ter-Pogossian,male,1925
+Q2150778,no candidate,,,,,,,,,Richard Q. Twiss,male,1920
+Q198109,no candidate,,,,,,,,,Zhu Guangya,male,1924
+Q6712454,accepted,A5083332103,M.C. Joshi,601.0,37.0,13.0,Physics and Astronomy,0.9524,,M. C. Joshi,male,1928
+Q68488,no candidate,,,,,,,,,Günther Landgraf,male,1928
+Q6240035,no candidate,,,,,,,,,John Howard (optical physicist),male,1921
+Q2798145,accepted,A5082135633,Richard Geller,2772.0,194.0,26.0,Physics and Astronomy,1.0,,Richard Geller (physicist),male,1927
+Q1279110,no candidate,,,,,,,,,Silvan S. Schweber,male,1928
+Q61940452,no candidate,,,,,,,,,Gene Dresselhaus,male,1929
+Q2897515,no candidate,,,,,,,,,Bernard Belleau,male,1925
+Q88331188,no candidate,,,,,,,,,Cyril Roy Hart,male,1923
+Q16303917,no candidate,,,,,,,,,Yuri Yappa,male,1927
+Q356027,accepted,A5109980770,Octave Levenspiel,22215.0,206.0,49.0,Engineering,1.0,Heat and Mass Transfer in Porous Media|Granular flow and fluidized beds|Fluid Dynamics and Mixing|Heat Transfer and Optimization|Chemical and Environmental Engineering Research,Octave Levenspiel,male,1926
+Q66725460,no candidate,,,,,,,,,Robert Johnson Omohundro,male,1921
+Q63184945,no candidate,,,,,,,,,Edgar Lipworth,male,1923
+Q15869294,no candidate,,,,,,,,,Benjamin Abeles,male,1925
+Q15821514,accepted,A5114254192,John M. Blatt,9493.0,162.0,31.0,Physics and Astronomy,1.0,,John M. Blatt,male,1921
+Q3441496,no candidate,,,,,,,,,Ronald N. Bracewell,male,1921
+Q366340,no candidate,,,,,,,,,Fred Singer,male,1924
+Q471965,accepted,A5019091345,Yuval Ne’eman,8276.0,441.0,36.0,Physics and Astronomy,0.9231,,Yuval Ne'eman,male,1925
+Q2465021,no candidate,,,,,,,,,Adolfo Kaminsky,male,1925
+Q5909536,no candidate,,,,,,,,,Hosur Narasimhaiah,male,1921
+Q5526911,no candidate,,,,,,,,,Gastón Pons Muzzo,male,1922
+Q155773,accepted,A5107839752,Masatoshi Koshiba,42253.0,289.0,84.0,Physics and Astronomy,1.0,,Masatoshi Koshiba,male,1926
+Q6233295,no candidate,,,,,,,,,John Fitzallen Moore,male,1928
+Q4707191,accepted,A5112076387,Alan M. Lovelace,327.0,24.0,9.0,Chemistry,1.0,Fluorine in Organic Chemistry|Synthesis and properties of polymers|Mechanical Behavior of Composites|Advanced Polymer Synthesis and Characterization|Fiber-reinforced polymer composites,Alan M. Lovelace,male,1929
+Q16015557,no candidate,,,,,,,,,Arthur Lee Loeb,male,1923
+Q262077,accepted,A5010444060,Nándor Balázs,895.0,17.0,10.0,Energy,1.0,,Nándor Balázs,male,1926
+Q907642,accepted,A5112821022,John W. Cahn,61597.0,306.0,82.0,Materials Science,1.0,,John W. Cahn,male,1928
+Q1037510,no candidate,,,,,,,,,Carl D. Keith,male,1920
+Q29519785,accepted,A5027608920,Russell S. Drago,19574.0,508.0,72.0,Chemistry,1.0,,Russell S. Drago,male,1928
+Q1585833,accepted,A5104362272,Harold Grad,8910.0,68.0,29.0,Physics and Astronomy,1.0,,Harold Grad,male,1923
+Q47483292,no candidate,,,,,,,,,Robert William Pringle,male,1920
+Q32707,no candidate,,,,,,,,,George Gray (chemist),male,1926
+Q66543364,no candidate,,,,,,,,,Wolf Vielstich,male,1923
+Q1413407,no candidate,,,,,,,,,Alfred Bader,male,1924
+Q32602,no candidate,,,,,,,,,Alec Gambling,male,1926
+Q17977140,accepted,A5111849022,Harold S. Johnston,10293.0,218.0,51.0,Earth and Planetary Sciences,1.0,,Harold S. Johnston,male,1920
+Q42422424,accepted,A5108810452,Ger Challa,2460.0,53.0,23.0,Chemistry,1.0,Advanced Polymer Synthesis and Characterization|Oxidative Organic Chemistry Reactions|Metal-Catalyzed Oxygenation Mechanisms|Polymer Synthesis and Characterization|Polymer crystallization and properties,Ger Challa,male,1928
+Q24633379,no candidate,,,,,,,,,James Edward Young,male,1926
+Q2400861,no candidate,,,,,,,,,Gerard van Leijenhorst,male,1928
+Q5806004,accepted,A5068020944,Mats Hillert,19892.0,320.0,62.0,Materials Science,1.0,,Mats Hillert,male,1924
+Q16009894,accepted,A5058388580,Julius Ashkin,1771.0,38.0,17.0,Physics and Astronomy,1.0,Particle physics theoretical and experimental studies|Quantum Chromodynamics and Particle Interactions|Nuclear physics research studies|Particle Detector Development and Performance|High-Energy Particle Collisions Research,Julius Ashkin,male,1920
+Q18576345,accepted,A5087418436,Hugh Fish,190.0,12.0,3.0,Environmental Science,1.0,Water Quality and Pollution Assessment|Environmental and Sediment Control|Environmental Toxicology and Ecotoxicology|Pesticide and Herbicide Environmental Studies|Water Quality and Resources Studies,Hugh Fish,male,1923
+Q9105910,accepted,A5112134076,YU Guo-cong,328.0,46.0,11.0,Chemical Engineering,0.9524,,Yu Guocong,male,1922
+Q4224294,no candidate,,,,,,,,,David Klyshko,male,1929
+Q12004298,accepted,A5069523609,Sven Furberg,1860.0,95.0,24.0,Chemistry,1.0,,Sven Furberg,male,1920
+Q5407381,accepted,A5044393706,EUGENE JAROSEWICH,6813.0,145.0,36.0,Earth and Planetary Sciences,1.0,,Eugene Jarosewich,male,1926
+Q13534367,accepted,A5044411910,Lorentz Eldjarn,3704.0,110.0,36.0,"Biochemistry, Genetics and Molecular Biology",1.0,Metabolism and Genetic Disorders|Sulfur Compounds in Biology|Amino Acid Enzymes and Metabolism|Effects of Radiation Exposure|Redox biology and oxidative stress,Lorentz Eldjarn,male,1920
+Q16820515,no candidate,,,,,,,,,Roger Batzel,male,1921
+Q1252476,no candidate,,,,,,,,,Douglas Jones (mathematician),male,1922
+Q764747,no candidate,,,,,,,,,Derek J. de Solla Price,male,1922
+Q76283506,accepted,A5067526224,Hiroshi Enatsu,116.0,37.0,6.0,Physics and Astronomy,1.0,,Hiroshi Enatsu,male,1922
+Q10307880,no candidate,,,,,,,,,John Prausnitz,male,1928
+Q20984389,no candidate,,,,,,,,,Stewart Adams (chemist),male,1923
+Q3434905,accepted,A5077276082,Robert Dautray,3188.0,190.0,19.0,Energy,1.0,Renewable energy and sustainable power systems|Global Energy and Sustainability Research|Renewable Energy and Sustainability|Nuclear reactor physics and engineering|Laser-Plasma Interactions and Diagnostics,Robert Dautray,male,1928
+Q190770,no candidate,,,,,,,,,Philip W. Anderson,male,1923
+Q19604929,accepted,A5009575432,Jan Rydberg,3438.0,166.0,26.0,Chemistry,1.0,,Jan Rydberg,male,1923
+Q105437756,accepted,A5073056703,Richard F. Fenske,4134.0,103.0,37.0,Chemistry,1.0,,Richard F. Fenske,male,1929
+Q4775280,accepted,A5112084165,Peter Mason,741.0,37.0,14.0,Engineering,1.0,,Peter Mason (physicist),male,1922
+Q4648091,no candidate,,,,,,,,,A. Langley Searles,male,1920
+Q19753406,no candidate,,,,,,,,,Marin Roussev Mehandjiev,male,1927
+Q21165119,no candidate,,,,,,,,,Ian Ward (physicist),male,1928
+Q5700185,no candidate,,,,,,,,,Heinrich Karsten Wagenfeld,male,1928
+Q2159263,no candidate,,,,,,,,,Robert Zwanzig,male,1928
+Q134423642,no candidate,,,,,,,,,Ted Doan,male,1922
+Q16091107,no candidate,,,,,,,,,Asoke Nath Mitra,male,1929
+Q7051514,no candidate,,,,,,,,,Norman Larsen,male,1923
+Q1602919,no candidate,,,,,,,,,Hellmut Fritzsche,male,1927
+Q8052534,no candidate,,,,,,,,,Yeram S. Touloukian,male,1920
+Q1507638,no candidate,,,,,,,,,George Irving Bell,male,1926
+Q10307827,accepted,A5113549417,John E. Franz,1662.0,27.0,15.0,Chemistry,1.0,,John E. Franz,male,1929
+Q56872951,accepted,A5011813082,Richard Bersohn,10059.0,219.0,57.0,Chemistry,1.0,,Richard Bersohn,male,1925
+Q18708263,no candidate,,,,,,,,,Dennis F. Evans,male,1928
+Q620394,accepted,A5006072523,Louis Witten,5319.0,118.0,30.0,Physics and Astronomy,1.0,Relativity and Gravitational Theory|Black Holes and Theoretical Physics|Cosmology and Gravitation Theories|Noncommutative and Quantum Gravity Theories|Advanced Differential Geometry Research,Louis Witten,male,1921
+Q24844370,no candidate,,,,,,,,,David Hall (chemist),male,1928
+Q64945223,no candidate,,,,,,,,,Arthur Campbell (chemist),male,1925
+Q22959161,no candidate,,,,,,,,,Burt Freeman,male,1925
+Q26440376,no candidate,,,,,,,,,John H. Eicher,male,1921
+Q908316,no candidate,,,,,,,,,Norman Allinger,male,1928
+Q102115460,no candidate,,,,,,,,,Paul Frederick Zweifel,male,1929
+Q7341283,accepted,A5029892104,Robert A. Plane,3024.0,98.0,36.0,Chemistry,1.0,,Robert A. Plane,male,1927
+Q6227093,accepted,A5027535881,John Corbett,1122.0,44.0,17.0,Engineering,1.0,,John Corbett (chemist),male,1926
+Q1623549,no candidate,,,,,,,,,Paul M. Naghdi,male,1924
+Q6242903,no candidate,,,,,,,,,John Kenneth Stille,male,1930
+Q7616455,accepted,A5108223331,Stig Stenholm,9641.0,442.0,48.0,Physics and Astronomy,1.0,,Stig Stenholm,male,1939
+Q743546,no candidate,,,,,,,,,Jack Baldwin (chemist),male,1938
+Q190697,accepted,A5015209954,Claude N. Cohen-Tannoudji,26408.0,824.0,73.0,Physics and Astronomy,0.9362,,Claude Cohen-Tannoudji,male,1933
+Q30672899,no candidate,,,,,,,,,Curtis Bruce Tarter,male,1939
+Q1399160,no candidate,,,,,,,,,William Luther Pierce,male,1933
+Q55209317,no candidate,,,,,,,,,David Harpp,male,1937
+Q64597452,no candidate,,,,,,,,,Jack M. Williams,male,1938
+Q4168313,no candidate,,,,,,,,,Edward Drobyshevski,male,1936
+Q1528517,no candidate,,,,,,,,,Herwig Kogelnik,male,1932
+Q7350672,accepted,A5064544593,Robert W. Fuller,1139.0,23.0,8.0,Engineering,1.0,,Robert W. Fuller,male,1936
+Q12730562,no candidate,,,,,,,,,Ioan-Iovitz Popescu,male,1932
+Q10268267,accepted,A5111697061,Donald T. Farley,1333.0,41.0,19.0,Earth and Planetary Sciences,1.0,,Donald T. Farley,male,1933
+Q604951,no candidate,,,,,,,,,Dimitris Perrikos,male,1935
+Q7347949,no candidate,,,,,,,,,Robert Nalbandyan,male,1937
+Q113503130,accepted,A5103483505,William A. Lester,8690.0,234.0,48.0,Physics and Astronomy,1.0,,William A. Lester,male,1937
+Q9085678,accepted,A5112119666,Zhang Hanxin,886.0,34.0,5.0,Engineering,1.0,,Zhang Hanxin,male,1936
+Q100941165,no candidate,,,,,,,,,Kamalendu Deb Krori,male,1930
+Q4663791,ambiguous,,,,,,,,,Abbas Shafiee,male,1937
+Q381326,no candidate,,,,,,,,,Jogesh Pati,male,1937
+Q1360110,ambiguous,,,,,,,,,Ernst Schmutzer,male,1930
+Q5371409,accepted,A5023427754,Emil Pollert,4540.0,164.0,36.0,Physics and Astronomy,1.0,,Emil Pollert (canoeist),male,1938
+Q1702225,no candidate,,,,,,,,,John Woollam (physicist),male,1939
+Q192708,no candidate,,,,,,,,,Robert Coleman Richardson,male,1937
+Q21166624,no candidate,,,,,,,,,Malcolm Stevens,male,1938
+Q16221578,no candidate,,,,,,,,,Donald Levy,male,1939
+Q709201,accepted,A5111489422,Alexander N. Skrinsky,9477.0,317.0,53.0,Physics and Astronomy,0.9231,,Alexander Skrinsky,male,1936
+Q6965361,no candidate,,,,,,,,,Naranjan Dhalla,male,1936
+Q24700963,accepted,A5012884088,George Blasse,44118.0,848.0,88.0,Materials Science,1.0,,George Blasse,male,1934
+Q93431955,accepted,A5026653284,Ira N. Levine,1007.0,25.0,11.0,Chemistry,1.0,,Ira N. Levine,male,1937
+Q6712608,accepted,A5069211610,M. George Craford,8153.0,117.0,36.0,Physics and Astronomy,1.0,,M. George Craford,male,1938
+Q15990443,no candidate,,,,,,,,,Bryan Molloy,male,1939
+Q117824641,no candidate,,,,,,,,,Harold Ralph Lewis,male,1931
+Q13371078,no candidate,,,,,,,,,Henrik Ager-Hanssen,male,1930
+Q710842,accepted,A5107828640,John N. Bahcall,47982.0,835.0,106.0,Physics and Astronomy,1.0,"Neutrino Physics Research|Stellar, planetary, and galactic studies|Galaxies: Formation, Evolution, Phenomena|Nuclear physics research studies|Particle physics theoretical and experimental studies",John N. Bahcall,male,1934
+Q102352668,no candidate,,,,,,,,,Michael Cohen (physicist),male,1930
+Q13417506,accepted,A5014363375,Gerald O. Barney,565.0,70.0,9.0,Environmental Science,1.0,,Gerald O. Barney,male,1937
+Q2841857,no candidate,,,,,,,,,John G. Cramer,male,1934
+Q9025098,accepted,A5101078260,Qu Qin-yue,50.0,23.0,5.0,Physics and Astronomy,0.9474,"Astrophysics and Cosmic Phenomena|Astrophysical Phenomena and Observations|Stellar, planetary, and galactic studies|Pulsars and Gravitational Waves Research|Gamma-ray bursts and supernovae",Qu Qinyue,male,1935
+Q1222628,accepted,A5029310225,Dieter Pohl,20572.0,299.0,58.0,Physics and Astronomy,1.0,,Dieter Pohl (physicist),male,1938
+Q96219,no candidate,,,,,,,,,Werner Gitt,male,1937
+Q157250,no candidate,,,,,,,,,Harry Kroto,male,1939
+Q15906339,accepted,A5099996930,Eugene Hecht,22.0,35.0,1.0,Physics and Astronomy,1.0,,Eugene Hecht,male,1931
+Q873804,no candidate,,,,,,,,,Imre Gyula Csizmadia,male,1932
+Q136341618,no candidate,,,,,,,,,Max Brennan (physicist),male,1932
+Q130347,no candidate,,,,,,,,,Stanley Miller,male,1930
+Q5236197,accepted,A5078709176,David L. Fried,8433.0,139.0,35.0,Physics and Astronomy,1.0,,David L. Fried,male,1933
+Q21165335,no candidate,,,,,,,,,James Kay Graham Watson,male,1936
+Q1175389,no candidate,,,,,,,,,David M. Knight,male,1936
+Q5088085,no candidate,,,,,,,,,Chaudhry Abdul Majeed,male,1937
+Q17385900,no candidate,,,,,,,,,Evelyn Ebsworth,male,1933
+Q64437967,accepted,A5056216951,Daniel S. Koltun,1710.0,94.0,22.0,Physics and Astronomy,1.0,Nuclear physics research studies|Quantum Chromodynamics and Particle Interactions|Particle physics theoretical and experimental studies|Neutrino Physics Research|High-Energy Particle Collisions Research,Daniel S. Koltun,male,1933
+Q5714953,accepted,A5108720992,Torleif Ericson,3925.0,42.0,20.0,Physics and Astronomy,1.0,Nuclear physics research studies|Quantum Chromodynamics and Particle Interactions|Particle physics theoretical and experimental studies|Quantum chaos and dynamical systems|High-Energy Particle Collisions Research,Torleif Ericson,male,1930
+Q6208951,no candidate,,,,,,,,,Anders Thor,male,1935
+Q11903458,accepted,A5066992392,Struther Arnott,13869.0,180.0,59.0,"Biochemistry, Genetics and Molecular Biology",1.0,,Struther Arnott,male,1934
+Q26923414,accepted,A5023282194,Harold Slusher,24.0,14.0,2.0,Engineering,1.0,,Harold Slusher,male,1934
+Q6504842,no candidate,,,,,,,,,Lawrie Dring,male,1931
+Q56885100,no candidate,,,,,,,,,Michael Hillas,male,1932
+Q9059474,no candidate,,,,,,,,,Wang Xun (physicist),male,1934
+Q7458252,no candidate,,,,,,,,,Seweryn Chomet,male,1930
+Q15994740,accepted,A5113213566,Bernard L. Shaw,11239.0,646.0,51.0,Chemistry,1.0,,Bernard L. Shaw,male,1930
+Q11202677,no candidate,,,,,,,,,Nils Mustelin,male,1931
+Q18921796,no candidate,,,,,,,,,Mike Gore (physicist),male,1934
+Q120962136,accepted,A5031434541,Laszlo Adler,2989.0,305.0,28.0,Engineering,1.0,,Laszlo Adler,male,1932
+Q2589920,no candidate,,,,,,,,,Wolfgang Helfrich,male,1932
+Q4234074,no candidate,,,,,,,,,Vitaly Korotich,male,1936
+Q16095654,accepted,A5089878286,Alex Hershaft,302.0,16.0,5.0,Chemistry,1.0,,Alex Hershaft,male,1934
+Q7970439,no candidate,,,,,,,,,Warren Roper (chemist),male,1938
+Q142086363,no candidate,,,,,,,,,Roberto Cervellati,male,1933
+Q7152212,no candidate,,,,,,,,,Paul Marmet,male,1932
+Q4492817,accepted,A5110171853,Ray Freeman,32421.0,379.0,83.0,Chemistry,1.0,,Ray Freeman,male,1932
+Q11206489,accepted,A5110093400,Chadwick A. Tolman,11087.0,55.0,25.0,Chemistry,1.0,,Chadwick A. Tolman,male,1938
+Q16104510,no candidate,,,,,,,,,Quirino Navarro,male,1936
+Q74900092,accepted,A5056187445,Andrzej Kossakowski,10300.0,126.0,33.0,Physics and Astronomy,1.0,,Andrzej Kossakowski,male,1938
+Q1346619,no candidate,,,,,,,,,Jerry R. Ehman,male,1939
+Q707626,no candidate,,,,,,,,,Don Lind,male,1930
+Q140084555,accepted,A5002727198,Bernard Kirtman,15437.0,298.0,59.0,Physics and Astronomy,1.0,,Bernard Kirtman,male,1935
+Q6231773,no candidate,,,,,,,,,John Enderby,male,1931
+Q4493947,no candidate,,,,,,,,,Vladimir Fyodorov (actor),male,1939
+Q4224534,no candidate,,,,,,,,,Jānis Kļaviņš,male,1933
+Q3740182,no candidate,,,,,,,,,Vladimir Hütt,male,1936
+Q5649894,no candidate,,,,,,,,,Hans Christian von Baeyer,male,1938
+Q20657455,no candidate,,,,,,,,,Norman Tolk,male,1938
+Q15784132,no candidate,,,,,,,,,Arthur S. Obermayer,male,1931
+Q4755430,no candidate,,,,,,,,,Andreas Gerasimos Michalitsianos,male,1947
+Q7626933,no candidate,,,,,,,,,Stuart Palmer (physicist),male,1943
+Q2965165,no candidate,,,,,,,,,Christian Colliex,male,1944
+Q1173618,no candidate,,,,,,,,,David Malament,male,1947
+Q691090,no candidate,,,,,,,,,Štefan Jánoš,male,1943
+Q119401,no candidate,,,,,,,,,Gerhard Vollmer,male,1943
+Q56868017,no candidate,,,,,,,,,George Smith (chemist),male,1941
+Q692084,accepted,A5109075130,Arndt Simon,19697.0,1287.0,65.0,Chemistry,1.0,,Arndt Simon,male,1940
+Q893686,no candidate,,,,,,,,,Boris Zeldovich,male,1944
+Q6284746,accepted,A5081170709,Joseph L. McCauley,346.0,33.0,5.0,Mathematics,1.0,"Mathematical Dynamics and Fractals|Theoretical and Computational Physics|Quantum, superfluid, helium dynamics|Chaos control and synchronization|Quantum chaos and dynamical systems",Joseph L. McCauley,male,1943
+Q3022708,no candidate,,,,,,,,,Denis Gratias,male,1947
+Q1296057,accepted,A5036519977,Henry Tye,57.0,18.0,2.0,Physics and Astronomy,1.0,,Henry Tye,male,1948
+Q3433756,accepted,A5001030475,Tuomo Suntola,3258.0,70.0,22.0,Physics and Astronomy,1.0,,Tuomo Suntola,male,1943
+Q85632,accepted,A5102726180,Walter Kaminsky,19032.0,244.0,70.0,Chemistry,1.0,Organometallic Complex Synthesis and Catalysis|Advanced Polymer Synthesis and Characterization|biodegradable polymer synthesis and properties|Polymer crystallization and properties|Synthetic Organic Chemistry Methods,Walter Kaminsky,male,1941
+Q944755,no candidate,,,,,,,,,Ronald Mallett,male,1945
+Q104839697,no candidate,,,,,,,,,Moisés Hassan,male,1942
+Q737322,accepted,A5108437705,Zsolt Bor,2475.0,80.0,21.0,Engineering,1.0,,Zsolt Bor,male,1949
+Q11927766,no candidate,,,,,,,,,Joan Guinovart,male,1947
+Q1176630,accepted,A5110909541,David Sherrington,19.0,23.0,2.0,Physics and Astronomy,1.0,,David Sherrington (physicist),male,1941
+Q16770099,ambiguous,,,,,,,,,Yosuke Kamide,male,1943
+Q27918303,ambiguous,,,,,,,,,Kaushal Kishore (scientist),male,1940
+Q18618827,accepted,A5026301144,Igor Bogdanoff,29.0,19.0,3.0,Physics and Astronomy,1.0,,Igor Bogdanoff,male,1949
+Q3770071,accepted,A5056722303,Giuseppe Basini,1915.0,124.0,22.0,Physics and Astronomy,1.0,Astrophysics and Cosmic Phenomena|Particle Detector Development and Performance|Particle physics theoretical and experimental studies|Dark Matter and Cosmic Phenomena|Neutrino Physics Research,Giuseppe Basini,male,1947
+Q28355183,no candidate,,,,,,,,,Igor Serafimovich Tashlykov,male,1946
+Q18045305,accepted,A5055980912,Paul K. Hansma,39909.0,362.0,97.0,Physics and Astronomy,1.0,,Paul K. Hansma,male,1946
+Q1700732,no candidate,,,,,,,,,John Kogut,male,1945
+Q109588,no candidate,,,,,,,,,Serge Haroche,male,1944
+Q76757,no candidate,,,,,,,,,Hagen Kleinert,male,1941
+Q16019177,no candidate,,,,,,,,,Hakkı Ögelman,male,1940
+Q2756759,no candidate,,,,,,,,,Bud Grace,male,1944
+Q15990419,accepted,A5064306655,Brian P. Flannery,100788.0,109.0,39.0,Physics and Astronomy,1.0,"Stellar, planetary, and galactic studies|Mathematical and Computational Methods|Mathematical functions and polynomials|Galaxies: Formation, Evolution, Phenomena|Astrophysics and Star Formation Studies",Brian P. Flannery,male,1948
+Q18224055,no candidate,,,,,,,,,James F. Scott,male,1942
+Q11548478,accepted,A5076890372,Koichi Mizushima,7836.0,131.0,28.0,Physics and Astronomy,1.0,,Koichi Mizushima (scientist),male,1941
+Q381772,accepted,A5090837913,Nathan Isgur,27618.0,223.0,64.0,Physics and Astronomy,1.0,,Nathan Isgur,male,1947
+Q29528645,no candidate,,,,,,,,,Leonid Zakharov,male,1947
+Q1731619,accepted,A5112742915,Karl Hess,66.0,14.0,5.0,Engineering,1.0,,Karl Hess (scientist),male,1945
+Q131450318,no candidate,,,,,,,,,Ernest Coleman (physicist),male,1941
+Q1325855,no candidate,,,,,,,,,Ruprecht Machleidt,male,1943
+Q1399445,accepted,A5055385497,Alexander Vilenkin,39653.0,330.0,93.0,Physics and Astronomy,1.0,,Alexander Vilenkin,male,1949
+Q117008,ambiguous,,,,,,,,,Michael Grätzel,male,1944
+Q7149151,no candidate,,,,,,,,,Paul B. Ferrara,male,1942
+Q7283012,no candidate,,,,,,,,,Raghunath Mashelkar,male,1943
+Q29533530,accepted,A5064842757,Gabor Forgács,15839.0,207.0,49.0,"Biochemistry, Genetics and Molecular Biology",0.9231,,Gabor Forgacs,male,1949
+Q21165269,ambiguous,,,,,,,,,Philip Kocienski,male,1946
+Q23915227,accepted,A5019110925,Svante Wold,63860.0,435.0,78.0,Chemistry,1.0,,Svante Wold,male,1941
+Q353915,ambiguous,,,,,,,,,David D. Friedman,male,1945
+Q348149,accepted,A5108728467,Marc Davis,33830.0,204.0,64.0,Physics and Astronomy,1.0,"Galaxies: Formation, Evolution, Phenomena|Stellar, planetary, and galactic studies|Cosmology and Gravitation Theories|Astrophysics and Star Formation Studies|Astrophysical Phenomena and Observations",Marc Davis (astronomer),male,1947
+Q2802160,no candidate,,,,,,,,,Stuart Freedman,male,1944
+Q6529449,accepted,A5054907274,Les Ebdon,7471.0,262.0,49.0,Chemistry,1.0,,Les Ebdon,male,1947
+Q92931,accepted,A5053166798,Charles H. Bennett,85201.0,116.0,57.0,Physics and Astronomy,1.0,,Charles H. Bennett (physicist),male,1943
+Q907014,accepted,A5110768639,Seiji Shinkai,62857.0,1259.0,116.0,Chemistry,1.0,,Seiji Shinkai,male,1944
+Q2965064,accepted,A5113621994,Christian Bordé,1270.0,72.0,19.0,Physics and Astronomy,1.0,,Christian Bordé,male,1943
+Q1699541,accepted,A5008391443,John Cardy,46198.0,320.0,93.0,Physics and Astronomy,1.0,,John Cardy,male,1947
+Q935034,no candidate,,,,,,,,,John Holdren,male,1944
+Q345526,accepted,A5054843956,Ad Lagendijk,25889.0,592.0,75.0,Physics and Astronomy,1.0,,Ad Lagendijk,male,1947
+Q7356161,no candidate,,,,,,,,,Rod Cross,male,1943
+Q8071142,no candidate,,,,,,,,,Zhu Qingshi,male,1946
+Q11203422,no candidate,,,,,,,,,Robert Coombe,male,1948
+Q3898033,no candidate,,,,,,,,,Paul Connett,male,1940
+Q5345651,no candidate,,,,,,,,,Edward Tryon,male,1940
+Q16106395,no candidate,,,,,,,,,Park Jong-sei,male,1943
+Q66350981,no candidate,,,,,,,,,Carlos Stroud,male,1942
+Q18386648,no candidate,,,,,,,,,Sushanta Kumar Dattagupta,male,1947
+Q21592504,ambiguous,,,,,,,,,John Buckingham (chemist),male,1943
+Q16469080,no candidate,,,,,,,,,Pavelas Bogdanovičius,male,1946
+Q47500100,no candidate,,,,,,,,,Kevin Tate,male,1943
+Q13544767,no candidate,,,,,,,,,Indrek Tart,male,1946
+Q21033680,no candidate,,,,,,,,,Boris Revut,male,1947
+Q30672908,accepted,A5104353173,Dieter Zeppenfeld,4333.0,82.0,30.0,Physics and Astronomy,1.0,,Dieter Zeppenfeld,male,1956
+Q16193237,accepted,A5039175925,Charles R. Martin,47580.0,412.0,109.0,Engineering,1.0,,Charles R. Martin,male,1959
+Q8462011,no candidate,,,,,,,,,Wang Enge,male,1957
+Q18601988,no candidate,,,,,,,,,Dominic Tildesley,male,1952
+Q4867452,accepted,A5051482440,Basilis C. Xanthopoulos,1513.0,71.0,21.0,Physics and Astronomy,1.0,Relativity and Gravitational Theory|Black Holes and Theoretical Physics|Cosmology and Gravitation Theories|Advanced Differential Geometry Research|Pulsars and Gravitational Waves Research,Basilis C. Xanthopoulos,male,1951
+Q102045640,accepted,A5109326148,Yuriy Reznikov,1761.0,44.0,20.0,Materials Science,1.0,,Yuriy Reznikov,male,1953
+Q136222288,no candidate,,,,,,,,,Parviz Ansari,male,1954
+Q113107853,accepted,A5104088975,Sandip Tiwari,4195.0,179.0,18.0,Engineering,1.0,,Sandip Tiwari,male,1955
+Q3309032,no candidate,,,,,,,,,Michel Bitbol,male,1954
+Q6264711,no candidate,,,,,,,,,"John Wodehouse, 5th Earl of Kimberley",male,1951
+Q24856148,no candidate,,,,,,,,,Oh Se-jung,male,1953
+Q21062144,no candidate,,,,,,,,,Paul Friedlander (artist),male,1951
+Q134622705,no candidate,,,,,,,,,Donald Birx,male,1952
+Q106621,accepted,A5066782879,Harald Fuchs,30028.0,697.0,87.0,Chemistry,1.0,,Harald Fuchs,male,1951
+Q93883746,accepted,A5026768972,Costas Kounnas,14479.0,290.0,64.0,Physics and Astronomy,1.0,,Costas Kounnas,male,1952
+Q16186961,no candidate,,,,,,,,,Haruna Yakubu,male,1955
+Q6591792,no candidate,,,,,,,,,Yaron Silberberg,male,1951
+Q1717493,no candidate,,,,,,,,,Jürgen Mlynek,male,1951
+Q363250,no candidate,,,,,,,,,Donald Pettit,male,1955
+Q1517797,accepted,A5074594387,Sajeev John,30788.0,293.0,69.0,Physics and Astronomy,1.0,,Sajeev John,male,1957
+Q1400218,no candidate,,,,,,,,,Nikos Salingaros,male,1952
+Q6526355,no candidate,,,,,,,,,Leonid Gavrilov,male,1954
+Q4103711,no candidate,,,,,,,,,David Vardanyan,male,1950
+Q4977597,accepted,A5089736452,Bruce H. Lipshutz,35517.0,829.0,104.0,Chemistry,1.0,,Bruce H. Lipshutz,male,1951
+Q687024,accepted,A5078317716,Demetrios Christodoulou,11702.0,102.0,40.0,Physics and Astronomy,1.0,,Demetrios Christodoulou,male,1951
+Q76687,no candidate,,,,,,,,,Georg Bednorz,male,1950
+Q7052578,no candidate,,,,,,,,,Norman Margolus,male,1955
+Q12754957,accepted,A5082398606,Marko V. Jarić,1968.0,95.0,20.0,Physics and Astronomy,0.9286,,Marko V. Jaric,male,1952
+Q1333246,accepted,A5103338438,Alexander B. Zamolodchikov,7167.0,40.0,20.0,Physics and Astronomy,0.9388,,Alexander Zamolodchikov,male,1952
+Q5217042,no candidate,,,,,,,,,Daniel E. Friedmann,male,1956
+Q2918440,accepted,A5018384914,Juan Pablo Paz,10717.0,126.0,48.0,Physics and Astronomy,1.0,,Juan Pablo Paz,male,1959
+Q112498422,accepted,A5078668309,Efstratios Manousakis,6634.0,302.0,42.0,Physics and Astronomy,1.0,"Physics of Superconductivity and Magnetism|Theoretical and Computational Physics|Quantum many-body systems|Advanced Condensed Matter Physics|Quantum, superfluid, helium dynamics",Efstratios Manousakis,male,1957
+Q22133629,no candidate,,,,,,,,,Mikhail Feigelman,male,1954
+Q27827019,no candidate,,,,,,,,,Dragan D. Mihailović,male,1958
+Q10804357,no candidate,,,,,,,,,Paul Barbara,male,1953
+Q29052555,no candidate,,,,,,,,,Andrey Varlamov,male,1954
+Q265709,no candidate,,,,,,,,,Xiao Qiang,male,1961
+Q7901082,accepted,A5087071619,Uroš Seljak,79425.0,337.0,115.0,Physics and Astronomy,1.0,,Uroš Seljak,male,1966
+Q744057,no candidate,,,,,,,,,David Spergel,male,1961
+Q17579998,no candidate,,,,,,,,,Patrick Harran,male,1969
+Q23927260,no candidate,,,,,,,,,Supeno Surija,male,1961
+Q1718814,accepted,A5085040467,Ulf Leonhardt,20172.0,290.0,61.0,Physics and Astronomy,1.0,,Ulf Leonhardt,male,1965
+Q21166738,no candidate,,,,,,,,,Mike Payne (physicist),male,1960
+Q2912378,accepted,A5019170301,Raman Sundrum,36871.0,165.0,61.0,Physics and Astronomy,1.0,,Raman Sundrum,male,1964
+Q339577,no candidate,,,,,,,,,Kevin J. Anderson,male,1962
+Q2979093,accepted,A5077640973,Clifford V. Johnson,12249.0,305.0,53.0,Physics and Astronomy,1.0,,Clifford V. Johnson,male,1968
+Q953601,no candidate,,,,,,,,,Josu Jon Imaz,male,1963
+Q3784859,no candidate,,,,,,,,,Henri M. J. Boffin,male,1965
+Q96943509,no candidate,,,,,,,,,Samuel Kweku Obodai,male,1960
+Q7398764,no candidate,,,,,,,,,Safi Bahcall,male,1968
+Q15431265,no candidate,,,,,,,,,Hartmuth C. Kolb,male,1964
+Q136785212,no candidate,,,,,,,,,Mikael Björnberg,male,1965
+Q27965011,ambiguous,,,,,,,,,Sandeep Verma,male,1966
+Q15093113,no candidate,,,,,,,,,Stephan Albani,male,1968
+Q5217317,accepted,A5006327208,Daniel Gottesman,28219.0,136.0,51.0,Physics and Astronomy,1.0,,Daniel Gottesman,male,1970
+Q2658111,no candidate,,,,,,,,,Cut Chemist,male,1972
+Q42306403,no candidate,,,,,,,,,Alexander Pechen,male,1979
+Q5719236,accepted,A5057223907,Saeid Esmaeilzadeh,1214.0,58.0,21.0,Materials Science,1.0,,Saeid Esmaeilzadeh,male,1974
+Q2832498,accepted,A5080814224,Aleksandar R. Popović,3115.0,139.0,31.0,Environmental Science,0.9231,,Aleksandar Popović (politician),male,1971
+Q6347618,accepted,A5036892652,Kaido Reivelt,988.0,22.0,11.0,Physics and Astronomy,1.0,,Kaido Reivelt,male,1970
+Q78701,no candidate,,,,,,,,,Carsten Könneker,male,1972
+Q20630513,no candidate,,,,,,,,,Hideyuki Arata,male,1980

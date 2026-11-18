@@ -23,8 +23,8 @@ than men's pages at equal citations, field and birth decade, and are the pages w
 | Biology | separate "robustness" run | field × gender in one model on one network |
 | RQ3 null | gender shuffled within field × decade | within link community × decade, over 10 Louvain partitions |
 | RQ2 | word lists, word ranking checked on the same data | cross-validated classifier against a stratified shuffle; word ranking within birth decade with a held-out half |
-| Selection | stated as a limitation | match rates, gap among unmatched pages, reweighting; name-match script ready |
-| Validation | AI-assisted labels | blind sheets for two human labellers + kappa script (to be filled in) |
+| Selection | stated as a limitation | match rates, gap among unmatched pages, reweighting; name-matched sample of 601 unmatched people at equal citations |
+| Validation | AI-assisted labels | second independent labelling round (AI-assisted, 18 Nov 2026) with kappa and Wilson intervals; blind sheets for a human round can still be made |
 | Result files | robustness run overwrote the main run | number of shuffles is in the file name |
 
 ## Run
@@ -41,8 +41,9 @@ pip install -r requirements.txt
 | `src/r2_text.py` | RQ2: classifier vs shuffle, words within decade, held-out check | `results/rq2_*` |
 | `src/r3_homophily.py` | RQ3: who links to women's pages, four nulls | `results/rq3_*` |
 | `src/r4_selection.py` | selection into the comparison set | `results/selection_check.json` |
-| `src/r4b_openalex_namematch.py` | name-match a sample of unmatched people. **Not run** (needs the OpenAlex API) | `data/impact_namematch.csv` |
-| `src/r5_validation.py` | `make` blind sheets, `score` agreement | `validation/`, `results/validation_human.json` |
+| `src/r4b_openalex_namematch.py` | name-match 601 unmatched people in OpenAlex (run 18 Nov 2026 from saved responses: `--from-responses ../data/namematch_responses.json`) | `data/impact_namematch.csv` |
+| `src/r4c_namematch_check.py` | data check of every accepted name match | `results/namematch_check.json`, `data/namematch_check_rows.csv` |
+| `src/r5_validation.py` | `claude`: second AI round vs first (kappa, Wilson intervals, word-list recall by gender); `make`/`score`: optional human round | `results/validation_ai_vs_ai.json` (`results/validation_human.json`) |
 | `src/figures.py` | the three paper figures | `figures/` |
 | `src/make_summary.py` | writes `CONCLUSIONS.md` from the result files | `CONCLUSIONS.md` |
 
@@ -63,8 +64,8 @@ Data collection (`../pipeline/src/01`–`05`) was not repeated. Collection dates
 
 ## Known limits
 
-- The comparison set is the 30% of pages with an ORCID or OpenAlex ID; matched women are younger than matched men.
+- The comparison set is the 30% of pages with an ORCID or OpenAlex ID; matched women are younger than matched men. A name-matched sample of unmatched people gives a similar but imprecise estimate (see `CONCLUSIONS.md`).
 - Citations carry their own gender gap; the estimate is the gap on top of that.
 - Page creation date and creator are not in the data. Both are plausible explanations for part of RQ1 and RQ2.
 - Wikidata gender is binary for all but 14 people; those pages stay in the network but not in the comparisons.
-- Human validation is pending (see `validation/README.md`).
+- Both labelling rounds (100 matches, 300 sentences) were AI-assisted; they agree closely but no person has checked them (see `validation/README.md`).
