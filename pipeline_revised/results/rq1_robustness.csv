@@ -1,0 +1,10 @@
+variant,n,women,in_degree_ratio_perm,z,in_degree_irr_nb,irr_lo,irr_hi,out_degree_ratio_perm,isolate_ratio_perm
+Main: all wikilinks,2926,606,0.661,-4.678,0.597,0.505,0.704,0.749,1.195
+Prose-only links,2926,606,0.555,-4.477,0.475,0.384,0.588,0.778,1.154
+Subfield strata + subfield control,2926,606,0.723,-3.668,0.646,0.549,0.761,0.81,1.096
+Impact = h-index (largest profile),2926,606,0.652,-4.938,0.574,0.485,0.68,0.731,1.213
+Single OpenAlex profile only,2491,531,0.661,-4.532,0.584,0.488,0.699,0.718,1.22
+Without Nobel laureates,2830,600,0.684,-4.573,0.606,0.514,0.715,0.752,1.2
+Without top 1% by citations,2896,603,0.669,-4.775,0.601,0.508,0.71,0.742,1.198
+Born 1950 or later,2090,538,0.674,-4.066,0.608,0.506,0.731,0.768,1.169
+Living people only,2702,579,0.661,-4.728,0.606,0.512,0.717,0.753,1.19

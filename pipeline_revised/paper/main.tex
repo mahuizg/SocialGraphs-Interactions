@@ -1,0 +1,117 @@
+%% 02805 Social Graphs and Interactions -- final project paper (DRAFT generated with the revised analysis).
+%% Upload main.tex, references.bib and the three fig*.pdf files to the Overleaf PNAS template.
+%% Every number below comes from pipeline_revised/CONCLUSIONS.md. If the analysis is re-run, update them.
+%% Red [TODO] marks are things only the group can fill in. Remove "lineno" before hand-in.
+\documentclass[9pt,twocolumn,twoside,lineno]{pnas-new}
+\templatetype{pnasresearcharticle}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+\title{Less linked at equal impact: women scientists in Wikipedia's network of biographies}
+
+\author[a]{Carlota \todo{Surname}}
+\author[a]{\todo{Group member 2}}
+\author[a]{\todo{Group member 3}}
+\affil[a]{Department of Applied Mathematics and Computer Science (DTU Compute), Technical University of Denmark, 2800 Kgs.\ Lyngby, Denmark}
+\leadauthor{\todo{Lead author surname}}
+
+\significancestatement{Wikipedia is where most people first read about a scientist, and its pages point to each other. We compared women and men scientists with the same number of citations, the same field and the same decade of birth. Women's pages receive about 40\% fewer links from other scientists' pages, link out less themselves, and are more often connected to no one. Their pages also read differently even after names and gender words are hidden. Being cited equally in science does not mean being connected equally in the encyclopedia.}
+
+\authorcontributions{\todo{Specific contributions: who collected which data, who built the network analysis and nulls, who built the text analysis, who hand-labelled the validation samples, who made each figure, who wrote each section. ``All contributed equally'' is not accepted.}}
+\authordeclaration{The authors declare no competing interests.}
+\correspondingauthor{\textsuperscript{1}To whom correspondence should be addressed. E-mail: \todo{sXXXXXX@dtu.dk}}
+\keywords{Wikipedia $|$ gender gap $|$ network science $|$ text analysis}
+
+\begin{abstract}
+Are women scientists as connected on Wikipedia as men with the same scientific impact? We built the hyperlink network of 9,680 English Wikipedia biographies of physicists and chemists born 1920--1980 (10,563 links) and matched 2,926 of them (606 women) to OpenAlex citation records through identifiers. At equal citations, field and birth decade, women's pages receive about 40\% fewer links from other scientists' pages (negative binomial rate ratio 0.60, 95\% CI 0.51--0.70). They also give fewer links and are isolated more often, so they are less embedded in both directions. The gap exceeds 1,000 within-stratum gender shuffles ($z=-4.6$), holds when only links in running prose are counted, and is the same size in biology. With names and gender words masked, a cross-validated classifier still separates women's from men's pages within field and decade (AUC 0.85; shuffled 0.50). The comparison covers only the 30\% of pages with identifiers, and page age and authorship are not controlled.
+\end{abstract}
+
+\dates{This manuscript was compiled on \today}
+\doi{02805 Social Graphs and Interactions, DTU, Fall 2026}
+
+\begin{document}
+\maketitle
+\thispagestyle{firststyle}
+\ifthenelse{\boolean{shortarticle}}{\ifthenelse{\boolean{singlecolumn}}{\abscontentformatted}{\abscontent}}{}
+
+\section*{Introduction}
+
+\dropcap{W}ikipedia biographies are connected by hyperlinks. A link from one scientist's page to another's is a small editorial statement that the second person belongs in the first one's story: an advisor, a collaborator, a rival, a co-laureate. Pages that receive such links are easier to reach and are woven into the written history of a field. We ask whether women scientists are woven in as much as men who have had the same scientific impact.
+
+Gender differences on Wikipedia are well documented. Women are a minority of biographies, their pages differ from men's in link structure and in wording, with more words about family and relationships, and links between biographies are asymmetric by gender \cite{wagner2015man,graells2015first,wagner2016glass}. Women who do have a page tend to be more notable than men who do, which suggests a higher bar for inclusion \cite{wagner2016glass,adams2019notable}, and women's biographies are challenged as not notable more often \cite{tripodi2023ms}. Field et al.\ showed that many text differences shrink once biographies are compared with matched ones, so what is compared with what matters \cite{field2022controlled}.
+
+What these studies do not have is a measure of what the person did that is independent of Wikipedia. For scientists there is one: citations. Citations carry their own gender gap \cite{lariviere2013bibliometrics}, so comparing at equal citations asks a narrow question: on top of whatever inequality science already produced, does the encyclopedia add more?
+
+Here we combine the link network of scientists' biographies with OpenAlex citation records \cite{priem2022openalex} and with the text of the pages. We find that, at equal citations, field and birth decade, women's pages receive about 40\% fewer links from other scientists' pages, are less connected in both directions, and are written in a recognisably different way.
+
+\section*{Results}
+
+\subsection*{Women's pages receive fewer links at every citation level}
+The network is sparse: about one link per page, and 46\% of pages have no link to or from another scientist. In the comparison set, women's pages receive 0.56 links on average and men's 1.51; 51\% of women's pages and 34\% of men's are isolates. These raw numbers are not at equal impact, because the women in the set are younger and less cited. Fig.~\ref{fig:main}A shows the gap inside every citation quintile.
+
+To compare like with like we shuffled gender labels within cells of field $\times$ birth decade $\times$ citation quintile, keeping the network fixed. Women's pages receive 0.66 times the links expected under shuffling ($z=-4.6$), give 0.75 times as many ($z=-4.8$), and are isolates 1.20 times as often ($z=+5.3$; Fig.~\ref{fig:main}B). With OpenAlex subfield in the strata the ratio for links received is 0.72 ($z=-3.4$). A negative binomial regression gives a rate ratio of 0.60 (95\% CI 0.51--0.70), and a hurdle model shows both parts: women's pages are 9.2 percentage points less likely to receive any link (CI 4.6--13.8) and receive 0.52 times as many when they receive any (CI 0.40--0.69).
+
+Three further checks are in Fig.~\ref{fig:main}C. Counting only links in running prose makes the gap larger (0.48, CI 0.38--0.59), so links generated by infoboxes and lists were not creating it. Estimating field $\times$ gender in one model over physics, chemistry and biology gives ratios of 0.59, 0.69 and 0.64, with no evidence that they differ ($p=0.66$). And adding the page's own links to the model moves the ratio to 0.81 (CI 0.72--0.92). Linking is often mutual, so we read this as a pathway: women's pages are less embedded in both directions, and we cannot separate ``others link to them less'' from ``their pages link out less''. Page length does not account for the gap (0.62 with it in the model).
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.98\linewidth]{fig1_embeddedness}
+\caption{\textbf{At equal citations, women scientists' pages are less embedded in the network of biographies.} (A) Mean number of links received from other scientists' pages by citation quintile (bars: 95\% bootstrap intervals; 606 women, 2,320 men). (B) Women's observed value divided by the value expected when gender is shuffled within field $\times$ birth decade $\times$ citation quintile; grey bars cover 95\% of 1,000 shuffles. Values left of 1 mean fewer links, right of 1 mean more pages without links. (C) Women/men rate ratios for links received with 95\% intervals: count models, prose-only links, controls added one at a time, and field $\times$ gender in one model.}
+\label{fig:main}
+\end{figure*}
+
+\subsection*{Masked text still tells women's pages from men's}
+We replaced names with a placeholder, masked pronouns and gender words, and made kinship words neutral. A logistic regression on TF-IDF features, scored by five-fold cross-validation, then separates women's from men's pages with AUC 0.85 when only women and men of the same field and birth decade are compared (Fig.~\ref{fig:text}A). Repeating the whole procedure 200 times with gender shuffled within field and decade gives 0.50 (95\% range 0.46--0.53).
+
+The words behind this, ranked by log-odds within field and birth decade, are about training and career steps on women's pages (\emph{education, career, earned, completed, doctorate}) and about the work and its standing on men's (\emph{theory, quantum, papers, known}; Fig.~\ref{fig:text}B). Words selected on one random half of the pages point the same way in the other half 93\% of the time. In the unmasked text, 15.5\% of women's pages and 0.1\% of men's state the person's gender (``first woman to'').
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{fig2_text}
+\caption{\textbf{The wording differs after masking, and not only because women are younger.} (A) Cross-validated AUC for predicting gender from masked text, counting only woman--man pairs of the same field and birth decade (orange line), against 200 repeats with gender shuffled within those cells (grey). (B) Words most typical of women's (orange) and men's (blue) pages: $z$-score of the log-odds that a page uses the word, combined within field $\times$ birth decade. Tick marks show the value without the decade adjustment.}
+\label{fig:text}
+\end{figure}
+
+\subsection*{Links to women's pages come disproportionately from women's pages}
+Of the 696 links that point to women's pages, 154 (22.1\%) come from women's pages, although women's pages are 9.6\% of all linking pages. Shuffling gender within field and decade predicts 16.1\%. Women could simply be concentrated in some topic clusters, so we also shuffled within Louvain link community \cite{blondel2008fast} $\times$ birth decade. That null predicts 13.1--13.7\% over ten partitions ($z$ between 6.2 and 7.3; Fig.~\ref{fig:combined}A). Women are present in all 16 communities with at least 100 pages, at 5\% to 18\% (Fig.~\ref{fig:combined}B). The few links women's pages receive therefore depend more on other women's pages than topic and cohort explain.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{fig3_homophily}
+\caption{\textbf{Same-gender linking survives a null that respects topic clusters.} (A) Share of links to women's pages that come from women's pages (orange line) against 1,000 gender shuffles within field $\times$ decade (light grey) and within link community $\times$ decade (dark grey). (B) Share of women in each link community with at least 100 pages, labelled by its most central page; dot size is community size.}
+\label{fig:combined}
+\end{figure}
+
+\section*{Discussion}
+
+At equal citations, field and birth decade, women scientists' Wikipedia pages receive about 40\% fewer links from other scientists' pages, link out less, and are more often connected to no other scientist.
+
+This does not mean readers find these pages less: we measured links between biographies, not page views or links from topic pages. It is not a causal estimate of what editors do because of a person's gender. And it describes the 30\% of pages with an ORCID or OpenAlex identifier, among whom women are younger than men (33\% vs.\ 11\% born 1970 or later). Without the citation control, the gap is the same size among the 6,747 pages we could not match (rate ratio 0.50) as among matched ones (0.51), so the matching does not create it, but whether it holds at equal citations for unmatched people is untested.
+
+A limitation we found ourselves changed the headline. Our first analysis used the logarithm of PageRank and found a 14\% gap. Because almost half of the pages sit at the PageRank floor, that scale compresses the difference, and it also made biology look like an exception. On the count scale the gap is about 40\% and biology is like the other fields. A second one concerns the text. Among the words that identify women's pages are British spellings and a recognisable biography style. That is what we would see if many women's pages were written recently by few editors, in which case the classifier partly detects who wrote the page. Page creation dates and creators would test this and the page-age explanation for the link gap; we did not collect them. \todo{Validation: state here whether the 100 matches and 300 sentences were re-labelled by two humans, with kappa. If not, say the labels were AI-assisted.}
+
+Earlier work found gender asymmetries in how biographies link and read \cite{wagner2015man,wagner2016glass,graells2015first}. Our contribution is to show that for scientists the link asymmetry remains after an external measure of impact is held equal, and that it is a matter of embeddedness in both directions. The next study would add page creation date and creator, and name-match a sample of people without identifiers.
+
+\section*{Materials and Methods}
+
+\subsection*{Data collection}
+On 13 November 2026 we queried Wikidata \cite{vrandecic2014wikidata} for humans with occupation physicist, chemist or biologist, born 1920--1980, with an English Wikipedia page (12,773 people). Wikitext was downloaded on 11 and 13 November 2026 with pauses between requests. Citations, works and h-index came from OpenAlex \cite{priem2022openalex}, matched only through the OpenAlex ID or ORCID stored on Wikidata; citations were summed over split author profiles. Every query, date and record count is in the data log. Pages with fewer than 50 words of prose, redirects and disambiguation pages were dropped (12,463 pages kept; 9,680 in physics and chemistry). Matches with name similarity below 0.6 were dropped. The comparison set is the 2,926 physics and chemistry pages with a match, a binary gender on Wikidata and at least one citation.
+
+\subsection*{Network construction}
+Nodes are pages; a directed edge $A\to B$ means the wikitext of $A$ links to $B$ (redirects resolved, self-links removed). The main network has 9,680 nodes and 10,563 edges. A second, prose-only edge list (7,589 edges) excludes reference-type sections, templates including infoboxes and navigation boxes, tables and list lines. The field $\times$ gender model uses the three-field network (12,463 nodes, 12,203 edges). Networks were handled with NetworkX \cite{hagberg2008networkx}.
+
+\subsection*{Text processing}
+Plain text excludes reference-type sections, templates and tables. Person names found by spaCy's small English model were replaced by a placeholder; pronouns, gender words and titles were masked; kinship words were made neutral; names of women-only prizes and societies were masked. Tokens are lower-case alphabetic strings of three or more letters.
+
+\subsection*{Measurements}
+\emph{In-degree} counts links received from other scientists' pages; it captures how often a person appears in other biographies and misses links from non-biography pages. \emph{Out-degree} and \emph{isolates} capture whether the page itself connects; they miss why. The \emph{classifier AUC} captures whether wording differs systematically; it misses what the difference is about. \emph{Word log-odds} use the share of pages containing a word, with a Beta prior worth ten pages centred on the pooled share, an adaptation of \cite{monroe2008fightin} to document frequencies, computed within field $\times$ decade cells and combined with inverse-variance weights.
+
+\subsection*{Validation and null models}
+For RQ1, gender was permuted within strata on the fixed network (1,000 runs); because labels and not links are permuted, the test does not assume that pages' in-degrees are independent. Null models and community detection follow the course text \cite{coscia2025atlas}. Count models were fitted with statsmodels \cite{seabold2010statsmodels} (negative binomial and Poisson with robust standard errors, also clustered by Louvain community; logit plus zero-truncated negative binomial for the hurdle), with log citations, field, birth decade and deceased as controls. For the text, logistic regression (scikit-learn \cite{pedregosa2011scikit}, $C=1$, balanced classes) was scored by five-fold cross-validation and the full procedure repeated 200 times with gender permuted within field $\times$ decade. For same-gender linking, gender was permuted within Louvain community $\times$ decade for ten partitions. A hand check of 100 matches found 100 correct (per gender 50 of 50, 95\% interval 93--100\%); \todo{this check and the 300 labelled sentences were AI-assisted; replace with the two-labeller result and Cohen's kappa from validation/ when done.}
+
+\subsection*{Code and data availability}
+Code, data log, processed data and a walk-through notebook: \url{https://github.com/mahuizg/SocialGraphs-Interactions}, folder \texttt{pipeline\_revised}.
+
+\bibliography{references}
+\end{document}

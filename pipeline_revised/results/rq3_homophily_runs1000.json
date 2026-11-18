@@ -1,0 +1,677 @@
+{
+  "graph": {
+    "nodes": 9680,
+    "edges_between_gender_known": 10556
+  },
+  "observed_share_from_women": 0.22126436781609196,
+  "share_women_among_all_linking_pages": 0.09615384615384616,
+  "women_to_women_edges": 154,
+  "edges_to_women": 696,
+  "null_field_x_decade": {
+    "observed": 0.22126436781609196,
+    "null_mean": 0.1610653822082412,
+    "null_sd": 0.01393335260815149,
+    "null_ci95": [
+      0.13377196048354223,
+      0.18978705118411
+    ],
+    "z": 4.320495382613965,
+    "p_two_sided": 0.000999000999000999,
+    "runs": 1000,
+    "cells_with_linked_pages": 20,
+    "linked_women_in_mixed_cells": 616,
+    "share_women_in_mixed_cells": 1.0
+  },
+  "by_louvain_seed": [
+    {
+      "seed": 0,
+      "communities_ge_100": 16,
+      "community": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.1263229243660325,
+        "null_sd": 0.0113178389370082,
+        "null_ci95": [
+          0.1055963397581518,
+          0.15004898726107527
+        ],
+        "z": 8.388654758074921,
+        "p_two_sided": 0.000999000999000999,
+        "runs": 1000,
+        "cells_with_linked_pages": 381,
+        "linked_women_in_mixed_cells": 597,
+        "share_women_in_mixed_cells": 0.9691558441558441
+      },
+      "community_x_decade": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.1344856155578093,
+        "null_sd": 0.011985688898736678,
+        "null_ci95": [
+          0.11193802581775508,
+          0.15781248702727385
+        ],
+        "z": 7.2401972879030225,
+        "p_two_sided": 0.000999000999000999,
+        "runs": 1000,
+        "cells_with_linked_pages": 878,
+        "linked_women_in_mixed_cells": 527,
+        "share_women_in_mixed_cells": 0.8555194805194806
+      },
+      "community_x_decade_x_field": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.13242729219540206,
+        "null_sd": 0.012261755771150712,
+        "null_ci95": [
+          0.1092256889176019,
+          0.1570417835710389
+        ],
+        "z": 7.2450534229122825,
+        "p_two_sided": 0.000999000999000999,
+        "runs": 1000,
+        "cells_with_linked_pages": 1125,
+        "linked_women_in_mixed_cells": 505,
+        "share_women_in_mixed_cells": 0.8198051948051948
+      }
+    },
+    {
+      "seed": 1,
+      "communities_ge_100": 18,
+      "community": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.12684297959795743,
+        "null_sd": 0.011831120178572815,
+        "null_ci95": [
+          0.10548969121091582,
+          0.15174367566350275
+        ],
+        "z": 7.980764863595914,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 377,
+        "linked_women_in_mixed_cells": 597,
+        "share_women_in_mixed_cells": 0.9691558441558441
+      },
+      "community_x_decade": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.13529091880837488,
+        "null_sd": 0.013167609167523832,
+        "null_ci95": [
+          0.11122838085010396,
+          0.16456684071239538
+        ],
+        "z": 6.529161665867122,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 870,
+        "linked_women_in_mixed_cells": 523,
+        "share_women_in_mixed_cells": 0.849025974025974
+      },
+      "community_x_decade_x_field": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.13366567777031918,
+        "null_sd": 0.012711005164601928,
+        "null_ci95": [
+          0.10785405872193438,
+          0.15653659616058416
+        ],
+        "z": 6.891562776618234,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 1113,
+        "linked_women_in_mixed_cells": 504,
+        "share_women_in_mixed_cells": 0.8181818181818182
+      }
+    },
+    {
+      "seed": 2,
+      "communities_ge_100": 17,
+      "community": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.12265128033050582,
+        "null_sd": 0.011740024226706034,
+        "null_ci95": [
+          0.10096144935594477,
+          0.14761335694255862
+        ],
+        "z": 8.399734581574588,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 380,
+        "linked_women_in_mixed_cells": 597,
+        "share_women_in_mixed_cells": 0.9691558441558441
+      },
+      "community_x_decade": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.13132123142082341,
+        "null_sd": 0.01237551264995906,
+        "null_ci95": [
+          0.10882241635368534,
+          0.1547889394730247
+        ],
+        "z": 7.267831154902992,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 882,
+        "linked_women_in_mixed_cells": 527,
+        "share_women_in_mixed_cells": 0.8555194805194806
+      },
+      "community_x_decade_x_field": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.1287381572031431,
+        "null_sd": 0.011957642633449247,
+        "null_ci95": [
+          0.10507201020904229,
+          0.14976121697805525
+        ],
+        "z": 7.737830394272216,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 1135,
+        "linked_women_in_mixed_cells": 512,
+        "share_women_in_mixed_cells": 0.8311688311688312
+      }
+    },
+    {
+      "seed": 3,
+      "communities_ge_100": 20,
+      "community": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.12658434145859213,
+        "null_sd": 0.011617164077961779,
+        "null_ci95": [
+          0.10687669924727558,
+          0.15147450747450744
+        ],
+        "z": 8.150011975565672,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 382,
+        "linked_women_in_mixed_cells": 597,
+        "share_women_in_mixed_cells": 0.9691558441558441
+      },
+      "community_x_decade": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.1351764142025999,
+        "null_sd": 0.011737438748925438,
+        "null_ci95": [
+          0.11310166057001501,
+          0.156799675533715
+        ],
+        "z": 7.334475216867343,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 889,
+        "linked_women_in_mixed_cells": 526,
+        "share_women_in_mixed_cells": 0.8538961038961039
+      },
+      "community_x_decade_x_field": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.13866011061900566,
+        "null_sd": 0.012187803421496217,
+        "null_ci95": [
+          0.11398238513813556,
+          0.16165575079177252
+        ],
+        "z": 6.777616469543084,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 1136,
+        "linked_women_in_mixed_cells": 503,
+        "share_women_in_mixed_cells": 0.8165584415584416
+      }
+    },
+    {
+      "seed": 4,
+      "communities_ge_100": 16,
+      "community": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.1240893167958014,
+        "null_sd": 0.010797583948388607,
+        "null_ci95": [
+          0.10247272824715346,
+          0.14367097809777485
+        ],
+        "z": 8.999703219236617,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 380,
+        "linked_women_in_mixed_cells": 597,
+        "share_women_in_mixed_cells": 0.9691558441558441
+      },
+      "community_x_decade": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.1327873528077076,
+        "null_sd": 0.012478014992641655,
+        "null_ci95": [
+          0.10838715595315358,
+          0.15667948298429318
+        ],
+        "z": 7.090632208773566,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 884,
+        "linked_women_in_mixed_cells": 527,
+        "share_women_in_mixed_cells": 0.8555194805194806
+      },
+      "community_x_decade_x_field": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.13307198948478624,
+        "null_sd": 0.012905157931360793,
+        "null_ci95": [
+          0.10755965018703872,
+          0.16042397058126084
+        ],
+        "z": 6.833886016767733,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 1135,
+        "linked_women_in_mixed_cells": 513,
+        "share_women_in_mixed_cells": 0.8327922077922078
+      }
+    },
+    {
+      "seed": 5,
+      "communities_ge_100": 18,
+      "community": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.12750280735900968,
+        "null_sd": 0.011198591792614718,
+        "null_ci95": [
+          0.10740603885135135,
+          0.15041013863926553
+        ],
+        "z": 8.372620611005434,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 379,
+        "linked_women_in_mixed_cells": 597,
+        "share_women_in_mixed_cells": 0.9691558441558441
+      },
+      "community_x_decade": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.1369051186288592,
+        "null_sd": 0.012749135416162117,
+        "null_ci95": [
+          0.11418897341496655,
+          0.16193459870553167
+        ],
+        "z": 6.616860393551886,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 873,
+        "linked_women_in_mixed_cells": 523,
+        "share_women_in_mixed_cells": 0.849025974025974
+      },
+      "community_x_decade_x_field": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.13585986052146085,
+        "null_sd": 0.012399217591091815,
+        "null_ci95": [
+          0.10885243543309751,
+          0.15941889627508424
+        ],
+        "z": 6.887894874591907,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 1127,
+        "linked_women_in_mixed_cells": 503,
+        "share_women_in_mixed_cells": 0.8165584415584416
+      }
+    },
+    {
+      "seed": 6,
+      "communities_ge_100": 19,
+      "community": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.124406045166672,
+        "null_sd": 0.011811969201860738,
+        "null_ci95": [
+          0.10282398840070969,
+          0.14817470518947146
+        ],
+        "z": 8.200014831918278,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 376,
+        "linked_women_in_mixed_cells": 597,
+        "share_women_in_mixed_cells": 0.9691558441558441
+      },
+      "community_x_decade": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.13477398863099466,
+        "null_sd": 0.013923313989586602,
+        "null_ci95": [
+          0.10664492753623189,
+          0.16001865116197614
+        ],
+        "z": 6.211910415134242,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 865,
+        "linked_women_in_mixed_cells": 528,
+        "share_women_in_mixed_cells": 0.8571428571428571
+      },
+      "community_x_decade_x_field": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.13627019927310693,
+        "null_sd": 0.012351661259963169,
+        "null_ci95": [
+          0.11320173824187053,
+          0.15999900470452338
+        ],
+        "z": 6.881193286808002,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 1098,
+        "linked_women_in_mixed_cells": 510,
+        "share_women_in_mixed_cells": 0.827922077922078
+      }
+    },
+    {
+      "seed": 7,
+      "communities_ge_100": 18,
+      "community": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.127144720529177,
+        "null_sd": 0.011831783726975912,
+        "null_ci95": [
+          0.10470142602495544,
+          0.14822928531660698
+        ],
+        "z": 7.954814714228302,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 382,
+        "linked_women_in_mixed_cells": 597,
+        "share_women_in_mixed_cells": 0.9691558441558441
+      },
+      "community_x_decade": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.13687693418176886,
+        "null_sd": 0.012229758523719174,
+        "null_ci95": [
+          0.11323403996101364,
+          0.1604295572822985
+        ],
+        "z": 6.900171697638734,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 884,
+        "linked_women_in_mixed_cells": 524,
+        "share_women_in_mixed_cells": 0.8506493506493507
+      },
+      "community_x_decade_x_field": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.13875360365414072,
+        "null_sd": 0.012714233086352477,
+        "null_ci95": [
+          0.11502516256532434,
+          0.16079183882739692
+        ],
+        "z": 6.48963752682171,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 1127,
+        "linked_women_in_mixed_cells": 500,
+        "share_women_in_mixed_cells": 0.8116883116883117
+      }
+    },
+    {
+      "seed": 8,
+      "communities_ge_100": 20,
+      "community": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.1275114023409238,
+        "null_sd": 0.011115276440728817,
+        "null_ci95": [
+          0.10898828387592432,
+          0.14873579545454543
+        ],
+        "z": 8.434604930889229,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 378,
+        "linked_women_in_mixed_cells": 597,
+        "share_women_in_mixed_cells": 0.9691558441558441
+      },
+      "community_x_decade": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.13220821731930868,
+        "null_sd": 0.012769444756827552,
+        "null_ci95": [
+          0.10965425531914894,
+          0.15767835185310913
+        ],
+        "z": 6.974159972708825,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 879,
+        "linked_women_in_mixed_cells": 527,
+        "share_women_in_mixed_cells": 0.8555194805194806
+      },
+      "community_x_decade_x_field": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.13754125732958788,
+        "null_sd": 0.012699088382318596,
+        "null_ci95": [
+          0.11465579072391863,
+          0.1628141909455373
+        ],
+        "z": 6.592844144865928,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 1136,
+        "linked_women_in_mixed_cells": 504,
+        "share_women_in_mixed_cells": 0.8181818181818182
+      }
+    },
+    {
+      "seed": 9,
+      "communities_ge_100": 17,
+      "community": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.1249312208847392,
+        "null_sd": 0.011062797308713039,
+        "null_ci95": [
+          0.10516129032258063,
+          0.14694439257184352
+        ],
+        "z": 8.707847051982139,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 381,
+        "linked_women_in_mixed_cells": 597,
+        "share_women_in_mixed_cells": 0.9691558441558441
+      },
+      "community_x_decade": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.13656002161423084,
+        "null_sd": 0.012472962534057887,
+        "null_ci95": [
+          0.11091922514619883,
+          0.16232448588611892
+        ],
+        "z": 6.791036690006305,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 874,
+        "linked_women_in_mixed_cells": 524,
+        "share_women_in_mixed_cells": 0.8506493506493507
+      },
+      "community_x_decade_x_field": {
+        "observed": 0.22126436781609196,
+        "null_mean": 0.13538849935037353,
+        "null_sd": 0.011848450535589864,
+        "null_ci95": [
+          0.11500368705667532,
+          0.1598926619488085
+        ],
+        "z": 7.2478564355540165,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300,
+        "cells_with_linked_pages": 1116,
+        "linked_women_in_mixed_cells": 507,
+        "share_women_in_mixed_cells": 0.823051948051948
+      }
+    }
+  ],
+  "summary_community": {
+    "null_mean_range": [
+      0.12265128033050582,
+      0.1275114023409238
+    ],
+    "null_mean_avg": 0.1257987038829411,
+    "z_range": [
+      7.954814714228302,
+      8.999703219236617
+    ],
+    "z_median": 8.380637684540178,
+    "seeds_with_abs_z_above_2": 10,
+    "share_women_in_mixed_cells_avg": 0.9691558441558442
+  },
+  "summary_community_x_decade": {
+    "null_mean_range": [
+      0.13132123142082341,
+      0.1369051186288592
+    ],
+    "null_mean_avg": 0.13463858131724774,
+    "z_range": [
+      6.211910415134242,
+      7.334475216867343
+    ],
+    "z_median": 6.937165835173779,
+    "seeds_with_abs_z_above_2": 10,
+    "share_women_in_mixed_cells_avg": 0.8532467532467534
+  },
+  "summary_community_x_decade_x_field": {
+    "null_mean_range": [
+      0.1287381572031431,
+      0.13875360365414072
+    ],
+    "null_mean_avg": 0.13503766474013262,
+    "z_range": [
+      6.48963752682171,
+      7.737830394272216
+    ],
+    "z_median": 6.884544080699954,
+    "seeds_with_abs_z_above_2": 10,
+    "share_women_in_mixed_cells_avg": 0.8215909090909091
+  },
+  "communities_seed0_ge100": [
+    {
+      "community": 4364,
+      "size": 530,
+      "share_women": 0.143,
+      "median_birth": 1949.0,
+      "hub": "F. Albert Cotton"
+    },
+    {
+      "community": 1045,
+      "size": 453,
+      "share_women": 0.073,
+      "median_birth": 1946.0,
+      "hub": "Murray Gell-Mann"
+    },
+    {
+      "community": 166,
+      "size": 363,
+      "share_women": 0.118,
+      "median_birth": 1946.0,
+      "hub": "Kip Thorne"
+    },
+    {
+      "community": 1371,
+      "size": 229,
+      "share_women": 0.127,
+      "median_birth": 1946.0,
+      "hub": "Anton Zeilinger"
+    },
+    {
+      "community": 150,
+      "size": 208,
+      "share_women": 0.144,
+      "median_birth": 1952.0,
+      "hub": "Marlan Scully"
+    },
+    {
+      "community": 4083,
+      "size": 176,
+      "share_women": 0.165,
+      "median_birth": 1948.0,
+      "hub": "Richard Zare"
+    },
+    {
+      "community": 212,
+      "size": 170,
+      "share_women": 0.053,
+      "median_birth": 1942.0,
+      "hub": "Abdus Salam"
+    },
+    {
+      "community": 795,
+      "size": 167,
+      "share_women": 0.156,
+      "median_birth": 1942.0,
+      "hub": "Philip W. Anderson"
+    },
+    {
+      "community": 3531,
+      "size": 146,
+      "share_women": 0.089,
+      "median_birth": 1937.0,
+      "hub": "James Watson"
+    },
+    {
+      "community": 1133,
+      "size": 133,
+      "share_women": 0.158,
+      "median_birth": 1940.0,
+      "hub": "Carlo Rubbia"
+    },
+    {
+      "community": 1562,
+      "size": 131,
+      "share_women": 0.069,
+      "median_birth": 1939.0,
+      "hub": "Arthur Wightman"
+    },
+    {
+      "community": 2968,
+      "size": 130,
+      "share_women": 0.069,
+      "median_birth": 1949.5,
+      "hub": "Gerd Binnig"
+    },
+    {
+      "community": 4756,
+      "size": 114,
+      "share_women": 0.175,
+      "median_birth": 1948.5,
+      "hub": "Raphael David Levine"
+    },
+    {
+      "community": 3068,
+      "size": 112,
+      "share_women": 0.152,
+      "median_birth": 1945.5,
+      "hub": "John Pople"
+    },
+    {
+      "community": 2467,
+      "size": 107,
+      "share_women": 0.131,
+      "median_birth": 1946.0,
+      "hub": "Richard Smalley"
+    },
+    {
+      "community": 3676,
+      "size": 104,
+      "share_women": 0.125,
+      "median_birth": 1935.0,
+      "hub": "Leon Cooper"
+    }
+  ],
+  "share_women_range_in_communities_ge100": [
+    0.052941176470588235,
+    0.17543859649122806
+  ]
+}

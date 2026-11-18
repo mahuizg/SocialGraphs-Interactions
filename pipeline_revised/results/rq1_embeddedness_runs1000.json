@@ -1,0 +1,690 @@
+{
+  "graph": {
+    "edge_definition": "all wikilinks",
+    "nodes": 9680,
+    "edges": 10563,
+    "isolates": 4493
+  },
+  "comparison_set": {
+    "n": 2926,
+    "women": 606,
+    "men": 2320
+  },
+  "descriptives_raw": {
+    "n": {
+      "female": 606,
+      "male": 2320
+    },
+    "in_degree": {
+      "female": 0.5561,
+      "male": 1.5112
+    },
+    "out_degree": {
+      "female": 0.8102,
+      "male": 1.5241
+    },
+    "reciprocal": {
+      "female": 0.3564,
+      "male": 0.7547
+    },
+    "zero_in": {
+      "female": 0.67,
+      "male": 0.4875
+    },
+    "zero_out": {
+      "female": 0.5611,
+      "male": 0.4207
+    },
+    "isolate": {
+      "female": 0.5149,
+      "male": 0.3371
+    },
+    "median_birth_year": {
+      "female": 1964.0,
+      "male": 1955.0
+    }
+  },
+  "permutation_field_decade_citation5": {
+    "strata": 93,
+    "strata_with_both_genders": 59,
+    "women_in_mixed_strata": 596,
+    "in_degree": {
+      "observed": 0.5561056105610561,
+      "null_mean": 0.8418448844884487,
+      "null_sd": 0.06278866039549413,
+      "null_ci95": [
+        0.731023102310231,
+        0.9687293729372937
+      ],
+      "z": -4.550810164248989,
+      "p_two_sided": 0.000999000999000999,
+      "runs": 1000,
+      "ratio_obs_over_null": 0.6605796635552124,
+      "ratio_null_ci95": [
+        0.8683584301334097,
+        1.1507219332050072
+      ]
+    },
+    "out_degree": {
+      "observed": 0.8102310231023102,
+      "null_mean": 1.0814422442244225,
+      "null_sd": 0.05709543972541586,
+      "null_ci95": [
+        0.9768564356435644,
+        1.1980610561056104
+      ],
+      "z": -4.750138057022152,
+      "p_two_sided": 0.000999000999000999,
+      "runs": 1000,
+      "ratio_obs_over_null": 0.7492134022223104,
+      "ratio_null_ci95": [
+        0.9032904353982733,
+        1.1078363754550973
+      ]
+    },
+    "reciprocal": {
+      "observed": 0.3564356435643564,
+      "null_mean": 0.46622442244224427,
+      "null_sd": 0.033501559617961404,
+      "null_ci95": [
+        0.40594059405940597,
+        0.5330445544554455
+      ],
+      "z": -3.2771244124117165,
+      "p_two_sided": 0.000999000999000999,
+      "runs": 1000,
+      "ratio_obs_over_null": 0.7645151699630484,
+      "ratio_null_ci95": [
+        0.8706978324579162,
+        1.1433218184134892
+      ]
+    },
+    "zero_in": {
+      "observed": 0.66996699669967,
+      "null_mean": 0.6097359735973596,
+      "null_sd": 0.01586751865011795,
+      "null_ci95": [
+        0.5792079207920792,
+        0.641914191419142
+      ],
+      "z": 3.795869059959328,
+      "p_two_sided": 0.000999000999000999,
+      "runs": 1000,
+      "ratio_obs_over_null": 1.0987821380243574,
+      "ratio_null_ci95": [
+        0.9499323410013533,
+        1.0527740189445198
+      ]
+    },
+    "zero_out": {
+      "observed": 0.5610561056105611,
+      "null_mean": 0.48247029702970295,
+      "null_sd": 0.016156191791196137,
+      "null_ci95": [
+        0.45210396039603956,
+        0.5165016501650165
+      ],
+      "z": 4.864129467915902,
+      "p_two_sided": 0.000999000999000999,
+      "runs": 1000,
+      "ratio_obs_over_null": 1.1628821692540796,
+      "ratio_null_ci95": [
+        0.93706071270996,
+        1.0705356440486085
+      ]
+    },
+    "isolate": {
+      "observed": 0.5148514851485149,
+      "null_mean": 0.43055940594059405,
+      "null_sd": 0.01590714902567871,
+      "null_ci95": [
+        0.400990099009901,
+        0.4636963696369637
+      ],
+      "z": 5.299006067765453,
+      "p_two_sided": 0.000999000999000999,
+      "runs": 1000,
+      "ratio_obs_over_null": 1.1957734009405219,
+      "ratio_null_ci95": [
+        0.9313235141940603,
+        1.076962582257329
+      ]
+    }
+  },
+  "permutation_subfield_decade_citation3": {
+    "strata": 497,
+    "strata_with_both_genders": 206,
+    "women_in_mixed_strata": 538,
+    "in_degree": {
+      "observed": 0.5561056105610561,
+      "null_mean": 0.7690016501650165,
+      "null_sd": 0.06333987636399097,
+      "null_ci95": [
+        0.6567244224422442,
+        0.9093234323432342
+      ],
+      "z": -3.3611691690164536,
+      "p_two_sided": 0.000999000999000999,
+      "runs": 1000,
+      "ratio_obs_over_null": 0.7231526882181903,
+      "ratio_null_ci95": [
+        0.8539961160048495,
+        1.1824726671888242
+      ]
+    },
+    "out_degree": {
+      "observed": 0.8102310231023102,
+      "null_mean": 0.9987722772277228,
+      "null_sd": 0.05323189017619048,
+      "null_ci95": [
+        0.8993399339933993,
+        1.1106435643564356
+      ],
+      "z": -3.541885390531241,
+      "p_two_sided": 0.001998001998001998,
+      "runs": 1000,
+      "ratio_obs_over_null": 0.8112269849452133,
+      "ratio_null_ci95": [
+        0.9004454313546664,
+        1.1120088028867123
+      ]
+    },
+    "reciprocal": {
+      "observed": 0.3564356435643564,
+      "null_mean": 0.42127062706270624,
+      "null_sd": 0.03183073360352211,
+      "null_ci95": [
+        0.3613861386138614,
+        0.4867986798679868
+      ],
+      "z": -2.0368673969605195,
+      "p_two_sided": 0.04995004995004995,
+      "runs": 1000,
+      "ratio_obs_over_null": 0.8460965960280465,
+      "ratio_null_ci95": [
+        0.8578479376395473,
+        1.1555485917975636
+      ]
+    },
+    "zero_in": {
+      "observed": 0.66996699669967,
+      "null_mean": 0.6460742574257426,
+      "null_sd": 0.014989599719491147,
+      "null_ci95": [
+        0.6171617161716172,
+        0.6749174917491749
+      ],
+      "z": 1.593954456492879,
+      "p_two_sided": 0.13086913086913088,
+      "runs": 1000,
+      "ratio_obs_over_null": 1.0369814135129405,
+      "ratio_null_ci95": [
+        0.9552488883099501,
+        1.0446438377507208
+      ]
+    },
+    "zero_out": {
+      "observed": 0.5610561056105611,
+      "null_mean": 0.5164686468646864,
+      "null_sd": 0.0139189829614076,
+      "null_ci95": [
+        0.4884488448844885,
+        0.5429042904290429
+      ],
+      "z": 3.2033560835227592,
+      "p_two_sided": 0.003996003996003996,
+      "runs": 1000,
+      "ratio_obs_over_null": 1.086331394977315,
+      "ratio_null_ci95": [
+        0.9457473320978977,
+        1.0511853792574606
+      ]
+    },
+    "isolate": {
+      "observed": 0.5148514851485149,
+      "null_mean": 0.46976237623762374,
+      "null_sd": 0.014198998666684622,
+      "null_ci95": [
+        0.44224422442244227,
+        0.4966996699669967
+      ],
+      "z": 3.175513285784339,
+      "p_two_sided": 0.002997002997002997,
+      "runs": 1000,
+      "ratio_obs_over_null": 1.0959828015006534,
+      "ratio_null_ci95": [
+        0.9414211243659459,
+        1.0573423822169765
+      ]
+    }
+  },
+  "models_in_degree": {
+    "poisson_robust": {
+      "irr": 0.5805417196693117,
+      "ci95": [
+        0.49351733889654553,
+        0.6829115447699639
+      ],
+      "p": 5.28217941465593e-11,
+      "n": 2926
+    },
+    "negative_binomial": {
+      "irr": 0.5965783731496069,
+      "ci95": [
+        0.5053050951156064,
+        0.7043383467732611
+      ],
+      "p": 1.0802505365984319e-09,
+      "n": 2926,
+      "alpha": 1.4395970074909092
+    },
+    "hurdle": {
+      "any_link_share": {
+        "female": 0.33003300330033003,
+        "male": 0.5125
+      },
+      "any_link_odds_ratio": 0.6670096507547457,
+      "any_link_odds_ratio_ci95": [
+        0.544411258014362,
+        0.8172165208755309
+      ],
+      "any_link_diff_pct_points": -9.203431620938023,
+      "any_link_diff_ci95": [
+        -13.773093582356157,
+        -4.633769659519887
+      ],
+      "count_given_any_rate_ratio": 0.5245741861879634,
+      "count_given_any_ci95": [
+        0.39822043409534014,
+        0.6910194787967162
+      ],
+      "count_given_any_p": 4.462407665384305e-06,
+      "n_with_any": 1389,
+      "women_with_any": 200,
+      "note": "count part = ratio of the latent NB mean; zero-truncated negative binomial"
+    }
+  },
+  "models_out_degree": {
+    "poisson_robust": {
+      "irr": 0.6736452604828773,
+      "ci95": [
+        0.5847686464678056,
+        0.7760298704660928
+      ],
+      "p": 4.437770775506264e-08,
+      "n": 2926
+    },
+    "negative_binomial": {
+      "irr": 0.6751503546731262,
+      "ci95": [
+        0.5871038077745465,
+        0.776401030582807
+      ],
+      "p": 3.5912934062028505e-08,
+      "n": 2926,
+      "alpha": 1.1223364340411355
+    },
+    "hurdle": {
+      "any_link_share": {
+        "female": 0.4389438943894389,
+        "male": 0.5793103448275863
+      },
+      "any_link_odds_ratio": 0.6249212942781611,
+      "any_link_odds_ratio_ci95": [
+        0.5156603262537375,
+        0.7573330817971989
+      ],
+      "any_link_diff_pct_points": -11.23844614403351,
+      "any_link_diff_ci95": [
+        -15.761711470254875,
+        -6.715180817812144
+      ],
+      "count_given_any_rate_ratio": 0.7218536149501492,
+      "count_given_any_ci95": [
+        0.5852992784773111,
+        0.8902670148034316
+      ],
+      "count_given_any_p": 0.002315948350179564,
+      "n_with_any": 1610,
+      "women_with_any": 266,
+      "note": "count part = ratio of the latent NB mean; zero-truncated negative binomial"
+    }
+  },
+  "ladder_in_degree_negbin": [
+    {
+      "spec": "baseline: citations, field, decade, deceased",
+      "irr": 0.5965783731496069,
+      "ci95": [
+        0.5053050951156064,
+        0.7043383467732611
+      ],
+      "p": 1.0802505365984319e-09,
+      "n": 2926
+    },
+    {
+      "spec": "+ subfield (OpenAlex)",
+      "irr": 0.6462813456828357,
+      "ci95": [
+        0.549144061064417,
+        0.760601101590756
+      ],
+      "p": 1.4970922904234883e-07,
+      "n": 2926
+    },
+    {
+      "spec": "+ page length (log words)",
+      "irr": 0.616863715410284,
+      "ci95": [
+        0.528669478778008,
+        0.719770780543893
+      ],
+      "p": 8.400001198979059e-10,
+      "n": 2926
+    },
+    {
+      "spec": "+ links on the page (log)",
+      "irr": 0.7086165089860286,
+      "ci95": [
+        0.6113184666355113,
+        0.8214006024897944
+      ],
+      "p": 4.8585591629272565e-06,
+      "n": 2926
+    },
+    {
+      "spec": "+ out-degree to scientists (log)",
+      "irr": 0.8119118756924351,
+      "ci95": [
+        0.7155307733640369,
+        0.921275392239531
+      ],
+      "p": 0.0012304246462575097,
+      "n": 2926
+    },
+    {
+      "spec": "+ Nobel and awards",
+      "irr": 0.5813174108028768,
+      "ci95": [
+        0.5007611465702673,
+        0.6748325712109576
+      ],
+      "p": 1.0217785811265868e-12,
+      "n": 2926
+    }
+  ],
+  "clustered_by_community": {
+    "irr": 0.5805417196693117,
+    "ci95": [
+      0.4829668728720235,
+      0.6978298247919532
+    ],
+    "p": 6.953263386457871e-09,
+    "n": 2926,
+    "clusters": 1288
+  },
+  "pagerank_supplement": {
+    "ratio_geometric": 0.8546379796147517,
+    "ci95": [
+      0.8022014086013054,
+      0.9105021112758942
+    ],
+    "note": "log10 PageRank; with ~half the pages at the PageRank floor this is close to a transformed in-degree, so it understates the gap in links (supplement only)"
+  },
+  "graph_prose": {
+    "edges": 7589,
+    "isolates": 5057
+  },
+  "descriptives_raw_prose": {
+    "n": {
+      "female": 606,
+      "male": 2320
+    },
+    "in_degree": {
+      "female": 0.2657,
+      "male": 1.0246
+    },
+    "out_degree": {
+      "female": 0.6419,
+      "male": 1.0728
+    },
+    "reciprocal": {
+      "female": 0.1188,
+      "male": 0.3103
+    },
+    "zero_in": {
+      "female": 0.8201,
+      "male": 0.6142
+    },
+    "zero_out": {
+      "female": 0.6122,
+      "male": 0.5099
+    },
+    "isolate": {
+      "female": 0.5759,
+      "male": 0.4013
+    },
+    "median_birth_year": {
+      "female": 1964.0,
+      "male": 1955.0
+    }
+  },
+  "models_in_degree_prose": {
+    "poisson_robust": {
+      "irr": 0.468916567408407,
+      "ci95": [
+        0.3786644698537323,
+        0.5806796377674878
+      ],
+      "p": 3.825259445517116e-12,
+      "n": 2926
+    },
+    "negative_binomial": {
+      "irr": 0.47506491825296426,
+      "ci95": [
+        0.383601172369778,
+        0.588336774782173
+      ],
+      "p": 8.996552964152794e-12,
+      "n": 2926,
+      "alpha": 1.809471798453581
+    },
+    "hurdle": {
+      "any_link_share": {
+        "female": 0.17986798679867988,
+        "male": 0.3857758620689655
+      },
+      "any_link_odds_ratio": 0.5610804202872364,
+      "any_link_odds_ratio_ci95": [
+        0.4417269657455479,
+        0.7126828616821311
+      ],
+      "any_link_diff_pct_points": -11.245419124088453,
+      "any_link_diff_ci95": [
+        -15.856381025713373,
+        -6.634457222463533
+      ],
+      "count_given_any_rate_ratio": 0.38698567175302,
+      "count_given_any_ci95": [
+        0.26163900580296623,
+        0.5723837303330646
+      ],
+      "count_given_any_p": 1.995810140931198e-06,
+      "n_with_any": 1004,
+      "women_with_any": 109,
+      "note": "count part = ratio of the latent NB mean; zero-truncated negative binomial"
+    }
+  },
+  "robustness": [
+    {
+      "variant": "Main: all wikilinks",
+      "n": 2926,
+      "women": 606,
+      "in_degree_ratio_perm": 0.6610279867872864,
+      "z": -4.677843083396781,
+      "in_degree_irr_nb": 0.5965783731496069,
+      "irr_lo": 0.5053050951156064,
+      "irr_hi": 0.7043383467732611,
+      "out_degree_ratio_perm": 0.749035102439322,
+      "isolate_ratio_perm": 1.1954572624028692
+    },
+    {
+      "variant": "Prose-only links",
+      "n": 2926,
+      "women": 606,
+      "in_degree_ratio_perm": 0.5547324535713055,
+      "z": -4.476680632099466,
+      "in_degree_irr_nb": 0.47506491825296426,
+      "irr_lo": 0.383601172369778,
+      "irr_hi": 0.588336774782173,
+      "out_degree_ratio_perm": 0.7783300119250565,
+      "isolate_ratio_perm": 1.1535359678464243
+    },
+    {
+      "variant": "Subfield strata + subfield control",
+      "n": 2926,
+      "women": 606,
+      "in_degree_ratio_perm": 0.7226177202161421,
+      "z": -3.667550748733902,
+      "in_degree_irr_nb": 0.6462813456828357,
+      "irr_lo": 0.549144061064417,
+      "irr_hi": 0.760601101590756,
+      "out_degree_ratio_perm": 0.8099369865725313,
+      "isolate_ratio_perm": 1.0962061429705783
+    },
+    {
+      "variant": "Impact = h-index (largest profile)",
+      "n": 2926,
+      "women": 606,
+      "in_degree_ratio_perm": 0.6523296103443604,
+      "z": -4.9380356175493665,
+      "in_degree_irr_nb": 0.5743052854600791,
+      "irr_lo": 0.4851503724038048,
+      "irr_hi": 0.6798439817188446,
+      "out_degree_ratio_perm": 0.731240189318234,
+      "isolate_ratio_perm": 1.21348839018319
+    },
+    {
+      "variant": "Single OpenAlex profile only",
+      "n": 2491,
+      "women": 531,
+      "in_degree_ratio_perm": 0.661165286777603,
+      "z": -4.531622154479906,
+      "in_degree_irr_nb": 0.5838153010048756,
+      "irr_lo": 0.48787775443822884,
+      "irr_hi": 0.6986182554682722,
+      "out_degree_ratio_perm": 0.7181105406889027,
+      "isolate_ratio_perm": 1.2202562538133008
+    },
+    {
+      "variant": "Without Nobel laureates",
+      "n": 2830,
+      "women": 600,
+      "in_degree_ratio_perm": 0.6835000460048108,
+      "z": -4.572526839798371,
+      "in_degree_irr_nb": 0.6064006427636195,
+      "irr_lo": 0.5141542937178015,
+      "irr_hi": 0.715197255059701,
+      "out_degree_ratio_perm": 0.7518359348473531,
+      "isolate_ratio_perm": 1.1995755348107593
+    },
+    {
+      "variant": "Without top 1% by citations",
+      "n": 2896,
+      "women": 603,
+      "in_degree_ratio_perm": 0.6693657001646114,
+      "z": -4.775407918528115,
+      "in_degree_irr_nb": 0.6005111200457155,
+      "irr_lo": 0.5080230606666399,
+      "irr_hi": 0.7098370787053525,
+      "out_degree_ratio_perm": 0.7424295387965837,
+      "isolate_ratio_perm": 1.19817230565337
+    },
+    {
+      "variant": "Born 1950 or later",
+      "n": 2090,
+      "women": 538,
+      "in_degree_ratio_perm": 0.673589395637894,
+      "z": -4.06575517084237,
+      "in_degree_irr_nb": 0.6083056016463602,
+      "irr_lo": 0.5062891589585296,
+      "irr_hi": 0.7308781917343998,
+      "out_degree_ratio_perm": 0.7682028341325023,
+      "isolate_ratio_perm": 1.1690754138357535
+    },
+    {
+      "variant": "Living people only",
+      "n": 2702,
+      "women": 579,
+      "in_degree_ratio_perm": 0.6613079565788882,
+      "z": -4.728386478842276,
+      "in_degree_irr_nb": 0.6058868309111003,
+      "irr_lo": 0.5118529037303097,
+      "irr_hi": 0.7171959936070171,
+      "out_degree_ratio_perm": 0.7527910685805422,
+      "isolate_ratio_perm": 1.1900425015179115
+    }
+  ],
+  "field_by_gender": {
+    "n": 3866,
+    "graph_nodes": 12463,
+    "graph_edges": 12203,
+    "by_field": {
+      "physics": {
+        "irr": 0.5912808613204177,
+        "ci95": [
+          0.47124262430065766,
+          0.7418960826870327
+        ],
+        "n": 1758,
+        "women": 349,
+        "raw_mean_in_degree": {
+          "female": 0.576,
+          "male": 1.595
+        },
+        "raw_isolate_share": {
+          "female": 0.519,
+          "male": 0.34
+        }
+      },
+      "chemistry": {
+        "interaction_p_vs_physics": 0.36450782253366654,
+        "irr": 0.6902409830960279,
+        "ci95": [
+          0.5350406904747451,
+          0.8904605261379827
+        ],
+        "n": 1078,
+        "women": 240,
+        "raw_mean_in_degree": {
+          "female": 0.612,
+          "male": 1.481
+        },
+        "raw_isolate_share": {
+          "female": 0.504,
+          "male": 0.315
+        }
+      },
+      "biology": {
+        "interaction_p_vs_physics": 0.6679262761173961,
+        "irr": 0.6434912928551679,
+        "ci95": [
+          0.46828721600614553,
+          0.8842458854887498
+        ],
+        "n": 1030,
+        "women": 344,
+        "raw_mean_in_degree": {
+          "female": 0.235,
+          "male": 0.555
+        },
+        "raw_isolate_share": {
+          "female": 0.695,
+          "male": 0.558
+        }
+      }
+    },
+    "joint_interaction_p": 0.6606881806194196,
+    "page_length_ratio_physics": 0.9969348762861651,
+    "page_length_ratio_biology": 1.1866347312636865
+  }
+}

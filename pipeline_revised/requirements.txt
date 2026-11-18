@@ -1,0 +1,19 @@
+# analysis (pipeline_revised/src/r*.py, figures.py, notebook)
+pandas
+numpy
+scipy
+networkx>=3.2
+statsmodels>=0.14
+scikit-learn
+matplotlib
+mwparserfromhell
+requests
+# notebook
+jupyter
+nbformat
+nbconvert
+# only needed to re-create the masked text or the old figures in ../pipeline (not needed here)
+# spacy  (+ python -m spacy download en_core_web_sm)
+# scattertext
+# adjustText
+# tqdm
