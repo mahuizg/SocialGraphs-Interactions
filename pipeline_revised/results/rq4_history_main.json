@@ -1,0 +1,751 @@
+{
+  "main": {
+    "n_pages": 9671,
+    "n_women": 1464,
+    "n_human_edits": 974875,
+    "share_bot_revisions": 0.12906506761477707,
+    "H1_creation": {
+      "by_year": [
+        {
+          "created_year": 2001,
+          "female": 2,
+          "male": 27,
+          "women_share": 0.06896551724137931
+        },
+        {
+          "created_year": 2002,
+          "female": 4,
+          "male": 49,
+          "women_share": 0.07547169811320754
+        },
+        {
+          "created_year": 2003,
+          "female": 11,
+          "male": 119,
+          "women_share": 0.08461538461538462
+        },
+        {
+          "created_year": 2004,
+          "female": 27,
+          "male": 368,
+          "women_share": 0.06835443037974684
+        },
+        {
+          "created_year": 2005,
+          "female": 33,
+          "male": 525,
+          "women_share": 0.05913978494623656
+        },
+        {
+          "created_year": 2006,
+          "female": 44,
+          "male": 650,
+          "women_share": 0.06340057636887608
+        },
+        {
+          "created_year": 2007,
+          "female": 38,
+          "male": 505,
+          "women_share": 0.06998158379373849
+        },
+        {
+          "created_year": 2008,
+          "female": 30,
+          "male": 445,
+          "women_share": 0.06315789473684211
+        },
+        {
+          "created_year": 2009,
+          "female": 40,
+          "male": 453,
+          "women_share": 0.08113590263691683
+        },
+        {
+          "created_year": 2010,
+          "female": 29,
+          "male": 386,
+          "women_share": 0.06987951807228916
+        },
+        {
+          "created_year": 2011,
+          "female": 27,
+          "male": 381,
+          "women_share": 0.0661764705882353
+        },
+        {
+          "created_year": 2012,
+          "female": 33,
+          "male": 321,
+          "women_share": 0.09322033898305085
+        },
+        {
+          "created_year": 2013,
+          "female": 50,
+          "male": 343,
+          "women_share": 0.1272264631043257
+        },
+        {
+          "created_year": 2014,
+          "female": 70,
+          "male": 302,
+          "women_share": 0.1881720430107527
+        },
+        {
+          "created_year": 2015,
+          "female": 90,
+          "male": 375,
+          "women_share": 0.1935483870967742
+        },
+        {
+          "created_year": 2016,
+          "female": 59,
+          "male": 425,
+          "women_share": 0.12190082644628099
+        },
+        {
+          "created_year": 2017,
+          "female": 80,
+          "male": 439,
+          "women_share": 0.15414258188824662
+        },
+        {
+          "created_year": 2018,
+          "female": 143,
+          "male": 324,
+          "women_share": 0.30620985010706636
+        },
+        {
+          "created_year": 2019,
+          "female": 150,
+          "male": 321,
+          "women_share": 0.3184713375796178
+        },
+        {
+          "created_year": 2020,
+          "female": 139,
+          "male": 313,
+          "women_share": 0.3075221238938053
+        },
+        {
+          "created_year": 2021,
+          "female": 114,
+          "male": 252,
+          "women_share": 0.3114754098360656
+        },
+        {
+          "created_year": 2022,
+          "female": 80,
+          "male": 261,
+          "women_share": 0.23460410557184752
+        },
+        {
+          "created_year": 2023,
+          "female": 56,
+          "male": 157,
+          "women_share": 0.26291079812206575
+        },
+        {
+          "created_year": 2024,
+          "female": 48,
+          "male": 146,
+          "women_share": 0.24742268041237114
+        },
+        {
+          "created_year": 2025,
+          "female": 37,
+          "male": 165,
+          "women_share": 0.18316831683168316
+        },
+        {
+          "created_year": 2026,
+          "female": 30,
+          "male": 155,
+          "women_share": 0.16216216216216217
+        }
+      ],
+      "median_created_year": {
+        "female": 2018.0,
+        "male": 2012.0
+      },
+      "share_created_2015_or_later": {
+        "female": 0.7008196721311475,
+        "male": 0.4061167296210552
+      },
+      "created_year_women_minus_men": {
+        "women_mean": 2016.5409836065573,
+        "men_mean": 2012.748141830145,
+        "observed": 3.792841776412388,
+        "null_mean": 1.0072813307112827,
+        "null_sd": 0.17393497018391121,
+        "null_ci95": [
+          0.6624163777787885,
+          1.3266862604293521
+        ],
+        "z": 16.01495342055583,
+        "p_two_sided": 0.000999000999000999,
+        "runs": 1000
+      },
+      "started_as_redirect": {
+        "female": 0.008879781420765027,
+        "male": 0.007067137809187279
+      }
+    },
+    "H2_activity": {
+      "median_edits_per_year": {
+        "female": 5.053189078665815,
+        "male": 4.248686679174484
+      },
+      "median_editors_per_year": {
+        "female": 2.548907223578861,
+        "male": 2.2361131850082128
+      },
+      "rate_ratios_equal_age": {
+        "n_edits": {
+          "outcome": "n_edits",
+          "n": 9671,
+          "women_total": 145843,
+          "men_total": 829032,
+          "model": "negative binomial (robust SE)",
+          "rate_ratio": 1.0992990751533802,
+          "ci95": [
+            0.9981323604028425,
+            1.2107196445823558
+          ],
+          "p": 0.054604198780016426
+        },
+        "n_editors": {
+          "outcome": "n_editors",
+          "n": 9671,
+          "women_total": 66378,
+          "men_total": 412751,
+          "model": "negative binomial (robust SE)",
+          "rate_ratio": 1.1361737024719165,
+          "ci95": [
+            1.0525317840382697,
+            1.2264624230500258
+          ],
+          "p": 0.0010669690266229578
+        },
+        "large_additions": {
+          "outcome": "large_additions",
+          "n": 9671,
+          "women_total": 3640,
+          "men_total": 18551,
+          "model": "poisson (robust SE)",
+          "rate_ratio": 1.47630852734585,
+          "ci95": [
+            1.1034777985451383,
+            1.9751071301910925
+          ],
+          "p": 0.008716252433593436
+        }
+      },
+      "rate_ratios_equal_age_and_citations": {
+        "n_edits": {
+          "outcome": "n_edits",
+          "n": 2924,
+          "women_total": 39250,
+          "men_total": 233994,
+          "model": "negative binomial (robust SE)",
+          "rate_ratio": 0.8627922123043785,
+          "ci95": [
+            0.7789807937166283,
+            0.9556209955593331
+          ],
+          "p": 0.00464575460949295
+        },
+        "n_editors": {
+          "outcome": "n_editors",
+          "n": 2924,
+          "women_total": 18794,
+          "men_total": 111422,
+          "model": "negative binomial (robust SE)",
+          "rate_ratio": 0.9842357660144745,
+          "ci95": [
+            0.9021709275710615,
+            1.0737655287897714
+          ],
+          "p": 0.7205543327569717
+        }
+      },
+      "median_final_size_bytes": {
+        "female": 8319.0,
+        "male": 7480.0
+      }
+    },
+    "H3_creators": {
+      "registered_human_creators": {
+        "female": 766,
+        "male": 4591
+      },
+      "pages_with_registered_human_creator": {
+        "female": 1428,
+        "male": 7757
+      },
+      "pages_created_anonymously": {
+        "female": 0.02459016393442623,
+        "male": 0.054831241623004755
+      },
+      "top10_creators_share": {
+        "female": 0.31022408963585435,
+        "male": 0.10094108547118731
+      },
+      "top10_share_women_minus_men": {
+        "observed": 0.20928300416466705,
+        "null_mean": 0.019059595218775923,
+        "null_sd": 0.008852330648929962,
+        "null_ci95": [
+          0.002227758771421426,
+          0.03687398641292278
+        ],
+        "z": 21.488511499385154,
+        "p_two_sided": 0.000999000999000999,
+        "runs": 1000
+      },
+      "top10_share_women_if_gender_shuffled": {
+        "mean": 0.13509453781512604,
+        "ci95": [
+          0.12113095238095238,
+          0.14705882352941177
+        ]
+      },
+      "gini_pages_per_creator": {
+        "female": 0.4419498870044101,
+        "male": 0.383883281960291
+      },
+      "share_by_creators_of_10plus_pages": {
+        "female": 0.3942577030812325,
+        "male": 0.24017016887972154
+      },
+      "top10_creators_share_by_period": {
+        "before 2015": {
+          "female": 0.10294117647058823,
+          "male": 0.07459677419354839
+        },
+        "2015 or later": {
+          "female": 0.41862745098039217,
+          "male": 0.21166109930154875
+        }
+      },
+      "top20_creators_anonymised": [
+        {
+          "creator": "Editor 01",
+          "pages_created": 221,
+          "share_women": 0.01809954751131222
+        },
+        {
+          "creator": "Editor 02",
+          "pages_created": 174,
+          "share_women": 0.9482758620689655
+        },
+        {
+          "creator": "Editor 03",
+          "pages_created": 171,
+          "share_women": 0.9239766081871345
+        },
+        {
+          "creator": "Editor 04",
+          "pages_created": 115,
+          "share_women": 0.0
+        },
+        {
+          "creator": "Editor 05",
+          "pages_created": 86,
+          "share_women": 0.09302325581395349
+        },
+        {
+          "creator": "Editor 06",
+          "pages_created": 80,
+          "share_women": 0.05
+        },
+        {
+          "creator": "Editor 07",
+          "pages_created": 69,
+          "share_women": 0.08695652173913043
+        },
+        {
+          "creator": "Editor 08",
+          "pages_created": 62,
+          "share_women": 0.06451612903225806
+        },
+        {
+          "creator": "Editor 09",
+          "pages_created": 54,
+          "share_women": 0.05555555555555555
+        },
+        {
+          "creator": "Editor 10",
+          "pages_created": 48,
+          "share_women": 0.125
+        },
+        {
+          "creator": "Editor 11",
+          "pages_created": 45,
+          "share_women": 0.1111111111111111
+        },
+        {
+          "creator": "Editor 12",
+          "pages_created": 44,
+          "share_women": 0.022727272727272728
+        },
+        {
+          "creator": "Editor 13",
+          "pages_created": 41,
+          "share_women": 0.04878048780487805
+        },
+        {
+          "creator": "Editor 14",
+          "pages_created": 39,
+          "share_women": 0.10256410256410256
+        },
+        {
+          "creator": "Editor 15",
+          "pages_created": 37,
+          "share_women": 0.0
+        },
+        {
+          "creator": "Editor 16",
+          "pages_created": 37,
+          "share_women": 0.6486486486486487
+        },
+        {
+          "creator": "Editor 17",
+          "pages_created": 37,
+          "share_women": 0.0
+        },
+        {
+          "creator": "Editor 18",
+          "pages_created": 31,
+          "share_women": 0.7741935483870968
+        },
+        {
+          "creator": "Editor 19",
+          "pages_created": 31,
+          "share_women": 0.0
+        },
+        {
+          "creator": "Editor 20",
+          "pages_created": 31,
+          "share_women": 0.03225806451612903
+        }
+      ],
+      "talk_page_templates": {
+        "talk_women_in_red": {
+          "women_mean": 0.20423497267759563,
+          "men_mean": 0.0,
+          "observed": 0.20423497267759563,
+          "null_mean": 0.010711107437939491,
+          "null_sd": 0.005262873195905397,
+          "null_ci95": [
+            -0.00021148479806322798,
+            0.020333774363614672
+          ],
+          "z": 36.77152346938948,
+          "p_two_sided": 0.0033222591362126247,
+          "runs": 300
+        },
+        "talk_women_scientists": {
+          "women_mean": 0.8797814207650273,
+          "men_mean": 0.00024369440721335446,
+          "observed": 0.8795377263578139,
+          "null_mean": 0.06010451948811745,
+          "null_sd": 0.010519304762985541,
+          "null_ci95": [
+            0.038409584381185996,
+            0.08106967196468962
+          ],
+          "z": 77.8980384476596,
+          "p_two_sided": 0.0033222591362126247,
+          "runs": 300
+        },
+        "talk_any_women_project": {
+          "women_mean": 0.9870218579234973,
+          "men_mean": 0.0004873888144267089,
+          "observed": 0.9865344691090706,
+          "null_mean": 0.06517853223169257,
+          "null_sd": 0.011108691689682261,
+          "null_ci95": [
+            0.045597820333302036,
+            0.08664809329101306
+          ],
+          "z": 82.94009435270692,
+          "p_two_sided": 0.0033222591362126247,
+          "runs": 300
+        },
+        "talk_afc": {
+          "women_mean": 0.06215846994535519,
+          "men_mean": 0.080784695991227,
+          "observed": -0.018626226045871816,
+          "null_mean": 0.017240443816787084,
+          "null_sd": 0.007661984824975564,
+          "null_ci95": [
+            0.0018787877501613014,
+            0.031700603692969
+          ],
+          "z": -4.681119929361553,
+          "p_two_sided": 0.0033222591362126247,
+          "runs": 300
+        },
+        "talk_old_afd": {
+          "women_mean": 0.028005464480874317,
+          "men_mean": 0.036676008285609844,
+          "observed": -0.008670543804735528,
+          "null_mean": 0.004725796906235137,
+          "null_sd": 0.005227321319890078,
+          "null_ci95": [
+            -0.005450914553150353,
+            0.015476675582153314
+          ],
+          "z": -2.5627543996572926,
+          "p_two_sided": 0.016611295681063124,
+          "runs": 300
+        },
+        "talk_old_prod": {
+          "women_mean": 0.00546448087431694,
+          "men_mean": 0.004873888144267089,
+          "observed": 0.0005905927300498505,
+          "null_mean": 0.0009474349721005415,
+          "null_sd": 0.0019484946162132177,
+          "null_ci95": [
+            -0.002629036521535328,
+            0.005037705633801861
+          ],
+          "z": -0.1831374021162001,
+          "p_two_sided": 1.0,
+          "runs": 300
+        },
+        "talk_connected_contributor": {
+          "women_mean": 0.020491803278688523,
+          "men_mean": 0.02546606555379554,
+          "observed": -0.004974262275107017,
+          "null_mean": 0.007209351417766565,
+          "null_sd": 0.0045039812811842736,
+          "null_ci95": [
+            -0.000949725710625543,
+            0.015148420547300354
+          ],
+          "z": -2.705076449534007,
+          "p_two_sided": 0.0033222591362126247,
+          "runs": 300
+        },
+        "talk_dyk": {
+          "women_mean": 0.03961748633879782,
+          "men_mean": 0.017424150115754843,
+          "observed": 0.022193336223042974,
+          "null_mean": -0.002369751942175623,
+          "null_sd": 0.0036440518639036085,
+          "null_ci95": [
+            -0.008815718006286782,
+            0.004485375339324485
+          ],
+          "z": 6.740597851674356,
+          "p_two_sided": 0.0033222591362126247,
+          "runs": 300
+        }
+      }
+    },
+    "H4_ever": {
+      "notability_tag": {
+        "outcome": "ever_notability_tag",
+        "n": 9671,
+        "women_share": 0.1755464480874317,
+        "men_share": 0.21579139758742538,
+        "odds_ratio": 0.9174801611593906,
+        "ci95": [
+          0.7851791640641197,
+          1.0720735911585146
+        ],
+        "p": 0.2783615529811866
+      },
+      "deletion_nomination": {
+        "outcome": "ever_deletion_nomination",
+        "n": 9671,
+        "women_share": 0.08743169398907104,
+        "men_share": 0.1407335201657122,
+        "odds_ratio": 0.7180693313475557,
+        "ci95": [
+          0.5859703431797562,
+          0.879948227113176
+        ],
+        "p": 0.0014082294986685426
+      },
+      "orphan_tag_added": {
+        "outcome": "ever_orphan_tag_added",
+        "n": 9671,
+        "women_share": 0.18032786885245902,
+        "men_share": 0.11417082977945656,
+        "odds_ratio": 1.2360153236186118,
+        "ci95": [
+          1.0538148038552566,
+          1.4497176113212569
+        ],
+        "p": 0.009209794118486856
+      },
+      "reverted_later": {
+        "outcome": "ever_reverted_later",
+        "n": 9671,
+        "women_share": 0.41188524590163933,
+        "men_share": 0.3439746557816498,
+        "odds_ratio": 1.495901772220657,
+        "ci95": [
+          1.3214841551867924,
+          1.6933401004846695
+        ],
+        "p": 1.9282318837495634e-10
+      },
+      "personal_life": {
+        "outcome": "ever_personal_life",
+        "n": 9671,
+        "women_share": 0.19467213114754098,
+        "men_share": 0.1819178749847691,
+        "odds_ratio": 1.8501439146098038,
+        "ci95": [
+          1.5789748706421605,
+          2.167882826010752
+        ],
+        "p": 2.7673819029588466e-14
+      },
+      "sec_personal": {
+        "outcome": "ever_sec_personal",
+        "n": 9671,
+        "women_share": 0.18442622950819673,
+        "men_share": 0.1412209089801389,
+        "odds_ratio": 1.910231680935737,
+        "ci95": [
+          1.626369920776041,
+          2.2436378269400215
+        ],
+        "p": 3.1383278192621534e-15
+      }
+    },
+    "H5_editor_network": {
+      "editors": 80660,
+      "editor_page_pairs": 358554,
+      "editors_with_2plus_pages": 23505,
+      "base_share_women_pages": 0.15138041567573157,
+      "neighbour_women_share": {
+        "women_pages": 0.2456728783901184,
+        "men_pages": 0.13058034056572354
+      },
+      "women_minus_men": {
+        "observed": 0.11509253782439485,
+        "null_mean": 0.004238037734204598,
+        "null_sd": 0.0010370141327717933,
+        "null_ci95": [
+          0.002386130567321755,
+          0.0062600828278635565
+        ],
+        "z": 106.89777177278359,
+        "p_two_sided": 0.000999000999000999,
+        "runs": 1000
+      },
+      "women_minus_men_editors_with_le100_pages": {
+        "observed": 0.14566690836375767,
+        "null_mean": 0.006392820482655894,
+        "null_sd": 0.0025995169583795806,
+        "null_ci95": [
+          0.0011873556519456348,
+          0.011816476749135165
+        ],
+        "z": 53.576910676481546,
+        "p_two_sided": 0.0033222591362126247,
+        "runs": 300
+      },
+      "editors_5plus_pages": 8467,
+      "editors_mostly_on_womens_pages": {
+        "observed": 291.0,
+        "null_mean": 102.687,
+        "null_sd": 22.56202630527675,
+        "null_ci95": [
+          68.0,
+          157.0
+        ],
+        "z": 8.34645778052115,
+        "p_two_sided": 0.000999000999000999,
+        "runs": 1000
+      }
+    },
+    "descriptive_in_degree_by_creation_period": [
+      {
+        "created_bin": "2001-05",
+        "gender": "female",
+        "mean": 2.038961038961039,
+        "size": 77
+      },
+      {
+        "created_bin": "2001-05",
+        "gender": "male",
+        "mean": 3.3786764705882355,
+        "size": 1088
+      },
+      {
+        "created_bin": "2006-09",
+        "gender": "female",
+        "mean": 0.7828947368421053,
+        "size": 152
+      },
+      {
+        "created_bin": "2006-09",
+        "gender": "male",
+        "mean": 1.4671212859230394,
+        "size": 2053
+      },
+      {
+        "created_bin": "2010-14",
+        "gender": "female",
+        "mean": 0.645933014354067,
+        "size": 209
+      },
+      {
+        "created_bin": "2010-14",
+        "gender": "male",
+        "mean": 0.8216964800923254,
+        "size": 1733
+      },
+      {
+        "created_bin": "2015-19",
+        "gender": "female",
+        "mean": 0.32375478927203066,
+        "size": 522
+      },
+      {
+        "created_bin": "2015-19",
+        "gender": "male",
+        "mean": 0.6194267515923567,
+        "size": 1884
+      },
+      {
+        "created_bin": "2020-26",
+        "gender": "female",
+        "mean": 0.23015873015873015,
+        "size": 504
+      },
+      {
+        "created_bin": "2020-26",
+        "gender": "male",
+        "mean": 0.40096618357487923,
+        "size": 1449
+      }
+    ]
+  },
+  "biology": {
+    "n_pages": 2775,
+    "share_created_2015_or_later": {
+      "female": 0.6042983565107459,
+      "male": 0.4022177419354839
+    },
+    "n_edits": {
+      "outcome": "n_edits",
+      "n": 2775,
+      "women_total": 64783,
+      "men_total": 208053,
+      "model": "negative binomial (robust SE)",
+      "rate_ratio": 1.0670049324326387,
+      "ci95": [
+        0.9554569500160547,
+        1.1915759530729766
+      ],
+      "p": 0.2496582202545251
+    }
+  }
+}

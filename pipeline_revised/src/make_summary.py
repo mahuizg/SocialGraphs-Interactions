@@ -33,6 +33,32 @@ A(f"At equal citations, field and birth decade, women scientists' Wikipedia page
   f"cut off from the network altogether; their text is also recognisably different even with names and gender words hidden.\n")
 A("The claim is **less embedded**, not *less visible*: we measure links between scientists' pages, not readers.\n")
 
+_nm = s.get("name_matched_sample")
+if VAL_AI or isinstance(_nm, dict):
+    A("## New on 18 November 2026\n")
+    if isinstance(_nm, dict):
+        _pc = _nm.get("passing_check")
+        A(f"- **Among people who could not be matched by ID, the gap points the same way.** A name-matched random sample of unmatched "
+          f"people ({_nm['n']} accepted of 601, {_nm['women']} women) gives a rate ratio of {_nm['negbin_irr']['irr']:.2f} "
+          f"{ci(_nm['negbin_irr']['ci95'])} at equal citations, against {_nm['id_matched_same_model']['irr']:.2f} "
+          f"{ci(_nm['id_matched_same_model']['ci95'])} for the same model on the ID-matched set"
+          + (f" ({_pc['negbin_irr']['irr']:.2f} {ci(_pc['negbin_irr']['ci95'])} keeping only matches that pass the data check)" if _pc else "")
+          + ". Same direction and similar size, but the interval includes 1: consistent with the main result, not a confirmation on its own.")
+    if CHK:
+        _f, _m = CHK["by_gender"]["female"], CHK["by_gender"]["male"]
+        A(f"- **Name matches checked from data:** {_f['k']} of {_f['n']} women and {_m['k']} of {_m['n']} men pass "
+          f"(about {(_f['k'] + _m['k']) / (_f['n'] + _m['n']):.0%} for both); the failures are listed for a person to open.")
+    if VAL_AI:
+        _sp, _sq = VAL_AI["sentences"]["is_personal"], VAL_AI["sentences"]["is_professional"]
+        _w2 = VAL_AI["word_lists"]["second_pass_labels"]["personal"]
+        A(f"- **Hand labels are stable across two rounds, both AI-assisted.** All 100 ID matches were judged correct in both rounds "
+          f"(50 of 50 per gender, 95% interval 93% to 100%); sentence labels agree with kappa {_sp['kappa']:.2f} (personal) and "
+          f"{_sq['kappa']:.2f} (professional). No person has re-checked them, and the paper says so.")
+        A(f"- **The personal-life word list stays dropped, for a corrected reason.** Its recall is {_w2['recall_female']:.0%} on women's "
+          f"pages and {_w2['recall_male']:.0%} on men's, but the 95% interval of that difference is {ci(_w2['recall_diff_ci95'])}: "
+          f"the list cannot be shown to work equally for both genders (earlier text implied a clear difference).")
+    A("- **Nothing else changed:** RQ1, RQ2 and RQ3 numbers are as before.\n")
+
 A("## RQ1. Embeddedness at equal impact\n")
 A(f"Comparison set: {r1['comparison_set']['n']:,} physicists and chemists matched to OpenAlex "
   f"({r1['comparison_set']['women']} women, {r1['comparison_set']['men']:,} men), inside a network of "

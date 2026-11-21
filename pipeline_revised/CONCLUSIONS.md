@@ -8,6 +8,14 @@ At equal citations, field and birth decade, women scientists' Wikipedia pages re
 
 The claim is **less embedded**, not *less visible*: we measure links between scientists' pages, not readers.
 
+## New on 18 November 2026
+
+- **Among people who could not be matched by ID, the gap points the same way.** A name-matched random sample of unmatched people (188 accepted of 601, 82 women) gives a rate ratio of 0.63 [0.38, 1.05] at equal citations, against 0.60 [0.51, 0.70] for the same model on the ID-matched set (0.73 [0.44, 1.21] keeping only matches that pass the data check). Same direction and similar size, but the interval includes 1: consistent with the main result, not a confirmation on its own.
+- **Name matches checked from data:** 65 of 82 women and 84 of 106 men pass (about 79% for both); the failures are listed for a person to open.
+- **Hand labels are stable across two rounds, both AI-assisted.** All 100 ID matches were judged correct in both rounds (50 of 50 per gender, 95% interval 93% to 100%); sentence labels agree with kappa 0.99 (personal) and 0.98 (professional). No person has re-checked them, and the paper says so.
+- **The personal-life word list stays dropped, for a corrected reason.** Its recall is 46% on women's pages and 33% on men's, but the 95% interval of that difference is [-0.18, 0.46]: the list cannot be shown to work equally for both genders (earlier text implied a clear difference).
+- **Nothing else changed:** RQ1, RQ2 and RQ3 numbers are as before.
+
 ## RQ1. Embeddedness at equal impact
 
 Comparison set: 2,926 physicists and chemists matched to OpenAlex (606 women, 2,320 men), inside a network of 9,680 pages and 10,563 links.
