@@ -1,0 +1,287 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+\usepackage[a4paper,margin=2.3cm]{geometry}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue!50!black}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+
+\newcommand{\file}[1]{\texttt{#1}}
+\newcommand{\fn}[1]{\texttt{#1()}}
+
+\title{\textbf{Who Gets Remembered?}\\[0.3em]
+Explicação do código do projeto\\[0.3em]
+\large DTU 02805 Social Graphs and Interactions}
+\author{Documento interno para o grupo}
+\date{25 de novembro de 2026}
+
+\begin{document}
+\maketitle
+
+\section*{Como ler este documento}
+
+Este documento explica a \emph{lógica} do código do repositório \file{SocialGraphs-Interactions}: o raciocínio por trás de cada passo, como os ficheiros se encadeiam e o que faz cada função. Não é um manual linha a linha. Para cada ficheiro indica-se o papel no conjunto, as funções principais e a ideia que as une. Quando uma função não foi lida em detalhe, a descrição segue o nome da função e a documentação do ficheiro, e isso fica assinalado.
+
+\section{A pergunta de investigação}
+
+O projeto pergunta se as páginas da Wikipédia (inglesa) de cientistas mulheres estão menos ligadas à rede de ligações entre páginas de cientistas do que as de homens, \emph{com o mesmo impacto científico} (citações), a mesma área (física, química) e a mesma década de nascimento. Há três perguntas de investigação e uma análise extra:
+
+\begin{description}[leftmargin=2.2cm,style=nextline]
+  \item[RQ1] Visibilidade e integração na rede. As páginas de mulheres recebem menos ligações (\emph{in-degree}), têm menos ligações de saída, mais páginas isoladas?
+  \item[RQ2] Escrita. As páginas de mulheres são escritas de forma diferente (vocabulário, foco na vida pessoal), depois de ocultar nomes e palavras de género?
+  \item[RQ3] Homofilia. Uma parte maior das ligações recebidas pelas páginas de mulheres vem de outras mulheres, mais do que o acaso daria?
+  \item[Extra: história] Quando foram criadas as páginas, quem as criou e como foram editadas ao longo dos anos (ficheiros \file{r6a} e \file{r6b}).
+\end{description}
+
+\section{Estrutura do repositório}
+
+Há três versões do código, cada uma num subprojeto. Lidas por ordem cronológica:
+
+\begin{enumerate}
+  \item \textbf{\file{project/}} -- primeira versão da recolha de dados. Tem três scripts de recolha (Wikidata, Wikipédia, OpenAlex) e um módulo de limpeza (\file{cleaning.py}). Contém a lógica de \emph{limpeza com validação manual} (ficheiros em \file{data/manual/}).
+  \item \textbf{\file{pipeline/}} -- pipeline completo, numerado de \file{01} a \file{08}. Inclui recolha, limpeza, análise de rede (RQ1, RQ3), análise de texto (RQ2), enriquecimento e robustez. É a versão usada para os resultados originais. Os dados ficam em \file{pipeline/data/processed/}.
+  \item \textbf{\file{pipeline_revised/}} -- revisão feita depois da avaliação externa. \emph{Não recolhe dados de novo}: lê \file{../pipeline/data/} em modo de leitura e escreve tudo o que deriva em \file{pipeline_revised/}. O ficheiro \file{docs/RESPONSE_TO_REVIEW.md} lista cada ponto da revisão e o que foi feito. Os resultados finais estão em \file{CONCLUSIONS.md}.
+\end{enumerate}
+
+Na raiz do repositório há ainda \file{README.md} (site da disciplina, com um texto sobre como adicionar posts), \file{_config.yml}, \file{index.html}, a pasta \file{_posts/} e os notebooks \file{who_gets_remembered.ipynb} e \file{validation_and_defence.ipynb}. Estes não fazem parte da análise e não são explicados aqui.
+
+\section{Fluxo de dados}
+
+A ordem lógica é a mesma nas três versões, com nomes diferentes:
+
+\begin{enumerate}
+  \item \textbf{Lista de pessoas.} Consulta ao Wikidata (SPARQL) para obter humanos com ocupação física ou química, nascidos entre 1920 e 1980, com página na Wikipédia inglesa. Para cada pessoa: género, ano de nascimento e identificadores (ORCID, OpenAlex).
+  \item \textbf{Ligações entre páginas.} Descarregam-se as páginas (wikitexto), resolvem-se redirecionamentos e extraem-se as ligações \texttt{[[wikilink]]} que apontam para outras páginas da lista. Isto cria o grafo dirigido: uma aresta de A para B significa que a página de A liga à página de B. Também se extrai o texto em prosa de cada página, sem referências, tabelas e infobox.
+  \item \textbf{Impacto.} Com o identificador OpenAlex (ou ORCID) do Wikidata, vai-se buscar o número de citações, trabalhos e índice h. Só entram no impacto as pessoas com identificador; as restantes ficam sem impacto.
+  \item \textbf{Limpeza.} Juntam-se as tabelas, corrigem-se géneros e anos de nascimento, definem-se os estratos (área $\times$ década $\times$ classe de impacto) e marca-se o que deve ou não entrar em cada análise. A regra é \emph{marcar e não apagar}: apagar um nó também apaga as suas ligações e altera a rede.
+  \item \textbf{Análises.} RQ1 (rede, com modelos nulos de baralhamento de género e regressões), RQ2 (texto, classificador e palavras), RQ3 (homofilia nas ligações), testes de seleção (quem tem identificador) e análise de histórico de edições.
+  \item \textbf{Resultados e figuras.} Cada script grava ficheiros JSON, CSV ou PNG/PDF em \file{results/} ou \file{figures/}. O \file{CONCLUSIONS.md} é gerado a partir desses ficheiros, para que todos os números venham do código.
+\end{enumerate}
+
+\section{Ficheiro a ficheiro}
+
+\subsection{\file{project/src/}}
+
+\paragraph{\file{common.py}.} Funções partilhadas: caminhos de pasta, leitura da chave da API a partir de \file{.env}, sessão HTTP com novas tentativas (\fn{make_session}, \fn{request_json}), registo de cada consulta em \file{data/data_log.csv} (\fn{log_query}, obrigatório para a metodologia do projeto) e \fn{chunks}, que parte listas em blocos.
+
+\paragraph{\file{01_wikidata.py}.} Constrói a lista de cientistas. \fn{build_query} gera a consulta SPARQL para uma ocupação, \fn{run_query} executa-a e \fn{bindings_to_rows} converte a resposta em linhas. \fn{qid_of}, \fn{title_of} e \fn{year_of} extraem o identificador, o título da página e o ano de nascimento. \fn{aggregate} junta as linhas por pessoa: se houver vários géneros ou anos, guarda-os e marca-os (\texttt{birth\_year\_conflict}). \fn{main} escreve \file{wikidata_scientists.csv}.
+
+\paragraph{\file{02_wikipedia.py}.} Recolhe o texto e as ligações. \fn{normalize_title} normaliza títulos, \fn{api_query} faz pedidos à API da Wikipédia e \fn{fetch_wikitext} descarrega o wikitexto em lotes de 20. \fn{fetch_redirects} resolve redirecionamentos, para que uma ligação a ``Marie Sklodowska Curie'' conte para ``Marie Curie''. \fn{extract_links} lê as ligações. \fn{clean_text} remove referências, \emph{templates} (infobox), tabelas e as secções finais (Referências, Ligações externas, Publicações). \fn{main} grava \file{nodes.csv} e \file{edges.csv}.
+
+\paragraph{\file{03_openalex.py}.} Impacto. Para cada pessoa, \fn{lookup_person} tenta primeiro o identificador OpenAlex e depois o ORCID (\fn{get_author}). \fn{first_pub_year} vai buscar o ano da primeira publicação (desativável). \fn{summarise} reduz o registo a algumas colunas. \fn{name_similarity} compara nomes com normalização de acentos, e \fn{plain_name} limpa títulos. As pessoas sem identificador passam por \fn{name_candidates}, que guarda os cinco melhores candidatos mas \emph{não os usa}: a escolha entre candidatos ficou para uma fase posterior, com amostra verificada à mão.
+
+\paragraph{\file{cleaning.py}.} É o coração da limpeza. \fn{run_all} executa todos os passos por ordem e devolve as tabelas e um registo de contagens para a secção de métodos. Os passos são:
+\begin{itemize}
+  \item \fn{load_raw} e \fn{clean_gender}: carrega os dados e reduz o género a masculino, feminino ou ``other'' (mantido, mas não comparado).
+  \item \fn{drop_invalid_pages}: remove páginas partilhadas ou vazias (são as únicas que se apagam).
+  \item \fn{all_birth_years}, \fn{birth_fix_template}, \fn{apply_birth_fixes}: quando o Wikidata tem dois anos de nascimento, cria um modelo \file{birth_year_fixes.csv} para preencher à mão, e aplica-o depois.
+  \item \fn{add_field_and_stub}: define a área e assinala ``stubs'' (páginas com menos de um limiar de palavras).
+  \item \fn{merge_impact}, \fn{hand_check_template}, \fn{apply_hand_check}: junta o impacto e prepara a verificação manual dos identificadores (\file{hand_check_matches.csv}, com \texttt{ok}, \texttt{wrong} ou \texttt{unsure}).
+  \item \fn{add_impact_measures}: calcula medidas de impacto e assinala perfis suspeitos (muitos trabalhos).
+  \item \fn{clean_edges}, \fn{add_degrees}: mantém só as arestas entre nós válidos e calcula os graus.
+  \item \fn{coverage_table}, \fn{hand_check_summary}: tabelas de cobertura por década e área, e resumo da verificação.
+  \item \fn{write_outputs}, \fn{cleaning_log_md}, \fn{_md}: gravam \file{data/clean/} e o registo em Markdown.
+\end{itemize}
+\fn{read_manual} e \fn{write_template_if_missing} tratam dos ficheiros que o investigador preenche; nunca os sobrescrevem.
+
+\paragraph{\file{04_clean.py}.} Muito curto: chama \fn{run_all} e imprime o resultado. Existe para correr a limpeza a partir da linha de comandos.
+
+\subsection{\file{pipeline/src/}}
+
+\paragraph{\file{common.py}.} Equivalente ao de \file{project/}, mas com caminhos para \file{data/processed/}. \fn{get} faz pedidos com limitação de ritmo (\fn{_throttle}) e novas tentativas, para não ser bloqueado pela Wikimedia (erro HTTP 429). \fn{log} regista consultas em \file{data_log.csv}. \fn{openalex_params} acrescenta a chave da API.
+
+\paragraph{\file{01_wikidata.py}.} Uma função, \fn{run}: a consulta SPARQL está numa constante \texttt{TEMPLATE} e agrupa por pessoa com \texttt{GROUP\_CONCAT} e \texttt{SAMPLE}. O resultado é \file{scientists_wikidata.csv}, que serve de lista mestra para todos os passos seguintes.
+
+\paragraph{\file{02_wikipedia.py}.} Versão completa da recolha. \fn{_fetch_one} e \fn{fetch_wikitext} descarregam páginas em paralelo (quatro \emph{workers}), guardando cada uma em \file{data/raw/wikitext/}. \fn{fetch_redirects} faz o mesmo para os redirecionamentos. \fn{plain_text} usa \texttt{mwparserfromhell} para remover \emph{templates}, referências, tabelas e secções finais. \fn{build} constrói \file{pages.csv}, \file{edges.csv} e os ficheiros de texto. \fn{norm} e \fn{chunks} são utilitários.
+
+\paragraph{\file{03_openalex.py}.} Impacto a partir do Wikidata, pela ordem: identificador OpenAlex e depois ORCID. \fn{fetch(filter_key, values)} faz as consultas em lote, usando filtros da API em vez de um pedido por pessoa. \fn{simplify} e \fn{name_sim} normalizam e comparam nomes (com \texttt{difflib}), usados só para avaliar a qualidade do casamento. \fn{run} produz \file{impact.csv}. Não há pesquisa por nome nesta versão (ver \file{docs/scope_note.md}).
+
+\paragraph{\file{04_enrich.py}.} Atributos extra: prémios e Nobel (\fn{awards}), visualizações de páginas (\fn{views}) e ligações de toda a Wikipédia (\fn{backlinks}). Os dois últimos \emph{não foram concluídos}: a Wikimedia limitou os pedidos, e o grupo decidiu dispensá-los, o que deve ser referido como limitação. Os resultados em cache são usados nas análises de robustez.
+
+\paragraph{\file{05_clean.py}.} Equivalente à limpeza de \file{cleaning.py}, mas num único ficheiro. \fn{wilson} calcula o intervalo de confiança de Wilson para proporções (usado na verificação de correspondências). \fn{field_group} agrupa as áreas, \fn{optional} carrega colunas opcionais. \fn{run} junta, limpa e define estratos, desenha a amostra de verificação (100 correspondências, 50 mulheres e 50 homens, semente 2805) e escreve \file{cleaning_report.txt}.
+
+\paragraph{\file{06_network.py}.} É o ficheiro mais importante da análise de rede (RQ1 e RQ3). A lógica está explicada na secção \ref{sec:logica}. As funções principais são:
+\begin{itemize}
+  \item \fn{load_graph}: constrói o grafo dirigido a partir de \file{edges_clean.csv}, por área.
+  \item \fn{comparison_set}: escolhe a amostra de comparação (quem tem impacto positivo), opcionalmente sem prémios Nobel ou sem o 1\% de topo, e cria a variável \texttt{female}, o logaritmo do impacto, os quintis (\texttt{impact\_bin}) e o estrato \texttt{field|decade|bin}.
+  \item \fn{stratified_shuffle}: calcula a diferença de médias entre mulheres e homens dentro de cada estrato e compara com a distribuição nula obtida ao baralhar o género dentro dos estratos.
+  \item \fn{regression}: regressão linear em logaritmos (modelo de \texttt{female} mais impacto, área, década e óbito), com erros HC3. \texttt{with\_prizes} adiciona o Nobel e os prémios, para ver quanto da diferença passa por prémios.
+  \item \fn{two_part}: modelo em duas partes (há ou não ligações; quantas há, se houver).
+  \item \fn{fig1}, \fn{fig3}: figuras.
+  \item \fn{inlink_share_from_women}: estatística da RQ3 (proporção de ligações recebidas por páginas de mulheres que vêm de mulheres), com 1000 baralhamentos.
+  \item \fn{communities}: deteção de comunidades (Louvain) com 10 sementes; é usada só descritivamente.
+  \item \fn{run_rq1}: encadeia tudo para uma configuração. Devolve um dicionário e grava \file{rq1_*.json}. Também é importada pelo \file{08_robustness.py}.
+  \item \fn{summary} e \fn{main}: resumem os resultados e tratam os argumentos da linha de comandos.
+\end{itemize}
+
+\paragraph{\file{07_text.py}.} Análise de texto (RQ2). \fn{mask_all} usa spaCy para substituir nomes de pessoas por \texttt{NAME}, pronomes por \texttt{PRON} e palavras de género (mulher, homem, Mrs.) por \texttt{GENDERWORD}. Os termos de parentesco são neutralizados (\emph{husband/wife} $\to$ \emph{spouse}, etc.). \fn{unmask_safe} e \fn{tokens} tratam do texto mascarado. \fn{fightin_words} calcula o \emph{log-odds} ponderado de Monroe, Colaresi e Quinn (2008), com a priori de Dirichlet e contagem de documentos (cada página conta uma vez por palavra). \fn{label_sample} prepara a amostra de frases para etiquetar à mão (vida pessoal ou profissional), e \fn{validate} calcula a precisão e a cobertura com intervalos bootstrap quando as etiquetas estão preenchidas. \fn{fig2} e \fn{scattertext_html} são as figuras.
+
+\paragraph{\file{08_robustness.py}.} Não tem análise própria. \fn{main} repete a análise da RQ1 com \fn{run_rq1} em várias variantes (3, 5 e 10 estratos de impacto; sementes diferentes; h-index e número de trabalhos; sem Nobel; sem o 1\% de topo; biologia) e junta tudo numa tabela, \file{robustness.md}.
+
+\subsection{\file{pipeline_revised/src/}}
+
+\paragraph{\file{common.py}.} Carrega os dados da pipeline original (\fn{load_nodes}), constrói o grafo (\fn{graph}), calcula graus (\fn{add_degrees}) e define a amostra de comparação (\fn{comparison_set}). Tem também os utilitários de baralhamento dentro de grupos (\fn{permute_within}, \fn{perm_summary}) e \fn{save_json}. Os estratos da revisão incluem \emph{subárea}, além de área e década.
+
+\paragraph{\file{r0_edges_prose.py}.} Segunda definição de aresta: só ligações em prosa. Remove secções de referências, \emph{templates}, \texttt{<ref>}, tabelas e linhas de listas antes de extrair as ligações (\fn{prose_links}). Assim, a rede e o texto usam a mesma parte da página.
+
+\paragraph{\file{r1_embeddedness.py}.} RQ1 revista. O resultado principal é o \emph{in-degree} bruto, com out-degree, ligações recíprocas, páginas sem ligações recebidas e isolados. O PageRank fica como suplemento.
+\begin{itemize}
+  \item \fn{prep}, \fn{descriptives}: preparam a tabela e mostram médias brutas (não ajustadas, e sem o rótulo ``a igual impacto'').
+  \item \fn{permutation}: baralhamento do género dentro de estratos, com a rede fixa. Dois estratos: área $\times$ década $\times$ quintil de citações, e subárea $\times$ década $\times$ tercil. Como os rótulos é que são baralhados, o teste continua válido mesmo com dependência entre páginas vizinhas.
+  \item \fn{irr}, \fn{poisson}, \fn{negbin}, \fn{hurdle}: modelos de contagem (Poisson, binomial negativo, \emph{hurdle}). O binomial negativo é o principal, e \fn{irr} converte o coeficiente numa razão de taxas com intervalo de confiança.
+  \item \fn{models}, \fn{ladder}: a sequência de modelos, desde o mais simples até ao completo, para ver como o efeito muda com cada controlo.
+  \item \fn{clustered}: erros-padrão agrupados por comunidade.
+  \item \fn{pagerank_supplement}: a medida de PageRank como suplemento.
+  \item \fn{run_one}, \fn{main}: correm tudo para uma rede (ligações de toda a Wikipédia ou só em prosa) e para as variantes de robustez; gravam em \file{results/}.
+\end{itemize}
+
+\paragraph{\file{r2_text.py}.} RQ2 revista, em três partes.
+\begin{enumerate}
+  \item \textbf{Classificador.} \fn{classifier}: TF-IDF mais regressão logística, com validação cruzada de 5 partes (\fn{cv_scores}), para que cada página seja classificada por um modelo que não a viu. A medida é a AUC, calculada de duas formas: a AUC \emph{agregada} (\texttt{pooled}), que usa todas as páginas, e a AUC \emph{dentro dos estratos} (\fn{within_auc}), que compara só pares de mulher e homem da mesma área e década. O nulo baralha o género dentro de área $\times$ década e repete tudo.
+  \item \textbf{Metadados.} \fn{metadata_auc} mede quanto da separação se deve só a área, década, impacto e tamanho, sem texto.
+  \item \textbf{Palavras.} \fn{log_odds} calcula o \emph{log-odds} com priori; \fn{stratified_z} repete o cálculo dentro de estratos; \fn{words} calcula palavras por década com metade dos dados reservada para validação (``held-out''). \fn{tokens} e \fn{explicit_mentions} tratam do texto e contam menções explícitas ao género (``a primeira mulher'').
+\end{enumerate}
+\fn{load_docs} lê os textos e \fn{letters} e \fn{topic_words} servem a verificação de nomes.
+
+\paragraph{\file{r3_homophily.py}.} RQ3 revista. A estatística é a mesma (proporção de ligações recebidas por mulheres que vêm de mulheres). A diferença está nos \emph{nulos}: além do baralhamento por área $\times$ década (o original), testa-se o baralhamento dentro de comunidades de ligação (Louvain, 10 partições), porque as mulheres podem estar concentradas em comunidades temáticas e isso geraria homofilia sem preferência de género. \fn{main} calcula as quatro versões e grava \file{rq3_*}.
+
+\paragraph{\file{r4_selection.py}.} Testes de seleção: só cerca de 30\% das páginas têm identificador, e as mulheres com identificador são mais novas do que os homens com identificador. \fn{main} verifica (1) a taxa de correspondência por género e década, (2) a diferença de in-degree entre páginas com e sem correspondência, separadamente e (3) a reponderação por probabilidade inversa, para que a amostra corresponda ao conjunto total.
+
+\paragraph{\file{r4b_openalex_namematch.py}.} Traz dados novos: correspondência por nome para uma amostra de 601 pessoas \emph{sem} identificador. \fn{sim} compara nomes, \fn{search} pesquisa na OpenAlex, \fn{draw_sample} sorteia a amostra, \fn{decide} aceita um candidato se tiver pelo menos 10 trabalhos, uma área aceite e semelhança de nomes igual ou superior a 0,92. \fn{write} grava \file{impact_namematch.csv}. Como a API estava bloqueada na máquina de análise, as pesquisas foram feitas a partir de um browser (ver \fn{from_responses}), a partir de um ficheiro de respostas guardadas, com os mesmos parâmetros. Esta nota está no próprio cabeçalho do ficheiro.
+
+\paragraph{\file{r4c_namematch_check.py}.} Verifica cada correspondência por nome aceite, com uma regra baseada em dados, não em olhar para as páginas. A regra exige que o apelido da Wikipédia esteja no nome da OpenAlex \emph{e} que pelo menos duas palavras dos cinco tópicos principais do perfil apareçam no texto da página. \fn{norm} e \fn{letters} normalizam, \fn{topic_words} extrai as palavras dos tópicos. A regra falha correspondências erradas da mesma área e rejeita correspondências certas cuja página diz pouco sobre a investigação. Por isso as rejeitadas são listadas para verificação humana.
+
+\paragraph{\file{r5_validation.py}.} Validação humana. A primeira ronda de verificação foi feita com ajuda de IA, o que é circular (um modelo a verificar um modelo). Este ficheiro prepara folhas \emph{cegas} (sem rótulos de IA, sem género, com ordem diferente para cada pessoa) para duas pessoas, e depois:
+\begin{itemize}
+  \item \texttt{make}: escreve as folhas dos avaliadores A e B;
+  \item \texttt{score}: calcula o kappa de Cohen entre humanos e entre humano e IA, a precisão com intervalos de Wilson, e um teste de igualdade de precisão entre géneros;
+  \item \texttt{claude}: avalia a segunda passagem feita pela IA (18 de novembro de 2026).
+\end{itemize}
+\fn{word_list_accuracy} faz o mesmo para as listas de palavras da RQ2, com bootstrap.
+
+\paragraph{\file{r6a_history_collect.py}.} Extra. Recolhe o histórico de edições de cada página através da API MediaWiki, \emph{só metadados} (data, editor, tamanho, resumo, etiquetas, bot ou não). Não guarda o texto das páginas. \fn{get} faz pedidos com novas tentativas, \fn{page_history} lê todas as revisões de uma página (\fn{compact} reduz cada revisão), \fn{collect_revisions} escreve em partes comprimidas (\fn{write_part}, e \fn{saved_qids} retoma onde parou), \fn{collect_bots} obtém a lista de contas bot para as excluir e \fn{collect_talk} recolhe as páginas de discussão. Só escreve em \file{pipeline_revised/data/history/}.
+
+\paragraph{\file{r6b_history_analysis.py}.} Extra. Analisa o histórico. As perguntas (H1 a H5) são:
+\begin{description}[leftmargin=1.2cm,style=nextline]
+  \item[H1] Quando foram criadas as páginas? \fn{h1_creation}: proporção de páginas novas de mulheres por ano, e ano de criação com controlo de área e década.
+  \item[H2] Quanto são editadas? \fn{h2_activity}: edições humanas e editores por ano-página, e evolução do tamanho.
+  \item[H3] Quem as cria? \fn{h3_creators}, \fn{gini} e \fn{top_share}: concentração dos criadores (índice de Gini e parte dos dez principais).
+  \item[H4] Que tipo de edições? \fn{h4_edit_types}: classifica os resumos de edição (reversões, etiquetas de eliminação ou notabilidade, referências, ligações, prémios, vida pessoal...).
+  \item[H5] Rede bipartida editor--página. \fn{h5_bipartite} testa se as páginas de mulheres são editadas por um conjunto diferente de pessoas. \fn{focused} analisa editores focados.
+\end{description}
+Os modelos são binomiais negativos (\fn{nb_irr}) e logísticos (\fn{logit_or}), com baralhamento por estratos (\fn{perm_diff}). \fn{figures} e os \texttt{panel\_*} fazem as figuras. \fn{write_summary} escreve \file{HISTORY_CONCLUSIONS.md}. \fn{descriptive_links} resume as ligações e \fn{main} coordena tudo.
+
+\paragraph{\file{figures.py}.} As três figuras do artigo, a partir dos resultados gravados. \fn{fig1}, \fn{fig2}, \fn{fig3}. \fn{J} lê JSON e \fn{save} grava PNG e PDF. Mulheres em laranja, homens em azul, nulo em cinzento.
+
+\paragraph{\file{figures_split.py}.} Versão das mesmas figuras, um painel por ficheiro, para o modelo de duas colunas da revista. \fn{fig1a}, \fn{fig1b}, \fn{fig1c}, \fn{fig2a}, \fn{fig2b}, \fn{fig3a}, \fn{fig3b}.
+
+\paragraph{\file{make_summary.py}.} Escreve \file{CONCLUSIONS.md} a partir dos ficheiros de resultados. \fn{J} lê JSON, \fn{ci} formata intervalos. Assim, nenhum número do texto é escrito à mão.
+
+\paragraph{\file{notebooks/build_notebook.py}.} Gera o notebook \file{who_gets_remembered_revised.ipynb} a partir de células em Python, para que o notebook seja reproduzível e possa ser executado do início ao fim.
+
+\section{A lógica estatística}
+\label{sec:logica}
+
+\subsection{O problema}
+
+Comparar médias brutas de in-degree entre mulheres e homens não chega: as mulheres do conjunto podem ter menos citações, ser mais novas ou estar noutra área. A análise compara, por isso, dentro de estratos. Para cada página $i$ no estrato $s$, com género $g_i \in \{\text{M}, \text{F}\}$ e resultado $y_i$ (por exemplo, o logaritmo do in-degree), a diferença dentro do estrato é
+\[
+  \Delta_s = \bar{y}_{s,\text{F}} - \bar{y}_{s,\text{M}},
+\]
+e a estatística global é a média das diferenças, ponderada pelo número de mulheres em cada estrato:
+\[
+  \Delta = \frac{\sum_s n_{s,\text{F}}\,\Delta_s}{\sum_s n_{s,\text{F}}}.
+\]
+Só entram os estratos com mulheres e homens.
+
+\subsection{O teste de baralhamento}
+
+A distribuição nula é obtida ao baralhar o género dentro de cada estrato, mantendo a rede e o resultado fixos. Repete-se 1000 vezes, obtendo-se $\Delta^{(1)}, \dots, \Delta^{(1000)}$. O valor de $\Delta$ observado dá:
+\[
+  z = \frac{\Delta - \overline{\Delta^{(b)}}}{\operatorname{sd}(\Delta^{(b)})}, \qquad
+  p = \frac{\#\{\,|\Delta^{(b)} - \overline{\Delta^{(b)}}| \ge |\Delta - \overline{\Delta^{(b)}}|\,\} + 1}{1000 + 1}.
+\]
+Se o género não tiver relação com o resultado dentro dos estratos, $\Delta$ deve cair no meio da distribuição nula. Como os rótulos de género é que são baralhados e a rede não muda, o teste também cobre a dependência entre páginas vizinhas, que é a maior fragilidade de qualquer teste de rede.
+
+Na revisão, a razão observado/nulo (\texttt{ratio\_obs\_over\_null}) substitui o logaritmo como medida principal.
+
+\subsection{Modelos de regressão}
+
+O modelo principal (\fn{regression} em \file{06}, \fn{models} e \fn{negbin} em \file{r1}) controla o efeito do género pelo impacto, pela área, pela década de nascimento e pelo óbito:
+\[
+  \log_{10}(1+y_i) = \beta_0 + \beta_1\,\text{female}_i + \beta_2 \log(\text{citações}_i) + \gamma_{\text{área}} + \delta_{\text{década}} + \eta\,\text{deceased}_i + \varepsilon_i,
+\]
+com erros HC3. Na revisão, para contagens de ligações, usa-se o binomial negativo, e $\exp(\beta_1)$ é a \emph{razão de taxas} (IRR): quanto mais ligações tem uma página de mulher em relação a uma página de homem, com o mesmo perfil de controlos. Um segundo modelo acrescenta Nobel e prémios para ver quanto da diferença passa por prémios. O modelo em duas partes (\fn{two_part}) separa a probabilidade de ter ligações da quantidade de ligações, quando há.
+
+\subsection{Classificador de texto (RQ2)}
+
+Com o texto mascarado, treina-se uma regressão logística sobre TF-IDF e avalia-se com validação cruzada. A AUC mede se o texto separa mulheres de homens. O valor \emph{dentro dos estratos} é o que importa: só compara pares da mesma área e década, para que ``este texto parece de uma química jovem'' não conte como diferença de género. O nulo é o mesmo baralhamento, repetido com a validação cruzada inteira.
+
+\subsection{Palavras com diferença (RQ2)}
+
+Para cada palavra, o \emph{log-odds} ponderado de Monroe et al. (2008) compara a frequência de documentos nas páginas de mulheres e de homens, com uma priori de Dirichlet que puxa as estimativas de palavras raras para zero. A análise dentro de cada década, com metade dos dados reservada para validação, impede que se escolham palavras no mesmo conjunto em que são testadas.
+
+\subsection{Homofilia (RQ3)}
+
+A estatística é a proporção de ligações recebidas por páginas de mulheres que vêm de páginas de mulheres. O nulo baralha o género dentro de áreas e décadas (o original) ou dentro de comunidades de ligação (a revisão). A segunda versão é mais exigente, porque as comunidades de ligação já captam temas.
+
+\section{Limitações que convém repetir na escrita}
+
+\begin{itemize}
+  \item \textbf{Cobertura de impacto seletiva.} Só entram no conjunto de comparação as pessoas com identificador (cerca de 30\%), e as mulheres com identificador são mais novas do que os homens com identificador.
+  \item \textbf{Todos têm página na Wikipédia.} Se as mulheres precisam de mais impacto para terem página, a diferença medida é subestimada.
+  \item \textbf{Citações não são neutras.} Têm o seu próprio desvio de género, a hiperautoria inflaciona contagens na física de partículas e perfis OpenAlex divididos podem subcontar pessoas.
+  \item \textbf{O que é uma ligação.} Muitas são de orientador, aluno ou colaborador, e não de ``visibilidade'' geral.
+  \item \textbf{Data e criador da página.} Não estão nos dados. Podem explicar parte das diferenças nas RQ1 e RQ2.
+  \item \textbf{Género binário.} O Wikidata é quase todo binário; as 14 pessoas com outro valor ficam na rede mas não nas comparações.
+  \item \textbf{Validação por IA.} As duas rondas de etiquetagem foram feitas com ajuda de IA. Concordam bem entre si, mas nenhuma pessoa as verificou de forma independente (ver \file{validation/README.md}).
+  \item \textbf{Pageviews e backlinks.} Não foram recolhidos (limite de pedidos da Wikimedia). Deve ser mencionado como trabalho futuro.
+\end{itemize}
+
+\section{Como correr}
+
+\subsection{Pipeline original}
+
+Na pasta \file{pipeline/src/}, com o ambiente virtual do projeto:
+\begin{verbatim}
+../.venv/bin/python 01_wikidata.py
+../.venv/bin/python 02_wikipedia.py
+../.venv/bin/python 03_openalex.py
+../.venv/bin/python 04_enrich.py
+../.venv/bin/python 05_clean.py
+../.venv/bin/python 06_network.py
+../.venv/bin/python 07_text.py
+../.venv/bin/python 07_text.py --validate
+../.venv/bin/python 08_robustness.py
+\end{verbatim}
+
+\subsection{Revisão}
+
+Na pasta \file{pipeline_revised/}:
+\begin{verbatim}
+pip install -r requirements.txt
+./run_all.sh      # cerca de 10 minutos, sementes fixas (2805)
+\end{verbatim}
+
+\subsection{Versão inicial de recolha}
+
+Na pasta \file{project/}, com \file{.env} preenchido (\texttt{CONTACT\_EMAIL} e \texttt{OPENALEX\_API\_KEY}):
+\begin{verbatim}
+python src/01_wikidata.py
+python src/02_wikipedia.py
+python src/03_openalex.py
+python src/04_clean.py
+\end{verbatim}
+
+\section{Notas sobre este documento}
+
+Este documento foi escrito a partir da documentação de cada ficheiro (cabeçalhos e \emph{docstrings}), dos ficheiros \file{README.md}, da lista de funções e de excertos do código de \file{cleaning.py}, \file{06_network.py} e \file{r1_embeddedness.py}. O corpo das funções não foi revisto linha a linha. Antes de o usar numa entrega, convém confirmar os pontos em que o código pode ter mudado desde o último \texttt{README}, sobretudo os nomes exatos das colunas e os limiares (por exemplo, o número mínimo de palavras para um \emph{stub}).
+
+\end{document}
